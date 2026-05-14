@@ -1,0 +1,157 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_cheers_pyro"
+    {
+      time 0.000000 5.933333
+      param "taunt_cheers_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dummyBlend"
+    {
+      time 0.000000 5.933300
+      param "player\pyro\emotion\emotion"
+      param2 "dummyBlend"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.5999 0.0000
+        4.6000 0.0000
+        4.6466 0.0000
+        4.7332 0.0000
+        4.7333 0.0000
+        4.7999 0.0000
+        4.8000 0.0000
+        4.8686 0.0000
+        4.8687 0.0000
+        5.0591 0.0000
+        5.0592 0.0000
+        5.1332 0.0000
+        5.1333 0.0000
+        5.1666 0.0000
+        5.7999 0.0000
+        5.9332 0.0000
+        5.9333 0.0000
+      }
+    }
+    event speak "pyro_taunt_cheers"
+    {
+      time 0.000000 -1.000000
+      param "pyro_taunt_cheers"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_skating_scorcher_taunt_equipment_jingle"
+    {
+      time 0.086667 0.532925
+      param "pyro_taunt_the_skating_scorcher_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+    {
+      time 0.100000 0.674331
+      param "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_bm_throwable.slosh"
+    {
+      time 0.306667 0.730703
+      param "Weapon_bm_throwable.slosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp"
+    {
+      time 1.346667 1.523765
+      param "scout_taunt_the_killer_signature_taunt_moped_end_scout_foot2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_clothes_rustle"
+    {
+      time 1.240000 1.814331
+      param "Selection.SpyClothesRustle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_soldier_taunt_clothes_swipe"
+    {
+      time 2.353333 2.653786
+      param "soldier_item_preview_soldier_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Scout.DodgeCanDrink"
+    {
+      time 2.606667 3.831520
+      param "Scout.DodgeCanDrink"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.PainSharp07"
+    {
+      time 4.300000 4.634671
+      param "Pyro.PainSharp07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_item_preview_demo_taunt_clothes_swipe2"
+    {
+      time 4.186666 4.760998
+      param "heavy_item_preview_heavy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_bm_throwable.slosh"
+    {
+      time 5.373334 5.819592
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 5.033333 5.607664
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 3.793334 4.162676
+      param "Weapon_bm_throwable.slosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

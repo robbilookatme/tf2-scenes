@@ -1,0 +1,104 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 6.549000 -1.000000
+  param "2.576000"
+  loopcount "255"
+}
+actor "Engineer"
+{
+  channel "Anim"
+  {
+    event speak "*train*"
+    {
+      time 0.000000 -1.000000
+      param "*train*"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event sequence "taunt_vehicle_honk"
+    {
+      time -2.390244 -0.390244
+      param "taunt_vehicle_honk"
+      fixedlength
+    }
+    event sequence "taunt_vehicle_moped_wheely"
+    {
+      time 0.000000 6.566667
+      param "taunt_vehicle_moped_wheely"
+      fixedlength
+    }
+    event speak "taunt.ScoutMopedWheely"
+    {
+      time 0.405556 2.691814
+      param "taunt.ScoutMopedWheely"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.455000 1.863714
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.9813 0.5412
+        1.4087 0.5373
+      }
+    }
+    event expression "specialAction01"
+    {
+      time 0.023810 0.553571
+      param "player\scout\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.2000 0.9451
+        0.4125 0.9843
+      }
+    }
+    event expression "happySmall"
+    {
+      time 2.580000 6.565477
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.5529
+        3.9855 0.5569
+      }
+    }
+    event expression "specialAction01"
+    {
+      time 1.761905 2.580000
+      param "player\scout\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.2063 0.8863
+      }
+    }
+    event expression "happySmall"
+    {
+      time 2.139524 2.580000
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.4405 0.5569
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

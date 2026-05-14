@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_the_hot_wheeler"
+    {
+      time 0.000000 2.125000
+      param "taunt_the_hot_wheeler_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_the_hot_wheeler_pyro_taunt_flip_exert_05"
+    {
+      time 0.097321 2.125000
+      param "pyro_taunt_spring_rider_pyro_taunt_flip_exert_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_hot_wheeler_pyro_taunt_flip_fun_04"
+    {
+      time 0.875166 2.125000
+      param "pyro_taunt_the_hot_wheeler_pyro_taunt_flip_fun_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt.ScoutMopedEnd"
+    {
+      time 0.000000 -1.000000
+      param "taunt.ScoutMopedEnd"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_landings"
+    {
+      time 0.500000 1.299274
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+    {
+      time 1.484849 2.125000
+      param "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Tile.StepLeft"
+    {
+      time 1.863636 2.125000
+      param "Tile.StepLeft"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Tile.StepRight"
+    {
+      time 2.071429 2.125000
+      param "Tile.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedEndShake"
+    {
+      time 0.000000 0.976599
+      param "Taunt.MopedEndShake"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

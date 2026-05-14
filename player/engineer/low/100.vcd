@@ -1,0 +1,61 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "audio"
+  {
+    event speak "Engineer.LaughEvil01"
+    {
+      time 0.000000 1.207438
+      param "Engineer.LaughEvil01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "happyBig"
+    {
+      time 0.006860 1.506860
+      param "player\engineer\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.1547 0.6392
+        0.2387 0.6118
+        0.3000 1.0000
+        0.4466 0.7059
+        0.5075 0.8706
+        0.6266 0.7804
+        0.6825 0.9294
+        0.8234 0.6235
+        0.9050 0.7451
+        1.0625 0.6235
+        1.1575 0.8431
+        1.3125 0.7686
+      }
+    }
+    event expression "happyBigClosed"
+    {
+      time 1.165905 4.384655
+      param "player\engineer\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.2494 0.8549
+        1.0969 0.8902
+        2.1800 0.8549
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

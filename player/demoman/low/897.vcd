@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "demoman"
+{
+  channel "audio"
+  {
+    event speak "Demoman.CloakedSpyIdentify03"
+    {
+      time 0.000000 2.321995
+      param "Demoman.CloakedSpyIdentify03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.010417 3.354167
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0121 0.5882
+        1.3818 0.5961
+        1.5970 0.9608
+        3.1636 0.9882
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

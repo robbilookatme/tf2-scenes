@@ -1,0 +1,121 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_the_final_score"
+    {
+      time -0.006667 3.860000
+      param "taunt_the_final_score_demo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happy"
+    {
+      time 0.000000 3.866700
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.1000 0.0000
+        2.3333 0.0000
+        2.5999 1.0000
+        2.9667 0.9608
+        3.0999 0.4941
+        3.2999 0.0314
+        3.4332 0.0000
+        3.8667 0.0000
+      }
+    }
+    event expression "evilHappy"
+    {
+      time 0.000000 3.866700
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.3333 0.0000
+        2.6000 0.0000
+        2.9667 0.0941
+        3.0999 0.5373
+        3.2999 0.9608
+        3.4333 1.0000
+        3.6000 0.6667
+        3.8666 0.0000
+        3.8667 0.0000
+      }
+    }
+    event expression "openJaw"
+    {
+      time 0.000000 3.866700
+      param "player\demo\emotion\emotion"
+      param2 "openJaw"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.4332 0.0000
+        2.3333 0.0000
+        2.6000 0.9216
+        2.9667 0.8863
+        3.0999 0.5922
+        3.2999 0.1608
+        3.4332 0.0000
+        3.8667 0.0000
+      }
+    }
+    event speak "demo_taunt_the_final_score_demo_taunt_demo_strike_01"
+    {
+      time 2.233300 3.120057
+      param "demo_taunt_the_final_score_demo_taunt_demo_strike_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_the_final_score_demo_taunt_demo_rps_lose_09"
+    {
+      time 0.100000 2.005828
+      param "demo_taunt_the_final_score_demo_taunt_demo_rps_lose_09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_the_final_score_demo_cyoa_pda_equipment"
+    {
+      time 2.433300 3.125318
+      param "demo_taunt_the_final_score_demo_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_the_final_score_demo_cyoa_pda_clothes_rustle_light"
+    {
+      time 3.166700 3.818264
+      param "demo_taunt_the_final_score_demo_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_the_final_score_demo_concrete2"
+    {
+      time 3.566700 4.189738
+      param "demo_taunt_the_final_score_demo_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

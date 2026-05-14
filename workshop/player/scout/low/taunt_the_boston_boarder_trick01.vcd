@@ -1,0 +1,126 @@
+// Choreo version 1
+event loop "boston_boarder_loop"
+{
+  time 9.348491 -1.000000
+  param "2.900000"
+  loopcount "255"
+}
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "boston_boarder"
+    {
+      time 0.000000 9.366667
+      param "taunt_the_boston_boarder_trickA"
+      fixedlength
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 9.368422
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+    }
+  }
+  channel "face"
+  {
+    event speak "scout_boston_boarder_taunt_clothes_rustle"
+    {
+      time 2.567674 4.276880
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_clothes_swipe"
+    {
+      time 5.285184 5.585638
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_clothes_swipe2"
+    {
+      time 5.585184 6.159515
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_item_watch_pickup"
+    {
+      time 5.685184 5.972508
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_clothes_rustle"
+    {
+      time 8.922188 10.631394
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_boxing_gloves_swing1"
+    {
+      time 0.151884 0.667145
+      param "scout_taunt_the_trackmans_touchdown_boxing_gloves_swing1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_shotgun_twirl"
+    {
+      time 0.185184 0.612576
+      param "Selection.ScoutShotgunTwirl"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "watch"
+    {
+      time 0.818484 1.105808
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_russian_rand_intro"
+    {
+      time 1.315790 2.563749
+      param "scout_taunt_loot_common_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_waiting2"
+    {
+      time 5.671418 6.312280
+      param "scout_taunt_flip_random_waiting2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_flipExert"
+    {
+      time 0.114035 0.523015
+      param "scout_taunt_flip_random_flipExert"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

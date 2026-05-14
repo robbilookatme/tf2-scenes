@@ -1,0 +1,55 @@
+// Choreo version 1
+event stoppoint "end"
+{
+  time 2.955555 -1.000000
+  param "noaction"
+}
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.DominationHvy09"
+    {
+      time 0.000000 2.938685
+      param "Scout.DominationHvy09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "exp"
+  {
+    event expression "madUpper"
+    {
+      time -0.181159 2.543478
+      param "player\scout\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.1212 0.8275
+        2.5333 0.8235
+      }
+    }
+    event expression "happyBigUpper"
+    {
+      time 2.362319 6.789855
+      param "player\scout\emotion\emotion"
+      param2 "happyBigUpper"
+      event_ramp
+      {
+        0.1697 0.8118
+        4.1667 0.7922
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

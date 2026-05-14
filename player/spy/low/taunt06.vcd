@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "body"
+  {
+    event sequence "taunt06"
+    {
+      time 0.000000 2.500000
+      param "taunt06"
+      fixedlength
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 2.500000
+      param "player\spy\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.1750 0.7373
+        0.2295 0.9529
+        0.3227 1.0000
+        2.2500 1.0000
+        2.3864 0.9608
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

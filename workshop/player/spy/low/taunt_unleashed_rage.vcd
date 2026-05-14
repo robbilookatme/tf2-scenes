@@ -1,0 +1,133 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_unleashed_rage_spy"
+    {
+      time 0.000000 5.666667
+      param "taunt_unleashed_rage_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "painSmallUpper"
+    {
+      time 0.000000 5.666667
+      param "player\spy\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6250 0.0000
+        0.6458 0.0196
+        0.6667 0.0706
+        0.6771 0.1059
+        0.6875 0.1412
+        0.7083 0.2275
+        0.7292 0.3255
+        0.7500 0.4392
+        0.7917 0.6824
+        0.8125 0.7922
+        0.8333 0.8824
+        0.8542 0.9490
+        0.8749 1.0000
+        1.3542 1.0000
+        1.3749 1.0000
+        4.3750 1.0000
+        4.3958 1.0000
+        4.5417 1.0000
+        4.5521 0.9843
+        4.6875 0.8824
+        4.8333 0.7569
+        4.9375 0.6667
+        5.0417 0.5686
+        5.4792 0.1647
+        5.6667 0.0000
+      }
+    }
+    event speak "spy_taunt_unleashed_rage_spy_soldier_paincrticialdeath02"
+    {
+      time 0.046667 2.304808
+      param "Spy.PainCrticialDeath01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_unleashed_rage_spy_soldier_taunts01"
+    {
+      time 3.040033 4.414954
+      param "spy_taunt_dosido_intro_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_clothes_rustle"
+    {
+      time 0.033333 0.607664
+      param "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 4.673333 5.666667
+      param "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 1.940001 2.514332
+      param "spy_item_preview_spy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_neck_snap_spy_taunt_foot_stomp"
+    {
+      time 5.006667 5.232336
+      param "spy_taunt_neck_snap_spy_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+    {
+      time 5.493333 5.666667
+      param "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_item_preview_spy_taunt_clothes_swipe"
+    {
+      time 0.766667 1.067121
+      param "spy_item_preview_spy_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_foot_stomp"
+    {
+      time 2.040000 2.265669
+      param "demo_taunt_roar_owar_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

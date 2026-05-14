@@ -1,0 +1,60 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.DominationScout08"
+    {
+      time -0.003268 4.903399
+      param "Spy.DominationScout08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "painBigUpper"
+    {
+      time 1.915033 2.934640
+      param "player\spy\emotion\emotion"
+      param2 "painBigUpper"
+      event_ramp
+      {
+        0.1667 0.6235
+        0.3364 0.7020
+        0.4879 0.3137
+        0.8227 0.2667
+      }
+    }
+    event expression "painSmallUpper"
+    {
+      time 3.777778 5.124182
+      param "player\spy\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.1697 0.6824
+        1.2090 0.6784
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.016340 1.071895
+      param "player\spy\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.1212 0.6078
+        0.7972 0.6157
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

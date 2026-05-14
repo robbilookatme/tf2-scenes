@@ -1,0 +1,82 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "scorchers_solo"
+    {
+      time 0.000000 2.083333
+      param "taunt_scorchers_solo_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_scorchers_solo_cyoa_pda_fly_swoosh"
+    {
+      time 0.000758 0.399103
+      param "PDA.DemoFlySwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_yeti_standee_pyro_equipment"
+    {
+      time 0.299125 0.991143
+      param "Taunt.YetiStandeePyroEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_yeti_standee_pyro_step"
+    {
+      time 0.584157 0.809826
+      param "Taunt.YetiStandeePyroStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_yeti_standee_pyro_step"
+    {
+      time 0.973941 1.199610
+      param "Taunt.YetiStandeePyroStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_yeti_standee_pyro_step"
+    {
+      time 1.336904 1.562573
+      param "Taunt.YetiStandeePyroStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_equipment_jingle2"
+    {
+      time 1.198047 1.537276
+      param "Taunt.Demo02EquipmentJingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_loot_common_outro_rand"
+    {
+      time 0.092678 1.244968
+      param "Pyro.GoodJob01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

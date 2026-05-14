@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.ThanksForTheHeal02"
+    {
+      time 0.000000 0.777869
+      param "Spy.ThanksForTheHeal02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.083333 5.145834
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.1510 0.2902
+        0.5722 0.0980
+        0.9889 0.7333
+        4.5167 0.7333
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

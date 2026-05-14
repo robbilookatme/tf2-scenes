@@ -1,0 +1,40 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.SpecialCompleted35"
+    {
+      time 0.000000 0.731429
+      param "Sniper.SpecialCompleted35"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "mad"
+    {
+      time 0.015873 1.373016
+      param "player\sniper\emotion\emotion"
+      param2 "mad"
+    }
+  }
+}
+scene_ramp
+{
+  0.0506 0.0157
+  0.1626 0.0157
+  0.2426 0.2902
+  0.5006 0.4471
+  0.8786 0.4863
+  1.2126 0.4588
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

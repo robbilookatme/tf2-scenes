@@ -1,0 +1,96 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 12.275463 -1.000000
+  param "3.800000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_the_hot_wheeler_pyro_taunt_head_pain_21"
+    {
+      time 0.115774 1.425343
+      param "pyro_taunt_russian_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event sequence "taunt_the_hot_wheeler_action"
+    {
+      time 0.000000 12.500000
+      param "taunt_the_hot_wheeler_action"
+      fixedlength
+    }
+    event speak "Taunt.MopedWheelieEngineRev"
+    {
+      time 0.062500 2.036491
+      param "Taunt.MopedWheelieEngineRev"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 5.769982 5.823497
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 6.182600 6.236115
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 6.527224 6.580739
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_loot_common_outro_rand"
+    {
+      time 2.266667 3.650068
+      param "pyro_taunt_loot_common_outro_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedWheelieEngineRev"
+    {
+      time 1.551389 3.525379
+      param "Taunt.MopedWheelieEngineRev"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedStartShake"
+    {
+      time 3.022223 4.275965
+      param "Taunt.MopedWheelieLand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

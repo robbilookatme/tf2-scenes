@@ -1,0 +1,36 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.Medic02"
+    {
+      time 0.000000 0.728526
+      param "Medic.Medic02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "scared"
+    {
+      time 0.010417 1.427083
+      param "player\medic\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0424 0.8471
+        1.2091 0.8196
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Anim"
+  {
+    event speak "*train*"
+    {
+      time 0.000000 -1.000000
+      param "*train*"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBig"
+    {
+      time -0.008333 1.500000
+      param "player\scout\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.9098
+        1.0100 0.7412
+        1.2712 0.1412
+      }
+    }
+    event sequence "taunt_vehicle_moped_end"
+    {
+      time 0.000000 1.500000
+      param "taunt_vehicle_moped_end"
+      fixedlength
+    }
+    event speak "taunt.ScoutMopedEnd"
+    {
+      time 0.000000 1.130567
+      param "taunt.ScoutMopedEnd"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

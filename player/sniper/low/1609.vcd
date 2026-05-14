@@ -1,0 +1,49 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.AutoOnFire01"
+    {
+      time 0.000000 1.869206
+      param "Sniper.AutoOnFire01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "PainBigClosed"
+    {
+      time 0.010417 1.885417
+      param "player\sniper\emotion\emotion"
+      param2 "PainBigClosed"
+      event_ramp
+      {
+        0.1606 1.0000
+        1.6364 1.0000
+      }
+    }
+    event expression "painBig"
+    {
+      time -0.020833 4.968750
+      param "player\sniper\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0000 0.7137
+        1.7805 0.7490
+        2.0441 0.9961
+        4.8441 0.9922
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,735 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_forehead_slice"
+    {
+      time 0.000000 5.066667
+      param "taunt_forehead_slice"
+    }
+  }
+  channel "face"
+  {
+    event expression "right_CloseLid"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "right_CloseLid"
+      event_ramp
+      {
+        0.0000 0.4941
+        0.0333 0.4941
+        5.0333 0.4941
+      }
+    }
+    event expression "left_CloseLid"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "left_CloseLid"
+      event_ramp
+      {
+        0.0000 0.4941
+        0.0333 0.4941
+        5.0333 0.4941
+      }
+    }
+    event expression "multi_CloseLid"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "multi_CloseLid"
+      event_ramp
+      {
+        0.0000 0.4941
+        0.0333 0.4941
+        5.0333 0.4941
+      }
+    }
+    event expression "blink"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "blink"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "GK"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "GK"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "happy"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "happyUpper"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "happyUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "AW"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "AW"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "dead"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "dead"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "evilHappy"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        0.0500 0.0118
+        0.0667 0.0157
+        0.0833 0.0314
+        0.1000 0.0392
+        0.1167 0.0549
+        0.1333 0.0745
+        0.1667 0.1137
+        0.2000 0.1647
+        0.2167 0.1922
+        0.2333 0.2157
+        0.2667 0.2745
+        0.3167 0.3647
+        0.4333 0.5961
+        0.4833 0.6902
+        0.5333 0.7765
+        0.5667 0.8275
+        0.6000 0.8745
+        0.6167 0.8941
+        0.6500 0.9373
+        0.6667 0.9490
+        0.6833 0.9608
+        0.7000 0.9765
+        0.7167 0.9804
+        0.7333 0.9922
+        0.7500 0.9961
+        0.7666 1.0000
+        0.8000 0.9961
+        0.8833 0.9961
+        0.9500 0.9843
+        1.0333 0.9804
+        1.1167 0.9608
+        1.2000 0.9451
+        1.2833 0.9255
+        1.3667 0.9059
+        1.4500 0.8863
+        1.5333 0.8549
+        1.6333 0.8275
+        1.7333 0.7922
+        1.9500 0.7059
+        2.3667 0.5412
+        2.5333 0.4706
+        2.7333 0.4000
+        2.9000 0.3451
+        3.0000 0.3216
+        3.0833 0.2941
+        3.1833 0.2745
+        3.2667 0.2588
+        3.3500 0.2471
+        3.4333 0.2353
+        3.5167 0.2353
+        3.6000 0.2314
+        3.6167 0.2353
+        3.6333 0.2471
+        3.6500 0.2667
+        3.6667 0.2902
+        3.6833 0.3137
+        3.7000 0.3490
+        3.7167 0.3843
+        3.7333 0.4314
+        3.7500 0.4706
+        3.7667 0.5216
+        3.8167 0.6588
+        3.8500 0.7569
+        3.8667 0.8000
+        3.8833 0.8353
+        3.9000 0.8745
+        3.9167 0.9098
+        3.9333 0.9412
+        3.9500 0.9608
+        3.9667 0.9804
+        3.9833 0.9922
+        3.9999 1.0000
+        4.4667 1.0000
+        4.4833 0.9961
+        4.5000 0.9843
+        4.5167 0.9686
+        4.5333 0.9569
+        4.5500 0.9294
+        4.5667 0.9059
+        4.5833 0.8706
+        4.6000 0.8392
+        4.6167 0.8000
+        4.6333 0.7608
+        4.6500 0.7255
+        4.6833 0.6353
+        4.7667 0.4000
+        4.8000 0.3098
+        4.8333 0.2314
+        4.8500 0.1922
+        4.8667 0.1490
+        4.8833 0.1216
+        4.9000 0.0902
+        4.9167 0.0588
+        4.9333 0.0392
+        4.9500 0.0196
+        4.9667 0.0039
+        4.9833 0.0000
+        4.9999 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "T"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "T"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "EE"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "EE"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "drunkHappy"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "UH"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "UH"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "TH"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "TH"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "DS"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "DS"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "mad"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "scared"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "n"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "n"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "er"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "er"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "painUpper"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "painUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "PP"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "PP"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "OH"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "OH"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "pain"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "pain"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "screamingUpper"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "screamingUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "eh"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "eh"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "silence"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "silence"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "WQ"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "WQ"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "OO"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "OO"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "MB"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "MB"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "sh"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "sh"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "Y"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "Y"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "FV"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "FV"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "ah"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "ah"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "ae"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "ae"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "openJaw"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "openJaw"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        5.0333 0.0000
+      }
+    }
+    event expression "eyes_updown"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "eyes_updown"
+      event_ramp
+      {
+        0.0000 0.4941
+        0.0333 0.4941
+        5.0333 0.4941
+      }
+    }
+    event expression "eyes_rightleft"
+    {
+      time 0.000000 5.033300
+      param "player\demo\emotion\emotion"
+      param2 "eyes_rightleft"
+      event_ramp
+      {
+        0.0000 0.4941
+        0.0333 0.4941
+        5.0333 0.4941
+      }
+    }
+    event speak "demo_taunt_forehead_slice_demoman_specialcompleted09"
+    {
+      time 0.100000 5.066667
+      param "demo_taunt_forehead_slice_demoman_specialcompleted09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_demoman_laughshort01"
+    {
+      time 3.633300 5.066667
+      param "demo_taunt_forehead_slice_demoman_laughshort01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_demo_sword_swing1"
+    {
+      time 2.333300 5.066667
+      param "demo_taunt_forehead_slice_demo_sword_swing1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_arrow_impact_flesh3"
+    {
+      time 2.366700 5.066667
+      param "demo_taunt_forehead_slice_arrow_impact_flesh3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_bat_baseball_hit_flesh"
+    {
+      time 2.433300 5.066667
+      param "demo_taunt_forehead_slice_bat_baseball_hit_flesh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.233300 5.066667
+      param "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_boxing_gloves_swing4"
+    {
+      time 0.533300 5.066667
+      param "demo_taunt_forehead_slice_boxing_gloves_swing4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_boxing_gloves_swing1"
+    {
+      time 1.366700 5.066667
+      param "demo_taunt_forehead_slice_boxing_gloves_swing1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_body_medium_impact_soft7"
+    {
+      time 0.566700 5.066667
+      param "demo_taunt_forehead_slice_body_medium_impact_soft7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_cyoa_pda_equipment"
+    {
+      time 2.733300 5.066667
+      param "demo_taunt_forehead_slice_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle"
+    {
+      time 4.466700 5.066667
+      param "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_concrete1"
+    {
+      time 0.833300 5.066667
+      param "demo_taunt_forehead_slice_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_concrete2"
+    {
+      time 1.300000 5.066667
+      param "demo_taunt_forehead_slice_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_concrete3"
+    {
+      time 3.133300 5.066667
+      param "demo_taunt_forehead_slice_concrete3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_forehead_slice_concrete4"
+    {
+      time 3.866700 5.066667
+      param "demo_taunt_forehead_slice_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

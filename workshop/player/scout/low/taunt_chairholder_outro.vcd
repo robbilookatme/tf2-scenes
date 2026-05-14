@@ -1,0 +1,76 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 1.733333
+      param "taunt_chairholder_outro"
+      fixedlength
+    }
+  }
+  channel "SFX"
+  {
+    event speak "scout_item_preview_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.109358 1.267453
+      param "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_luxury_lounge_sit"
+    {
+      time 0.209358 0.963893
+      param "Taunt.LuxuryLoungeSit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_flame_engulf"
+    {
+      time 0.842657 1.737089
+      param "Fire.Engulf"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "voice"
+  {
+    event speak "taunt_scout_chairholder_end"
+    {
+      time 0.142658 -1.000000
+      param "taunt_scout_chairholder_end"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+    event expression "player\scout\emotion\emotion/happySmall"
+    {
+      time 0.000000 1.730197
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.0336 1.0000
+        1.2604 0.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

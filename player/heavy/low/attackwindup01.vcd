@@ -1,0 +1,43 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+  }
+  channel "emotion"
+  {
+    event expression "actionfire01"
+    {
+      time 0.000000 5.901960
+      param "player\heavy\emotion\emotion"
+      param2 "actionfire01"
+      event_ramp
+      {
+        0.2332 1.0000
+        0.5053 0.7725
+        0.9974 0.7569
+        1.7342 0.7569
+        1.8974 0.6431
+        2.1500 0.8549
+        2.5625 0.8863
+        2.8583 0.7569
+        3.8812 0.8627
+        4.1520 1.0000
+        4.4312 0.8235
+        5.2187 0.8039
+        5.5534 0.7059
+        5.9020 0.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

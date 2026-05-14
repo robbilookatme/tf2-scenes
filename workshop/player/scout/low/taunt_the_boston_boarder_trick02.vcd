@@ -1,0 +1,126 @@
+// Choreo version 1
+event loop "boston_boarder_loop"
+{
+  time 9.008334 -1.000000
+  param "2.566667"
+  loopcount "255"
+}
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "boston_boarder"
+    {
+      time 0.000000 9.033334
+      param "taunt_the_boston_boarder_trickB"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "scout_boston_boarder_taunt_clothes_rustle"
+    {
+      time 2.322884 4.032090
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_clothes_swipe2"
+    {
+      time 5.508367 6.082698
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_item_watch_pickup"
+    {
+      time 5.608366 5.895690
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_clothes_rustle"
+    {
+      time 8.756863 10.466069
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_draw_melee"
+    {
+      time 0.041667 0.341667
+      param "Weapon_Bat.Draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_boxing_gloves_swing2"
+    {
+      time 0.341666 0.900056
+      param "scout_taunt_the_trackmans_touchdown_boxing_gloves_swing2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_boston_boarder_taunt_equipment_jingle"
+    {
+      time 0.907259 1.353517
+      param "Taunt.Demo02EquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_waiting2"
+    {
+      time 5.631943 6.499925
+      param "scout_taunt_flip_random_waiting2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_flipFlipping1"
+    {
+      time 0.067708 0.892220
+      param "scout_taunt_flip_random_flipFlipping1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_flipAdmire"
+    {
+      time 2.000000 3.138912
+      param "scout_taunt_flip_random_flipAdmire"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 9.041667
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+    }
+    event speak "Taunt.MopedWheelieLand1"
+    {
+      time 0.963542 1.762816
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

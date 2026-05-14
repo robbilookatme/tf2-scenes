@@ -1,0 +1,60 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.DominationSpy07"
+    {
+      time 0.000000 3.605351
+      param "Sniper.DominationSpy07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "Cocky"
+    {
+      time -0.000000 2.944444
+      param "player\sniper\emotion\emotion"
+      param2 "Cocky"
+      event_ramp
+      {
+        0.1424 0.7020
+        1.5939 0.7490
+        1.7848 0.9059
+        2.6636 0.8039
+      }
+    }
+    event expression "Aggressive"
+    {
+      time 2.764706 3.833333
+      param "player\sniper\emotion\emotion"
+      param2 "Aggressive"
+      event_ramp
+      {
+        0.1152 0.7059
+        0.8970 0.6549
+      }
+    }
+    event expression "painSmallUpper"
+    {
+      time 0.957516 1.826797
+      param "player\sniper\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.1152 0.7333
+        0.7117 0.6863
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

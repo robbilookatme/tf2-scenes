@@ -1,0 +1,201 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "sniper"
+  {
+    event sequence "taunt_the_final_score_sniper"
+    {
+      time 0.000000 4.066667
+      param "taunt_the_final_score_sniper"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "Cocky"
+    {
+      time 0.000000 4.066700
+      param "player\sniper\emotion\emotion"
+      param2 "Cocky"
+      event_ramp
+      {
+        0.0000 0.0000
+        3.2333 0.0000
+        3.2417 0.0118
+        3.2500 0.0392
+        3.2667 0.1569
+        3.2833 0.3098
+        3.3167 0.6824
+        3.3333 0.8353
+        3.3500 0.9490
+        3.3666 1.0000
+        3.8333 1.0000
+        3.8500 0.9804
+        3.8667 0.9412
+        3.8833 0.8745
+        3.9000 0.8000
+        3.9167 0.7059
+        3.9333 0.6000
+        3.9667 0.3922
+        3.9833 0.2902
+        4.0000 0.1961
+        4.0167 0.1137
+        4.0333 0.0510
+        4.0500 0.0118
+        4.0666 0.0000
+        4.0667 0.0000
+      }
+    }
+    event expression "Aggressive"
+    {
+      time 0.000000 4.066700
+      param "player\sniper\emotion\emotion"
+      param2 "Aggressive"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0167 0.0000
+        0.0333 0.0157
+        0.0500 0.0353
+        0.0667 0.0588
+        0.0833 0.0902
+        0.1000 0.1294
+        0.1167 0.1765
+        0.1333 0.2196
+        0.1500 0.2706
+        0.1667 0.3255
+        0.1833 0.3804
+        0.2333 0.5569
+        0.2667 0.6667
+        0.2833 0.7216
+        0.3000 0.7686
+        0.3167 0.8157
+        0.3333 0.8588
+        0.3500 0.9020
+        0.3667 0.9294
+        0.3833 0.9608
+        0.4000 0.9804
+        0.4167 0.9922
+        0.4332 1.0000
+        1.1000 1.0000
+        1.1167 0.9922
+        1.1333 0.9765
+        1.1500 0.9490
+        1.1667 0.9216
+        1.1833 0.8863
+        1.2000 0.8392
+        1.2167 0.7922
+        1.2333 0.7373
+        1.2500 0.6824
+        1.2667 0.6157
+        1.3167 0.4353
+        1.3500 0.3098
+        1.3667 0.2549
+        1.3833 0.2000
+        1.4000 0.1490
+        1.4167 0.1059
+        1.4333 0.0706
+        1.4500 0.0392
+        1.4667 0.0157
+        1.4833 0.0000
+        1.4999 0.0000
+        1.5500 1.0000
+        1.5833 0.9961
+        1.6167 0.9843
+        1.6667 0.9686
+        1.7833 0.9255
+        1.8333 0.9098
+        1.8833 0.9020
+        1.9333 0.8941
+        1.9500 0.9098
+        1.9667 0.9451
+        1.9833 0.0000
+        2.0000 0.0667
+        2.0167 0.1451
+        2.0333 0.2392
+        2.0500 0.3412
+        2.0833 0.5451
+        2.1000 0.6471
+        2.1167 0.7412
+        2.1333 0.8196
+        2.1500 0.8902
+        2.1667 0.9451
+        2.1833 0.9804
+        2.1999 1.0000
+        3.1333 1.0000
+        3.1417 0.9765
+        3.1500 0.9216
+        3.1667 0.7373
+        3.2000 0.2549
+        3.2167 0.0706
+        3.2332 0.0000
+        3.2500 1.0000
+        3.2667 0.9922
+        3.2833 0.9765
+        3.3167 0.9412
+        3.3333 0.9255
+        3.3500 0.9137
+        3.3666 0.9098
+        3.8333 0.9098
+        3.8500 0.9098
+        3.8833 0.9216
+        3.9167 0.9412
+        3.9833 0.9804
+        4.0167 0.9961
+        4.0500 0.0000
+        4.0666 0.0000
+        4.0667 0.0000
+      }
+    }
+    event speak "sniper_taunt_the_final_score_sniper_sniper_taunts01"
+    {
+      time 2.033300 3.501962
+      param "sniper_taunt_the_final_score_sniper_sniper_taunts01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_taunt_the_final_score_sniper_sniper_specialcompleted08"
+    {
+      time 0.166700 1.693412
+      param "sniper_taunt_the_final_score_sniper_sniper_specialcompleted08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_taunt_the_final_score_sniper_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.033300 1.191395
+      param "sniper_taunt_the_final_score_sniper_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_taunt_the_final_score_sniper_cyoa_pda_clothes_rustle_light"
+    {
+      time 3.366700 4.018265
+      param "sniper_taunt_the_final_score_sniper_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_taunt_the_final_score_sniper_concrete4"
+    {
+      time 0.366700 0.847698
+      param "sniper_taunt_the_final_score_sniper_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

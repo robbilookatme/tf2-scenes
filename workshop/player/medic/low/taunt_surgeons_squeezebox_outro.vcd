@@ -1,0 +1,62 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "taunt_surgeons_squeezebox"
+    {
+      time 0.000000 1.333333
+      param "taunt_surgeons_squeezebox_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyFull"
+    {
+      time 0.019608 1.360785
+      param "player\medic\emotion\emotion"
+      param2 "happyFull"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.8800 1.0000
+        1.3412 0.0000
+      }
+    }
+    event speak "Taunt.SurgeonsSqueezeboxStep"
+    {
+      time 0.500000 0.725669
+      param "Taunt.SurgeonsSqueezeboxStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.SurgeonsSqueezeboxStep"
+    {
+      time 1.029412 1.117938
+      param "Taunt.SurgeonsSqueezeboxStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoClothesRustleLight"
+    {
+      time 0.205882 0.857447
+      param "PDA.DemoClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

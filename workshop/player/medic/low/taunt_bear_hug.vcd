@@ -1,0 +1,131 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 5.833333
+      param "taunt_bear_hug_medic"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "expression"
+    {
+      time -0.006410 5.833334
+      param ""
+      flexanimations samples_use_time
+      {
+        "evilSmileUpper"
+        {
+          0.7643 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.8758 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.9893 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "yellingUpper"
+        {
+          3.7643 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.8970 0.4667 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.0816 0.5098 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.1874 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "happyBig"
+        {
+          0.3027 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.4143 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.7470 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.8912 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.0527 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.5025 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+  }
+  channel "sound"
+  {
+    event speak "scout_taunt_the_homerunners_hobby_taunt_clothes_swipe2"
+    {
+      time 0.401197 0.975528
+      param "scout_taunt_the_homerunners_hobby_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Taunt.SpringRiderGetUp"
+    {
+      time 3.620710 4.471821
+      param "Taunt.Taunt.SpringRiderGetUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.MedicHeelClick"
+    {
+      time 3.887448 4.338922
+      param "Selection.MedicHeelClick"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSoldierEquipment"
+    {
+      time 3.285984 3.978002
+      param "Taunt.YetiStandeeSoldierEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy03EquipmentJingleShort"
+    {
+      time 1.320513 1.833982
+      param "Taunt.Heavy03EquipmentJingleShort"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 5.019231 5.072746
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Medic_A"
+    {
+      time 0.200000 -1.000000
+      param "Taunt.BearHug_Medic_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Medic_B"
+    {
+      time 1.500000 -1.000000
+      param "Taunt.BearHug_Medic_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Medic_C"
+    {
+      time 4.100000 -1.000000
+      param "Taunt.BearHug_Medic_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

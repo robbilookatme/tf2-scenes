@@ -1,0 +1,202 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "taunt_the_killer_signature"
+    {
+      time 0.000000 7.166667
+      param "taunt_the_killer_signature"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 7.166700
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0039
+        0.0208 0.0118
+        0.0417 0.0196
+        0.1042 0.0667
+        0.1249 0.0745
+        0.1354 0.0824
+        0.2916 0.1098
+        0.7708 0.1765
+        1.2083 0.2353
+        1.6127 0.5882
+        1.6961 0.6118
+        1.7482 0.6353
+        1.7794 0.6510
+        1.8836 0.7216
+        1.9043 0.7333
+        1.9252 0.7412
+        1.9669 0.7569
+        2.0294 0.7765
+        2.1336 0.8039
+        2.1961 0.8196
+        2.2376 0.8235
+        2.6544 0.8314
+        4.2793 0.8353
+        5.1059 0.6157
+        5.5265 0.3412
+        6.5684 0.4902
+        6.5892 0.4745
+        6.6101 0.4549
+        6.6309 0.4235
+        6.6517 0.3922
+        6.6726 0.3569
+        6.8125 0.1569
+        6.8333 0.1294
+        6.8542 0.1059
+        6.8750 0.0902
+        6.9167 0.0510
+        6.9583 0.0157
+        7.0000 0.0039
+        7.1667 0.0039
+      }
+    }
+    event speak "scout_taunt_the_killer_signature_item_paper_pickup"
+    {
+      time 0.958300 1.700205
+      param "scout_taunt_the_killer_signature_item_paper_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_clothes_rustle"
+    {
+      time 0.041700 1.750906
+      param "scout_taunt_the_killer_signature_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_cyoa_pda_swipe"
+    {
+      time 3.666700 4.072278
+      param "scout_taunt_the_killer_signature_cyoa_pda_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_foot_stomp"
+    {
+      time 4.791700 5.017369
+      param "scout_taunt_the_killer_signature_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_moped_end_scout_foot2"
+    {
+      time 6.750000 6.927097
+      param "scout_taunt_the_killer_signature_taunt_moped_end_scout_foot2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_equipment_jingle4"
+    {
+      time 6.708300 6.999275
+      param "scout_taunt_the_killer_signature_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_clothes_swipe"
+    {
+      time 1.958300 2.258754
+      param "scout_taunt_the_killer_signature_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_item_paper_pickup"
+    {
+      time 4.250000 4.991905
+      param "scout_taunt_the_killer_signature_item_paper_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_cyoa_pda_clothes_rustle_light"
+    {
+      time 4.208300 4.859865
+      param "scout_taunt_the_killer_signature_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_foot_stomp_light"
+    {
+      time 6.166700 6.255226
+      param "scout_taunt_the_killer_signature_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_signature_scout_intro"
+    {
+      time 0.102167 -1.000000
+      param "taunt_killer_signature_scout_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BunnyHopperStep"
+    {
+      time 1.020171 1.245840
+      param "Taunt.BunnyHopperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.RocketHoverStep"
+    {
+      time 0.173333 0.399002
+      param "Taunt.RocketHoverStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_signature_scout"
+    {
+      time 5.010400 6.426568
+      param "taunt_killer_signature_scout"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.PyroClothesRustleLight"
+    {
+      time 5.068965 5.720530
+      param "PDA.PyroClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutEquipmentJingle"
+    {
+      time 5.149426 5.662895
+      param "Taunt.YetiStandeeScoutEquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

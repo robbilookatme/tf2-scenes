@@ -1,0 +1,302 @@
+// Choreo version 1
+event loop "tauntshooters_stakeout_loop"
+{
+  time 23.500000 -1.000000
+  param "4.291000"
+  loopcount "255"
+}
+actor "sniper"
+{
+  channel "sniper"
+  {
+    event sequence "tauntshooters_stakeout"
+    {
+      time 0.000000 23.541666
+      param "taunt_shooters_stakeout"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "Cocky"
+    {
+      time 0.000000 25.958300
+      param "player\sniper\emotion\emotion"
+      param2 "Cocky"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.8333 0.0000
+        0.8433 0.0000
+        0.8533 0.0000
+        0.8633 0.0118
+        0.8733 0.0157
+        0.8833 0.0353
+        0.8933 0.0471
+        0.9033 0.0667
+        0.9133 0.0863
+        0.9233 0.1059
+        0.9333 0.1255
+        0.9433 0.1490
+        0.9533 0.1804
+        0.9633 0.2039
+        0.9733 0.2353
+        0.9833 0.2588
+        0.9933 0.2902
+        1.0033 0.3255
+        1.0133 0.3569
+        1.0233 0.3843
+        1.0333 0.4157
+        1.0433 0.4510
+        1.0533 0.4863
+        1.0633 0.5137
+        1.0733 0.5451
+        1.0833 0.5804
+        1.0933 0.6118
+        1.1033 0.6392
+        1.1133 0.6706
+        1.1233 0.6941
+        1.1333 0.7255
+        1.1433 0.7490
+        1.1533 0.7765
+        1.1633 0.8000
+        1.1733 0.8157
+        1.1833 0.8353
+        1.1933 0.8510
+        1.2033 0.8667
+        1.2133 0.8745
+        1.2233 0.8902
+        1.2333 0.8902
+        1.2433 0.8941
+        1.2500 0.8941
+        1.5833 0.8941
+        1.5933 0.8941
+        1.6033 0.8902
+        1.6133 0.8863
+        1.6233 0.8706
+        1.6333 0.8588
+        1.6433 0.8471
+        1.6533 0.8314
+        1.6633 0.8118
+        1.6733 0.7922
+        1.6833 0.7647
+        1.6933 0.7451
+        1.7033 0.7137
+        1.7133 0.6902
+        1.7233 0.6588
+        1.7333 0.6314
+        1.7433 0.6000
+        1.7533 0.5686
+        1.7633 0.5412
+        1.7733 0.5059
+        1.7833 0.4706
+        1.7933 0.4392
+        1.8033 0.4118
+        1.8133 0.3804
+        1.8233 0.3451
+        1.8333 0.3098
+        1.8433 0.2863
+        1.8533 0.2510
+        1.8633 0.2196
+        1.8733 0.1961
+        1.8833 0.1647
+        1.8933 0.1451
+        1.9033 0.1216
+        1.9133 0.0941
+        1.9233 0.0745
+        1.9333 0.0549
+        1.9433 0.0392
+        1.9533 0.0314
+        1.9633 0.0157
+        1.9733 0.0039
+        1.9833 0.0000
+        1.9933 0.0000
+        2.0000 0.0000
+        2.7083 0.0000
+        2.7183 0.0000
+        2.7283 0.0275
+        2.7383 0.0588
+        2.7483 0.1059
+        2.7500 0.1137
+        2.7583 0.1608
+        2.7600 0.1686
+        2.7683 0.2196
+        2.7700 0.2314
+        2.7783 0.2863
+        2.7800 0.2941
+        2.7883 0.3569
+        2.7900 0.3647
+        2.7983 0.4275
+        2.8000 0.4353
+        2.8083 0.4902
+        2.8100 0.5059
+        2.8183 0.5608
+        2.8200 0.5686
+        2.8283 0.6157
+        2.8300 0.6314
+        2.8383 0.6706
+        2.8400 0.6824
+        2.8483 0.7216
+        2.8500 0.7255
+        2.8583 0.7569
+        2.8600 0.7608
+        2.8683 0.7804
+        2.8700 0.7804
+        2.8750 0.7804
+        2.8800 0.7843
+        2.8900 0.7922
+        2.9000 0.8000
+        2.9100 0.8000
+        2.9200 0.8118
+        2.9300 0.8157
+        2.9400 0.8196
+        2.9500 0.8314
+        2.9583 0.8353
+        2.9600 0.8353
+        2.9683 0.8353
+        2.9700 0.8353
+        2.9783 0.8196
+        2.9800 0.8157
+        2.9883 0.7961
+        2.9900 0.7922
+        2.9983 0.7608
+        3.0000 0.7490
+        3.0083 0.7098
+        3.0100 0.7059
+        3.0183 0.6588
+        3.0200 0.6510
+        3.0283 0.6039
+        3.0300 0.6000
+        3.0383 0.5490
+        3.0400 0.5412
+        3.0483 0.4902
+        3.0500 0.4824
+        3.0583 0.4353
+        3.0600 0.4275
+        3.0683 0.3804
+        3.0700 0.3765
+        3.0783 0.3373
+        3.0800 0.3255
+        3.0883 0.2902
+        3.0900 0.2902
+        3.0983 0.2588
+        3.1000 0.2549
+        3.1083 0.2392
+        3.1100 0.2392
+        3.1183 0.2353
+        3.1200 0.2353
+        3.1250 0.2392
+        3.1300 0.2471
+        3.1400 0.2549
+        3.1500 0.2706
+        3.1600 0.2824
+        3.1700 0.2902
+        3.1800 0.3059
+        3.1900 0.3137
+        24.1000 1.0000
+        25.9583 1.0000
+      }
+      resumecondition
+      fixedlength
+      distancetotarget 3303688634368.00
+    }
+    event speak "Taunt.YetiStandeeMedicClothesRustleSwing"
+    {
+      time 0.000000 0.651565
+      param "Taunt.YetiStandeeMedicClothesRustleSwing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.SpringRiderSit"
+    {
+      time 2.476190 3.032199
+      param "Taunt.SpringRiderSit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.PyroClothesRustle"
+    {
+      time 2.880952 4.590158
+      param "Selection.PyroClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle2"
+    {
+      time 1.952381 2.526712
+      param "Selection.SpyClothesRustle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Sniper.LaughLong02"
+    {
+      time 9.333333 12.526077
+      param "Sniper.LaughLong02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.taunt_shooters_stake_drink"
+    {
+      time 20.023809 -1.000000
+      param "sniper.taunt_shooters_stake_drink"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Soldier01ClothesRustle"
+    {
+      time 8.500000 10.209207
+      param "Taunt.Soldier01ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.taunt_shooters_stake_intro"
+    {
+      time 1.333333 -1.000000
+      param "sniper.taunt_shooters_stake_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.taunt_shooters_stake_rand02"
+    {
+      time 16.016666 -1.000000
+      param "sniper.taunt_shooters_stake_rand02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.taunt_shooters_stake_rand01"
+    {
+      time 4.938890 -1.000000
+      param "sniper.taunt_shooters_stake_rand01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo03BottleSlosh"
+    {
+      time 3.144529 3.722125
+      param "Taunt.Demo03BottleSlosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

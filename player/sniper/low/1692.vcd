@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.NiceShot02"
+    {
+      time 0.000000 0.716916
+      param "Sniper.NiceShot02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "AggresiveClosed"
+    {
+      time 0.020833 1.333333
+      param "player\sniper\emotion\emotion"
+      param2 "AggresiveClosed"
+    }
+  }
+}
+scene_ramp
+{
+  0.0080 0.0078
+  0.1080 0.2549
+  1.2240 0.2510
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

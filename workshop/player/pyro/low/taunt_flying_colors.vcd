@@ -1,0 +1,96 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 9.166000 -1.000000
+  param "3.833000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_flag_pyro"
+    {
+      time 0.000000 9.166667
+      param "taunt_flag_pyro"
+      fixedlength
+    }
+  }
+  channel "sound"
+  {
+    event speak "Weapon_Fist.HitHand"
+    {
+      time 0.500000 0.653832
+      param "Weapon_Fist.HitHand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Arrow.ImpactWood"
+    {
+      time 1.530000 2.503674
+      param "Weapon_Arrow.ImpactWood"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.ScoutShotgunShoulder"
+    {
+      time 0.480000 0.860952
+      param "Selection.ScoutShotgunShoulder"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 0.913333 1.213786
+      param "Selection.SpyClothesRustle1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "WeaponInspect.Movement1"
+    {
+      time 2.220000 3.392381
+      param "WeaponInspect.Movement1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "MeleeInspect.Movement2"
+    {
+      time 0.000000 0.601202
+      param "MeleeInspect.Movement2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.PyroEquipment2"
+    {
+      time 2.520000 2.859229
+      param "Selection.PyroEquipment2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_flag"
+    {
+      time 0.000000 -1.000000
+      param "pyro_taunt_flag"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

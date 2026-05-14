@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.Jeers06"
+    {
+      time 0.000000 2.583220
+      param "Medic.Jeers06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "mad"
+    {
+      time 0.010417 3.145833
+      param "player\medic\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0242 0.4078
+        1.5273 0.4078
+        1.6879 0.7373
+        2.0606 0.7451
+        2.1727 0.4627
+        2.4758 0.4784
+        2.7788 0.1843
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

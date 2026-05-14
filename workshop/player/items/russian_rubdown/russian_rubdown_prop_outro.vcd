@@ -1,0 +1,26 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "tauntrussian_rubdown"
+    {
+      time 0.000000 1.800000
+      param "tauntrussian_rubdown_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

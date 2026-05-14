@@ -1,0 +1,251 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "taunt_mourning_mercs_medic"
+    {
+      time 0.000000 7.250000
+      param "taunt_mourning_mercs_medic"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "painScared"
+    {
+      time 0.000000 7.250000
+      param "player\medic\emotion\emotion"
+      param2 "painScared"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0208 0.0824
+        0.0417 0.1686
+        0.0833 0.3608
+        0.1042 0.4588
+        0.1250 0.5451
+        0.1458 0.6314
+        0.1667 0.7020
+        0.1875 0.7569
+        0.2082 0.7961
+        0.2292 0.8196
+        0.2500 0.8510
+        0.2708 0.8706
+        0.2917 0.8902
+        0.3125 0.9059
+        0.3333 0.9216
+        0.3542 0.9294
+        0.3958 0.9490
+        0.4167 0.9608
+        0.4583 0.9647
+        0.5208 0.9765
+        0.6458 0.9843
+        0.6875 0.9922
+        0.9375 1.0000
+        0.9688 1.0000
+        1.2083 1.0000
+        1.2292 0.9765
+        1.2500 0.9451
+        1.2917 0.8941
+        1.3333 0.8353
+        1.3958 0.7412
+        1.4583 0.6353
+        1.6042 0.3922
+        1.6667 0.2902
+        1.7083 0.2275
+        1.7292 0.1961
+        1.7708 0.1412
+        1.7917 0.1098
+        1.8333 0.0667
+        1.8542 0.0471
+        1.8750 0.0275
+        1.8958 0.0118
+        1.9166 0.0000
+        2.7500 0.0000
+        2.7916 0.0000
+        3.9166 0.0000
+        7.2500 0.0000
+      }
+    }
+    event expression "painScaredUpper"
+    {
+      time 0.000000 7.250000
+      param "player\medic\emotion\emotion"
+      param2 "painScaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.9583 0.0000
+        0.9792 0.0000
+        1.2083 0.0000
+        1.2500 0.0392
+        1.2708 0.0706
+        1.3125 0.1255
+        1.3542 0.1843
+        1.3958 0.2510
+        1.4375 0.3216
+        1.5833 0.5647
+        1.6667 0.7059
+        1.7083 0.7647
+        1.7292 0.8000
+        1.7708 0.8510
+        1.8125 0.9059
+        1.8333 0.9255
+        1.8750 0.9608
+        1.8958 0.9804
+        1.9166 0.9961
+        2.7500 1.0000
+        2.8750 1.0000
+        3.7292 1.0000
+        3.9167 0.9961
+        3.9375 0.9961
+        3.9583 0.9922
+        4.0625 0.9608
+        4.1042 0.9569
+        4.1667 0.9490
+        4.3332 0.9569
+        5.5000 0.9569
+        5.5417 0.9608
+        5.6250 0.9608
+        5.7292 0.9804
+        5.8125 0.9961
+        6.6042 0.9922
+        6.6458 0.9647
+        6.6667 0.9569
+        6.6875 0.9255
+        6.7083 0.8902
+        6.7292 0.8510
+        6.7500 0.8000
+        6.7708 0.7451
+        6.7917 0.6902
+        6.8125 0.6314
+        6.8333 0.5686
+        6.9167 0.3137
+        6.9375 0.2510
+        6.9583 0.1961
+        6.9792 0.1373
+        7.0000 0.0863
+        7.0208 0.0353
+        7.0416 0.0000
+        7.2292 0.0000
+        7.2500 0.0000
+        7.2500 0.0000
+      }
+    }
+    event speak "medic_taunt_mourning_mercs_medic_heavy_yell1"
+    {
+      time 0.080000 0.432653
+      param "Medic.PainSharp08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "mvmmedic_taunt_mourning_mercs_medic_heavy_yell2"
+    {
+      time 2.013301 4.421918
+      param "medic_mvm_wave_end04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+    {
+      time 5.200000 5.723401
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+    {
+      time 6.013333 6.629206
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+    {
+      time 6.486667 7.191247
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_item_preview_medic_taunt_surgeons_squeezebox_draw_clothes"
+    {
+      time 4.853333 6.562539
+      param "medic_item_preview_medic_taunt_surgeons_squeezebox_draw_clothes"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_solid_impact_hard1"
+    {
+      time 1.766667 2.278957
+      param "scout_item_preview_scout_body_medium_impact_soft7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+    {
+      time 1.593333 2.167664
+      param "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+    {
+      time 1.926667 2.217642
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_item_preview_medic_taunt_surgeons_squeezebox_draw_clothes"
+    {
+      time 0.033334 0.333788
+      param "soldier_taunt_neck_snap_soldier_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_clothes_swipe2"
+    {
+      time 3.020000 3.594331
+      param "engineer_taunt_texas_twirl_em_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle2"
+    {
+      time 3.553334 3.892563
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle3"
+    {
+      time 0.313333 0.826802
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

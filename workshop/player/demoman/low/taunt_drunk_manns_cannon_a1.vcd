@@ -1,0 +1,87 @@
+// Choreo version 1
+event loop "taunt_drunk_manns_cannon_loop"
+{
+  time 6.323188 -1.000000
+  param "1.166000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_drunk_manns_cannon"
+    {
+      time 0.000000 6.333333
+      param "taunt_drunk_manns_cannon_a1"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happy"
+    {
+      time 0.007246 6.335541
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0426 0.9255
+        0.5809 0.9412
+        0.9064 0.0000
+      }
+    }
+    event expression "evilHappy"
+    {
+      time 0.000000 6.341821
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.0222 0.0000
+        0.5333 0.0000
+        0.5433 0.0000
+        0.5533 0.0000
+        0.5633 0.0118
+        0.5733 0.0196
+        0.5833 0.0353
+        0.9161 1.0000
+        0.9261 1.0000
+        0.9361 1.0000
+        0.9461 1.0000
+        0.9561 1.0000
+        0.9661 1.0000
+        0.9761 1.0000
+        0.9828 1.0000
+        6.3418 1.0000
+      }
+    }
+    event speak "taunt_demo_nuke_8_explosion"
+    {
+      time 0.000000 2.499796
+      param "taunt_demo_nuke_8_explosion"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.drunk_manns_cannon_cheer"
+    {
+      time 0.338889 -1.000000
+      param "demo.drunk_manns_cannon_cheer"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

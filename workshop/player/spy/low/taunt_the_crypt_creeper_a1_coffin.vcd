@@ -1,0 +1,32 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 3.067568 -1.000000
+  param "2.200000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_the_crypt_creeper_intro"
+    {
+      time 0.000000 3.166667
+      param "taunt_the_crypt_creeper_A1"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

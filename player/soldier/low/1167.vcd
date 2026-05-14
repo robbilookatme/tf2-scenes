@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "audio"
+  {
+    event speak "Soldier.PainSevere03"
+    {
+      time 0.000000 1.773424
+      param "Soldier.PainSevere03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "painBig"
+    {
+      time 0.041667 1.781250
+      param "player\soldier\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0545 0.4353
+        0.1303 0.8941
+        0.3364 0.6784
+        0.4788 0.8000
+        0.8333 0.6824
+        0.9545 0.7765
+        1.4848 0.5922
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

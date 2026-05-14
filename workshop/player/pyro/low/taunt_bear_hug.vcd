@@ -1,0 +1,106 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "bearhug_pyro"
+    {
+      time 0.000000 5.833333
+      param "taunt_bear_hug_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_bearhug_pyro_taunt_workout_pushup3"
+    {
+      time -1.033300 5.866667
+      param "pyro_bearhug_pyro_taunt_workout_pushup3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_clothes_swipe2"
+    {
+      time 0.266700 0.841031
+      param "demo_item_preview_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_workout_footfall2"
+    {
+      time 0.166700 0.460351
+      param "soldier_item_preview_soldier_taunt_workout_footfall2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 2.833400 3.484965
+      param "pyro_item_preview_pyro_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_flip_land1"
+    {
+      time 3.300100 4.099374
+      param "demo_item_preview_demo_taunt_flip_land1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_hand_clap2"
+    {
+      time 4.000000 4.047165
+      param "scout_item_preview_scout_taunt_hand_clap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_equipment_jingle"
+    {
+      time 3.866700 4.205929
+      param "pyro_taunt_neck_snap_pyro_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_bearhug_pyro_taunt_equipment_jingle4"
+    {
+      time 0.266700 0.557675
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Pyro_A"
+    {
+      time 1.000000 -1.000000
+      param "Taunt.BearHug_Pyro_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Pyro_B"
+    {
+      time 4.000000 -1.000000
+      param "Taunt.BearHug_Pyro_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

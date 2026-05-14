@@ -1,0 +1,186 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "sniper"
+  {
+    event sequence "taunt_the_scaredycat_sniper"
+    {
+      time 0.000000 5.866667
+      param "taunt_the_scaredycat_sniper"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmallUpper"
+    {
+      time 0.000000 5.866700
+      param "player\sniper\emotion\emotion"
+      param2 "happySmallUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.1000 0.0000
+        4.5667 0.0118
+        5.8667 0.0118
+        5.8667 0.0118
+        5.8667 0.0118
+      }
+    }
+    event expression "Skeptical"
+    {
+      time 0.000000 5.866700
+      param "player\sniper\emotion\emotion"
+      param2 "Skeptical"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.5334 0.0000
+        2.8999 0.4824
+        3.0667 0.4824
+        3.2333 0.0000
+        5.8667 0.0000
+      }
+    }
+    event expression "ScaredClosed"
+    {
+      time 0.000000 5.866700
+      param "player\sniper\emotion\emotion"
+      param2 "ScaredClosed"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.0334 1.0000
+        0.0667 1.0000
+        0.1000 1.0000
+        2.5334 0.9961
+        2.8999 0.4353
+        3.0667 0.4353
+        3.2333 1.0000
+        4.1000 1.0000
+        4.5666 0.0000
+        5.6667 0.0000
+        5.7000 0.0000
+        5.7333 0.0000
+        5.7667 0.0000
+        5.8000 0.0000
+        5.8333 0.0000
+        5.8667 0.0000
+        5.8667 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 5.866700
+      param "player\sniper\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.1000 0.0000
+        4.5667 1.0000
+        5.1000 1.0000
+        5.6000 0.0000
+        5.8667 0.0000
+      }
+    }
+    event speak "Taunt.YetiStandeeSniperClothesRustle"
+    {
+      time 0.000000 0.651565
+      param "Taunt.YetiStandeeSniperClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_landings"
+    {
+      time 0.353333 1.152607
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 2.533334 2.833787
+      param "Selection.SpyClothesRustle1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp_light"
+    {
+      time 3.680000 3.768526
+      param "pyro_spring_rider_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 3.426667 5.135873
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedEndScoutFoot1"
+    {
+      time 5.453334 5.679003
+      param "Taunt.Engineer01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedEndScoutFoot2"
+    {
+      time 5.706668 5.932337
+      param "Taunt.Engineer01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.scardy_cat"
+    {
+      time 0.020000 -1.000000
+      param "sniper.scardy_cat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.scardy_cat_b"
+    {
+      time 4.573334 -1.000000
+      param "sniper.scardy_cat_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.SniperEquipmentLight"
+    {
+      time 0.446667 1.034672
+      param "PDA.SniperEquipmentLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 1.053334 2.762540
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

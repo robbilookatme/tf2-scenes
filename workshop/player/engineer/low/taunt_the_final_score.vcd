@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "taunt_the_final_score_engineer"
+    {
+      time 0.005747 3.705747
+      param "taunt_the_final_score_engineer"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "engineer_taunt_the_final_score_engineer_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.133300 0.784865
+      param "engineer_taunt_the_final_score_engineer_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+    {
+      time 1.833300 2.058969
+      param "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+    {
+      time 2.066700 2.292369
+      param "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+    {
+      time 2.333300 2.558969
+      param "engineer_taunt_the_final_score_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_the_final_score_engineer_taunt_clothes_swipe2"
+    {
+      time 2.666700 3.241031
+      param "engineer_taunt_the_final_score_engineer_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_the_final_score_engineer_taunt_equipment_jingle2"
+    {
+      time 1.466700 1.805929
+      param "engineer_taunt_the_final_score_engineer_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.FinalScore_Engineer_A"
+    {
+      time 1.269231 1.945512
+      param "Taunt.FinalScore_Engineer_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.FinalScore_Engineer_B"
+    {
+      time 2.747863 3.435755
+      param "Taunt.FinalScore_Engineer_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

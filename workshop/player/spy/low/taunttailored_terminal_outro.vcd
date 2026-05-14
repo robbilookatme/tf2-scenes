@@ -1,0 +1,81 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunttailored_terminal"
+    {
+      time 0.000000 2.250000
+      param "taunttailored_terminal_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "specialAction01"
+    {
+      time 0.000000 2.312462
+      param "player\spy\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0000 0.3608
+        1.3333 0.3490
+        1.9993 0.0000
+        2.0093 0.0000
+        2.0160 0.0000
+      }
+    }
+    event speak "heavy_item_preview_taunt_clothes_rustle"
+    {
+      time 0.026667 0.600998
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_PDA.AntennaeEngineer"
+    {
+      time 0.200000 0.462132
+      param "Weapon_PDA.AntennaeEngineer"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_killertime_6_close"
+    {
+      time 0.840000 2.057664
+      param "engy_taunt_killertime_2_open"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "CYOA.MapClose"
+    {
+      time 0.346667 1.622993
+      param "CYOA.MapClose"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tailore_terminal_outro"
+    {
+      time 0.060000 -1.000000
+      param "spy_taunt_tailore_terminal_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

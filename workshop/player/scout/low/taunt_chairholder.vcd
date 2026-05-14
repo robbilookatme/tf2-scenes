@@ -1,0 +1,291 @@
+// Choreo version 1
+event loop "item_preview_loop"
+{
+  time 16.463707 -1.000000
+  param "3.500000"
+  loopcount "255"
+}
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 16.500000
+      param "taunt_chairholder"
+      fixedlength
+    }
+  }
+  channel "SFX"
+  {
+    event speak "scout_item_preview_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.100000 1.258095
+      param "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_cyoa_pda_swipe"
+    {
+      time 1.200000 1.605578
+      param "PDA.Swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_clothes_swipe2"
+    {
+      time 1.866700 2.441031
+      param "pyro_spring_rider_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_item_hat_drop"
+    {
+      time 2.566700 3.214228
+      param "scout_taunt_the_homerunners_hobby_item_hat_drop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_medium_clap1"
+    {
+      time 4.400000 4.720000
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_item_boxing_gloves_drop"
+    {
+      time 4.700000 5.040045
+      param "scout_taunt_runners_rhythm_item_boxing_gloves_drop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_workout_pushup4"
+    {
+      time 5.433300 6.554729
+      param "Taunt.WorkOutPushUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_slap_draw"
+    {
+      time 5.533300 6.118334
+      param "Weapon_Slap.Draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_workout_pushup2"
+    {
+      time 6.200000 7.200385
+      param "engineer_taunt_texas_twirl_em_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_workout_get_down"
+    {
+      time 6.666700 8.665884
+      param "Taunt.WorkOutGetDown1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_clothes_swipe"
+    {
+      time 10.366700 10.667153
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_clothes_swipe2"
+    {
+      time 10.700000 11.274331
+      param "demo_item_preview_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_clothes_swipe"
+    {
+      time 11.400000 11.700453
+      param "heavy_tauntrussian_rubdown_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_clothes_swipe2"
+    {
+      time 12.000000 12.574331
+      param "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_heavy_taunt_chest_hit3"
+    {
+      time 12.066700 18.299999
+      param "scout_item_preview_heavy_taunt_chest_hit3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_taunt_workout_get_up"
+    {
+      time 14.599999 15.926870
+      param "Taunt.WorkOutGetUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "voice"
+  {
+    event speak "taunt_scout_chairholder_start_A"
+    {
+      time 0.041580 -1.000000
+      param "taunt_scout_chairholder_start_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_start_B"
+    {
+      time 1.266000 -1.000000
+      param "taunt_scout_chairholder_start_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_start_C"
+    {
+      time 2.133000 -1.000000
+      param "taunt_scout_chairholder_start_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_loop_A"
+    {
+      time 3.966000 -1.000000
+      param "taunt_scout_chairholder_loop_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_loop_cough"
+    {
+      time 7.833000 -1.000000
+      param "taunt_scout_chairholder_loop_cough"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_loop_B"
+    {
+      time 9.966000 -1.000000
+      param "taunt_scout_chairholder_loop_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_scout_chairholder_loop_C"
+    {
+      time 13.600000 -1.000000
+      param "taunt_scout_chairholder_loop_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+    event expression "player\scout\emotion\emotion/happyBig"
+    {
+      time 0.110000 3.409525
+      param "player\scout\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0174 0.0000
+        0.2413 1.0000
+        1.0250 0.9882
+        1.1917 0.1529
+        1.5750 0.0000
+        1.9931 1.0000
+        2.4750 1.0000
+        2.7306 0.4392
+        2.9362 0.0000
+      }
+    }
+    event expression "player\scout\emotion\emotion/happySmall"
+    {
+      time 1.229365 18.582144
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0109 0.0000
+        0.0413 0.9451
+        0.1478 1.0000
+        0.7826 1.0000
+        1.1717 0.0078
+        2.1708 1.0000
+        2.9750 1.0000
+        6.5286 0.8863
+        6.7286 0.0667
+        8.0310 0.0000
+        8.5028 1.0000
+        16.1408 1.0000
+        16.5194 0.6706
+        16.8861 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 7.699652 9.691285
+      param "player\scout\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6167 0.2039
+        0.7401 0.6706
+        1.5833 0.7137
+        1.9916 0.0000
+      }
+    }
+    event expression "painBig"
+    {
+      time 5.657986 8.691286
+      param "player\scout\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.7000 0.0000
+        2.0833 0.0000
+        2.2500 1.0000
+        3.0333 0.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

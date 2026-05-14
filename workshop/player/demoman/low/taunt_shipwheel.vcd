@@ -1,0 +1,119 @@
+// Choreo version 1
+event loop "taunt_shipwheel_loop"
+{
+  time 10.730770 -1.000000
+  param "3.033000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_shipwheel"
+    {
+      time 0.000000 10.766666
+      param "taunt_shipwheel_intro"
+      fixedlength
+    }
+    event speak "demo_taunt_dosido_start_rand"
+    {
+      time 2.606061 4.227626
+      param "demo_taunt_russian_randend"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "GlassBottle.ImpactSoft"
+    {
+      time 2.036656 2.203345
+      param "GlassBottle.ImpactSoft"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Scout.DodgeCanDrink"
+    {
+      time 0.670694 1.895547
+      param "Scout.DodgeCanDrink"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+    event expression "happy"
+    {
+      time 0.000000 10.766666
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6350 0.0000
+        2.8749 0.8275
+      }
+    }
+    event speak "Taunt.Soldier03ClothesRustle"
+    {
+      time 1.452380 3.161586
+      param "Taunt.Soldier03ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BunnyHopperStep"
+    {
+      time 1.907407 2.133076
+      param "Taunt.BunnyHopperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeDemoStep"
+    {
+      time 2.357142 2.880543
+      param "Taunt.YetiStandeeDemoStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_headbutt_sfx_hand_swoosh"
+    {
+      time 0.024974 0.597106
+      param "taunt_headbutt_sfx_hand_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoClothesRustleLightItch"
+    {
+      time 0.632184 1.283749
+      param "PDA.DemoClothesRustleLightItch"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "w"
+    {
+      time 0.772222 1.916667
+      param "player\demo\phonemes\phonemes_strong"
+      param2 "w"
+      event_ramp
+      {
+        0.1667 0.9725
+        0.9950 0.9569
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

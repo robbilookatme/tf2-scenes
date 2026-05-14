@@ -1,0 +1,68 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.CartGoingBackOffense06"
+    {
+      time 0.000000 1.402676
+      param "Scout.CartGoingBackOffense06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBigUpper"
+    {
+      time 0.009524 1.747619
+      param "player\scout\emotion\emotion"
+      param2 "happyBigUpper"
+      event_ramp
+      {
+        0.0182 0.0471
+        0.1788 0.8824
+        0.3636 0.9922
+        0.6121 0.0078
+        0.8268 0.0000
+        0.9874 0.9451
+        1.4390 0.8588
+      }
+    }
+    event expression "painBigUpper"
+    {
+      time 0.004762 1.738095
+      param "player\scout\emotion\emotion"
+      param2 "painBigUpper"
+      event_ramp
+      {
+        0.0121 0.0078
+        0.3394 0.0078
+        0.5394 0.7882
+        0.9450 0.9176
+        1.2026 0.1804
+        1.6333 0.1098
+      }
+    }
+    event expression "painSmallUpper"
+    {
+      time 0.009524 1.747619
+      param "player\scout\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.9784 0.0000
+        1.1723 0.1608
+        1.4905 0.2118
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

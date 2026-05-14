@@ -1,0 +1,65 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "medic_mvm_collect_credits03"
+    {
+      time 0.000000 2.852132
+      param "medic_mvm_collect_credits03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "yellingUpper"
+    {
+      time 0.031250 1.093750
+      param "player\medic\emotion\emotion"
+      param2 "yellingUpper"
+      event_ramp
+      {
+        0.1455 0.7569
+        0.8752 0.8784
+      }
+    }
+    event expression "happyFull"
+    {
+      time 1.135417 2.875000
+      param "player\medic\emotion\emotion"
+      param2 "happyFull"
+      event_ramp
+      {
+        0.2636 0.7647
+        0.4303 0.8039
+        0.5818 0.3373
+        0.7152 0.3686
+        0.8818 0.7608
+        1.4991 0.9686
+      }
+    }
+    event expression "yellingUpper"
+    {
+      time 1.135417 2.895833
+      param "player\medic\emotion\emotion"
+      param2 "yellingUpper"
+      event_ramp
+      {
+        0.1758 0.5294
+        1.5273 0.5216
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

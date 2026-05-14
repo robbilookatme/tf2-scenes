@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "fist_bump_pyro"
+    {
+      time 0.000000 3.966666
+      param "taunt_the_fist_bump_fistbump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_fist_bump_pyro_taunt_clothes_rustle"
+    {
+      time 0.293299 0.944864
+      param "PDA.PyroClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_fist_bump_pyro_taunt_clothes_swipe2"
+    {
+      time 2.043606 2.617937
+      param "pyro_spring_rider_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_fist_bump_pyro_pyro_taunt_clap1"
+    {
+      time 0.260000 0.503855
+      param "pyro_taunt_partytrick_8_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_fist_bump_pyro_pyro_taunt_clap2"
+    {
+      time 0.359999 0.602017
+      param "pyro_taunt_partytrick_6_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_fist_bump_pyro_pyro_taunt_clap3"
+    {
+      time 0.495863 0.731872
+      param "pyro_taunt_partytrick_6_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_fist_bump_pyro_boxing_gloves_swing2"
+    {
+      time 1.326700 1.885090
+      param "scout_taunt_the_trackmans_touchdown_boxing_gloves_swing2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.LaughEvil04"
+    {
+      time 0.084699 1.258033
+      param "Pyro.LaughEvil04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.Cheers01"
+    {
+      time 2.035519 3.048852
+      param "Pyro.Cheers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

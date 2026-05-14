@@ -1,0 +1,86 @@
+// Choreo version 1
+event loop "fist_bump_demo_loop"
+{
+  time 5.953333 -1.000000
+  param "1.500000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "fist_bump_demo"
+    {
+      time 0.000000 5.966667
+      param "taunt_the_fist_bump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "demo_fist_bump_demo_taunt_equipment_jingle2"
+    {
+      time 0.900000 1.239229
+      param "Taunt.Demo02EquipmentJingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_taunt_equipment_jingle"
+    {
+      time 3.500000 3.946259
+      param "Taunt.Demo02EquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_taunt_clothes_rustle"
+    {
+      time 3.333300 5.042506
+      param "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_fistbump_start"
+    {
+      time 0.236559 1.146672
+      param "demo_taunt_flip_random_waiting"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_scotsmans_stagger_taunt_hop"
+    {
+      time 3.586021 -1.000000
+      param "demo_taunt_scotsmans_stagger_taunt_hop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "drunkHappy"
+    {
+      time 0.000000 5.962365
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.2734 1.0000
+        3.3778 0.8627
+        3.7083 0.3451
+        4.8278 0.9294
+        5.9624 1.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

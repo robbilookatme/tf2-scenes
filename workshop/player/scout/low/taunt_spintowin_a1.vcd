@@ -1,0 +1,230 @@
+// Choreo version 1
+event loop "taunt_spintowin_loop"
+{
+  time 9.794694 -1.000000
+  param "3.100000"
+  loopcount "255"
+}
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "taunt_spintowin"
+    {
+      time 0.000000 9.799999
+      param "taunt_spintowin_A1"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 4.956351 5.182020
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 7.529563 7.755232
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 6.701985 6.927654
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.ScoutClothesRustleLight"
+    {
+      time 6.135319 6.786884
+      param "PDA.ScoutClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+    {
+      time 5.213096 5.500421
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_taunt_clothes_rustle"
+    {
+      time 7.590873 9.300079
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_flip_random_intro"
+    {
+      time 5.354158 6.664974
+      param "scout_taunt_flip_random_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+    {
+      time 4.379763 6.088969
+      param "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.ScoutClothesRustleLight"
+    {
+      time 3.279763 4.988969
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "watch"
+    {
+      time 7.871067 8.158391
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 4.243039 4.468708
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.ScoutClothesRustleLight"
+    {
+      time 0.059524 0.711089
+      param "PDA.ScoutClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 0.847205 1.072874
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 0.555538 0.781207
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+    {
+      time 0.780952 1.068276
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutEquipmentJingle"
+    {
+      time 0.202381 0.695125
+      param "Taunt.YetiStandeeScoutEquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+    {
+      time 2.147619 2.799184
+      param "PDA.ScoutClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.EngineerSwoosh"
+    {
+      time 0.019047 0.591179
+      param "Taunt.EngineerSwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 9.804682
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+    }
+    event speak "Taunt.scout_spin_to_win_left"
+    {
+      time 0.988889 1.647755
+      param "Taunt.scout_spin_to_win_right"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 2.483316 2.708985
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 2.094427 2.320096
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 2.866649 3.092318
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 9.029564 9.255233
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 9.568254 9.793923
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,320 @@
+// Choreo version 1
+event loop "taunt_the_road_rager_loop"
+{
+  time 7.905365 -1.000000
+  param "4.000000"
+  loopcount "255"
+}
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_the_road_rager"
+    {
+      time 0.000000 7.916667
+      param "taunt_the_road_rager_a1"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "actionfire01"
+    {
+      time 0.000000 7.934851
+      param "player\heavy\emotion\emotion"
+      param2 "actionfire01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3025 0.7843
+        1.2727 0.7843
+        1.5620 0.0157
+        5.4947 0.0000
+        7.9102 0.0000
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 0.000000 7.939573
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.4167 0.0000
+        2.0417 0.0000
+        2.6667 0.3686
+        2.8750 0.0863
+        3.0417 0.1804
+        3.2500 0.1804
+        3.4583 0.5961
+        7.9396 1.0000
+      }
+    }
+    event expression "idleface"
+    {
+      time 0.000000 7.945983
+      param "player\heavy\emotion\emotion"
+      param2 "actionfire02"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.3175 0.0000
+        1.4830 0.9608
+        1.6901 0.7098
+        2.9429 0.8235
+        3.5179 0.6275
+        4.1619 0.0000
+        7.9423 0.0000
+      }
+    }
+    event speak "pda_clothes_rustle_light"
+    {
+      time 0.782051 1.356382
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle"
+    {
+      time 1.403846 1.917315
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "player\heavy\emotion\emotion/idleface"
+    {
+      time 0.000000 7.916667
+      param "player\heavy\emotion\emotion"
+      param2 "idleface"
+      event_ramp
+      {
+        1.1036 0.0000
+        1.2500 0.8196
+        1.3893 0.8157
+        1.5750 0.0118
+        5.0393 0.0118
+      }
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 0.051282 0.625613
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_tauntrussian_rubdown_taunt_equipment_jingle2"
+    {
+      time 0.826923 1.166152
+      param "heavy_tauntrussian_rubdown_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.451886 2.222975
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.758975 2.530063
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.552640 2.323728
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.669382 2.440470
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.853847 2.624935
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.969231 2.740319
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.966026 2.737114
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.269231 3.040319
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.070512 2.841600
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.458975 3.230063
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.173718 2.944806
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.361538 3.132626
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.587179 3.358267
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.802563 3.573651
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.707692 3.478780
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 2.827565 3.598653
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Minigun.WindUp"
+    {
+      time 0.459849 1.454951
+      param "Weapon_Minigun.WindUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Minigun.WindDown"
+    {
+      time 1.633333 4.963287
+      param "Weapon_Minigun.WindDown"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle"
+    {
+      time 1.403846 1.917315
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle"
+    {
+      time 1.283671 1.797140
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle"
+    {
+      time 1.190513 1.703982
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_road_rager_a1"
+    {
+      time 0.039007 -1.000000
+      param "heavy_taunt_road_rager_a1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.317346 2.088434
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_LooseCannon.Shoot"
+    {
+      time 1.468326 2.239414
+      param "Weapon_LooseCannon.Shoot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

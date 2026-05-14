@@ -1,0 +1,101 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "taunt_spintowin"
+    {
+      time 0.000000 1.966667
+      param "taunt_spintowin_outro"
+      fixedlength
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 1.965909
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.4907 1.0000
+        0.9689 0.0118
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.007576 1.969697
+      param "player\scout\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        1.2425 0.0000
+        1.9621 1.0000
+      }
+    }
+    event expression "painSmall"
+    {
+      time 0.007576 1.965909
+      param "player\scout\emotion\emotion"
+      param2 "painSmall"
+      event_ramp
+      {
+        0.5667 0.0000
+        0.9721 1.0000
+        1.5576 0.0000
+      }
+    }
+  }
+  channel "face"
+  {
+    event speak "taunt_sniper_aerobic_shared_dance_outro"
+    {
+      time 0.060606 -1.000000
+      param "scout_taunt_boston_breakdance_end"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+    {
+      time 0.041667 1.750873
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "equipment"
+    {
+      time 0.151515 0.664984
+      param "Taunt.YetiStandeeScoutEquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.EngineerSwoosh"
+    {
+      time 0.704545 1.276677
+      param "Taunt.EngineerSwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+    {
+      time 1.113636 1.400960
+      param "scout_taunt_the_trackmans_touchdown_item_watch_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

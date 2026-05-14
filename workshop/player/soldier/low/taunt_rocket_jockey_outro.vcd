@@ -1,0 +1,61 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_rocket_jockey_outro"
+    {
+      time 0.000000 1.500000
+      param "taunt_rocket_jockey_outro"
+      fixedlength
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 1.500000
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.0965 1.0000
+      }
+    }
+  }
+  channel "face"
+  {
+    event speak "Taunt.RocketHoverStopThruster"
+    {
+      time 0.000000 1.500000
+      param "Taunt.RocketHoverStopThruster"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedStartSwoosh1"
+    {
+      time 0.342593 0.517151
+      param "Taunt.MopedStartSwoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_landings"
+    {
+      time 0.851852 1.651126
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

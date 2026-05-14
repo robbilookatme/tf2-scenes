@@ -1,0 +1,307 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_commending_clap_spy"
+    {
+      time 0.000000 5.400000
+      param "taunt_commending_clap_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "Smile02"
+    {
+      time 0.000000 5.400000
+      param "player\spy\emotion\emotion"
+      param2 "Smile02"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.0667 0.0000
+        2.0834 0.0078
+        2.1000 0.0314
+        2.1167 0.0745
+        2.1334 0.1255
+        2.1500 0.1882
+        2.1667 0.2588
+        2.1834 0.3333
+        2.2000 0.4157
+        2.2334 0.5804
+        2.2500 0.6627
+        2.2667 0.7373
+        2.2834 0.8078
+        2.3000 0.8706
+        2.3167 0.9216
+        2.3334 0.9647
+        2.3500 0.9882
+        2.3666 1.0000
+        4.0333 1.0000
+        4.7334 1.0000
+        4.7500 0.9922
+        4.7667 0.9686
+        4.7833 0.9373
+        4.8000 0.8941
+        4.8167 0.8431
+        4.8333 0.7804
+        4.8500 0.7176
+        4.8667 0.6471
+        4.9334 0.3490
+        4.9500 0.2784
+        4.9667 0.2157
+        4.9834 0.1529
+        5.0000 0.1020
+        5.0167 0.0588
+        5.0334 0.0275
+        5.0500 0.0039
+        5.0667 0.0000
+        5.4000 0.0000
+      }
+    }
+    event expression "Smile01"
+    {
+      time 0.000000 5.400000
+      param "player\spy\emotion\emotion"
+      param2 "Smile01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2667 0.0000
+        0.2834 0.0118
+        0.3000 0.0549
+        0.3167 0.1176
+        0.3333 0.1961
+        0.3500 0.2902
+        0.3667 0.3922
+        0.4000 0.6039
+        0.4167 0.7059
+        0.4333 0.8000
+        0.4500 0.8784
+        0.4667 0.9412
+        0.4834 0.9843
+        0.5000 1.0000
+        1.7334 1.0000
+        1.8334 0.9686
+        1.8667 0.9529
+        1.9000 0.9373
+        1.9334 0.9176
+        1.9500 0.9059
+        1.9834 0.8784
+        2.0000 0.8627
+        2.0167 0.8431
+        2.0334 0.8196
+        2.0500 0.8000
+        2.0667 0.7725
+        2.0834 0.7412
+        2.1000 0.7059
+        2.1167 0.6588
+        2.1334 0.6118
+        2.1500 0.5569
+        2.1667 0.5020
+        2.2167 0.3255
+        2.2334 0.2706
+        2.2500 0.2157
+        2.2667 0.1647
+        2.2834 0.1176
+        2.3000 0.0784
+        2.3167 0.0431
+        2.3333 0.0196
+        2.3500 0.0039
+        2.3666 0.0000
+        4.3333 0.0000
+        5.4000 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 5.400000
+      param "player\spy\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.0667 0.0000
+        2.0834 0.0000
+        2.1000 0.0118
+        2.1167 0.0235
+        2.1334 0.0431
+        2.1500 0.0667
+        2.1667 0.0902
+        2.2000 0.1490
+        2.2500 0.2353
+        2.2667 0.2667
+        2.2834 0.2902
+        2.3000 0.3137
+        2.3167 0.3333
+        2.3334 0.3451
+        2.3500 0.3569
+        2.3667 0.3569
+        2.3834 0.3569
+        2.4000 0.3529
+        2.4334 0.3412
+        2.4667 0.3216
+        2.5500 0.2627
+        2.5834 0.2431
+        2.6167 0.2235
+        2.6334 0.2196
+        2.6500 0.2157
+        2.6666 0.2157
+        4.0334 0.2157
+        4.0500 0.2118
+        4.0667 0.2078
+        4.0834 0.2000
+        4.1000 0.1882
+        4.1334 0.1569
+        4.2167 0.0706
+        4.2500 0.0392
+        4.2667 0.0275
+        4.2834 0.0157
+        4.3000 0.0039
+        4.3167 0.0000
+        4.3334 0.0000
+        5.4000 0.0000
+      }
+    }
+    event expression "painBigUpper"
+    {
+      time 0.000000 5.400000
+      param "player\spy\emotion\emotion"
+      param2 "painBigUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.0334 0.0000
+        4.0500 0.0000
+        4.0667 0.0078
+        4.0834 0.0235
+        4.1000 0.0392
+        4.1167 0.0588
+        4.1334 0.0824
+        4.1667 0.1333
+        4.2167 0.2118
+        4.2500 0.2627
+        4.2667 0.2824
+        4.2834 0.2980
+        4.3000 0.3098
+        4.3167 0.3176
+        4.3334 0.3216
+        4.7334 0.3216
+        4.7500 0.3216
+        4.7667 0.3137
+        4.7833 0.3020
+        4.8000 0.2902
+        4.8167 0.2706
+        4.8334 0.2510
+        4.8667 0.2078
+        4.9500 0.0902
+        4.9834 0.0471
+        5.0000 0.0314
+        5.0167 0.0196
+        5.0333 0.0078
+        5.0500 0.0000
+        5.0666 0.0000
+        5.4000 0.0000
+      }
+    }
+    event speak "spy_pyro_taunt_clap1"
+    {
+      time 0.706667 1.026667
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_commending_clap_spy_pyro_taunt_clap3"
+    {
+      time 1.266700 1.583027
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_pyro_taunt_clap6"
+    {
+      time 1.833300 2.142461
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_pyro_taunt_clap7"
+    {
+      time 2.400000 2.720000
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_pyro_taunt_clap2"
+    {
+      time 2.966700 3.275861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_pyro_taunt_clap1"
+    {
+      time 3.566700 3.875861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_commending_clap_spy_taunt_clothes_swipe2"
+    {
+      time 0.133300 0.707631
+      param "spy_item_preview_spy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_clothes_swipe2"
+    {
+      time 4.066700 4.641031
+      param "spy_item_preview_spy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_foot_stomp_light"
+    {
+      time 4.914286 5.139955
+      param "spy_taunt_the_punchline_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_commending_clap_A"
+    {
+      time 1.892694 3.249588
+      param "spy_taunt_commending_clap_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_commending_clap_B"
+    {
+      time 4.041096 4.940869
+      param "spy_taunt_commending_clap_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

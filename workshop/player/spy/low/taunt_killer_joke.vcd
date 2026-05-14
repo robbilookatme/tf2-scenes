@@ -1,0 +1,168 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_killer_joke_spy"
+    {
+      time 0.000000 4.566667
+      param "taunt_killer_joke_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 4.566700
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0745
+        0.0666 0.1569
+        0.1166 0.2902
+        0.2000 0.5176
+        0.2500 0.6510
+        0.2833 0.7333
+        0.3000 0.7686
+        0.3166 0.8078
+        0.3333 0.8392
+        0.3500 0.8706
+        0.3666 0.8980
+        0.3833 0.9255
+        0.4000 0.9451
+        0.4166 0.9647
+        0.4333 0.9804
+        0.4500 0.9922
+        0.4665 1.0000
+        0.6000 0.0275
+        0.7166 0.0549
+        0.8333 0.0784
+        1.0333 0.1176
+        1.2500 0.1490
+        1.4666 0.1725
+        1.6666 0.1922
+        1.8833 0.2000
+        2.1000 0.2039
+        2.3166 0.2000
+        2.5333 0.1922
+        2.7500 0.1725
+        2.9833 0.1451
+        3.1166 0.1294
+        3.2333 0.1098
+        3.4666 0.0667
+        3.6333 0.0314
+        3.7833 0.0000
+        3.8166 0.9922
+        3.8500 0.9804
+        3.8666 0.9725
+        3.9000 0.9490
+        3.9333 0.9255
+        3.9666 0.8941
+        4.0166 0.8431
+        4.0500 0.8039
+        4.0833 0.7647
+        4.1166 0.7176
+        4.1500 0.6706
+        4.2166 0.5725
+        4.2833 0.4706
+        4.4166 0.2588
+        4.4833 0.1569
+        4.5500 0.0627
+        4.5667 0.0000
+      }
+    }
+    event speak "wosh"
+    {
+      time 0.000000 0.145170
+      param "Taunt.MopedStartSwoosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_joke_rim_shot"
+    {
+      time 0.921941 2.937905
+      param "taunt_killer_joke_rimshot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeePyroStep"
+    {
+      time 0.117270 0.342939
+      param "Taunt.Pyro01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp"
+    {
+      time 0.400868 0.626537
+      param "spy_taunt_tuefort_tango_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 0.042106 0.616437
+      param "scout_taunt_the_homerunners_hobby_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 2.586666 3.160997
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.EngineerClothesRustle"
+    {
+      time 1.913333 3.622540
+      param "Selection.EngineerClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_foot_stomp"
+    {
+      time 4.126667 4.352336
+      param "spy_taunt_tuefort_tango_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp_light"
+    {
+      time 4.406667 4.632336
+      param "Taunt.Spy03FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_joke_spy"
+    {
+      time 2.500000 -1.000000
+      param "taunt_killer_joke_spy"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

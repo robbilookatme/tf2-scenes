@@ -1,0 +1,118 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_the_scaredycat_pyro"
+    {
+      time 0.000000 5.566667
+      param "taunt_the_scaredycat_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dummyBlend"
+    {
+      time 0.000000 5.566700
+      param "player\pyro\emotion\emotion"
+      param2 "dummyBlend"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0999 0.0000
+        5.5667 0.0000
+      }
+    }
+    event speak "PDA.PyroClothesRustleLight"
+    {
+      time 0.106667 0.758232
+      param "PDA.PyroClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.PyroEquipmentLight"
+    {
+      time 0.165238 0.753242
+      param "PDA.PyroEquipmentLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.HeavyFootStomp"
+    {
+      time 0.380000 0.605669
+      param "Selection.HeavyFootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_equipment_jingle3"
+    {
+      time 5.166666 5.680135
+      param "engineer_taunt_texas_twirl_em_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.MedicClothesRustleLong"
+    {
+      time 4.020000 5.178095
+      param "PDA.MedicClothesRustleLong"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Pyro01FootStomp"
+    {
+      time 4.486667 4.712336
+      param "Taunt.Pyro01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.WorkOutFoot1"
+    {
+      time 5.100000 5.360794
+      param "Taunt.WorkOutFoot1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro.scardy_cat"
+    {
+      time 0.067747 -1.000000
+      param "pyro.scardy_cat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro.scardy_cat_b"
+    {
+      time 4.391892 -1.000000
+      param "pyro.scardy_cat_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 3.076577 3.650908
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

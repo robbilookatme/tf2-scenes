@@ -1,0 +1,264 @@
+// Choreo version 1
+event loop "taunt_roasty_toasty_loop"
+{
+  time 20.851852 -1.000000
+  param "3.666000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_roasty_toasty"
+    {
+      time 0.000000 20.875000
+      param "taunt_roasty_toasty"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_roasty_toasty_wood_solid_impact_hard1"
+    {
+      time 0.750000 1.021179
+      param "pyro_taunt_roasty_toasty_wood_solid_impact_hard1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_soldier_coffee_1_bag_can_swoosh"
+    {
+      time 0.791700 1.782720
+      param "pyro_taunt_roasty_toasty_taunt_soldier_coffee_1_bag_can_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_creak5"
+    {
+      time 3.291700 4.466847
+      param "pyro_taunt_roasty_toasty_wood_creak5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_concrete3"
+    {
+      time 13.041699 13.760793
+      param "pyro_taunt_roasty_toasty_concrete3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+    {
+      time 10.125000 10.699331
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_rustle"
+    {
+      time 12.458300 14.167506
+      param "pyro_taunt_roasty_toasty_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+    {
+      time 1.958300 2.258754
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_rock_impact_hard2"
+    {
+      time 0.666700 0.903548
+      param "pyro_taunt_roasty_toasty_rock_impact_hard2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_solid_impact_soft2"
+    {
+      time 0.833300 1.196112
+      param "pyro_taunt_roasty_toasty_wood_solid_impact_soft2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+    {
+      time 11.583300 11.883753
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_creak5"
+    {
+      time 20.458300 21.633448
+      param "pyro_taunt_roasty_toasty_wood_creak5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_furniture_impact_soft1"
+    {
+      time 0.583300 0.693187
+      param "pyro_taunt_roasty_toasty_wood_furniture_impact_soft1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_pyro_sf13_influx_small01"
+    {
+      time 12.625000 13.101576
+      param "pyro_taunt_roasty_toasty_pyro_sf13_influx_small01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_machete_catch"
+    {
+      time 1.416700 1.572709
+      param "pyro_taunt_roasty_toasty_taunt_machete_catch"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_foot_stomp"
+    {
+      time 2.250000 2.475669
+      param "pyro_taunt_roasty_toasty_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+    {
+      time 14.041699 14.342153
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+    {
+      time 15.250000 15.824331
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+    {
+      time 16.750000 17.050453
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_equipment_jingle3short"
+    {
+      time 18.458300 18.971769
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_equipment_jingle"
+    {
+      time 1.291700 1.737959
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_hand_clap"
+    {
+      time 19.875000 19.928514
+      param "pyro_taunt_roasty_toasty_taunt_hand_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_equipment_jingle3"
+    {
+      time 0.833300 1.346769
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+    {
+      time 20.291700 20.866032
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+    {
+      time 19.916700 20.217154
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_loop"
+    {
+      time 6.057517 -1.000000
+      param "pyro_taunt_roasty_toasty_loop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_loop_2"
+    {
+      time 18.546576 -1.000000
+      param "pyro_taunt_roasty_toasty_loop_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_exert"
+    {
+      time 0.046512 -1.000000
+      param "pyro_taunt_roasty_toasty_exert"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_tada"
+    {
+      time 2.069767 -1.000000
+      param "pyro_taunt_roasty_toasty_tada"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_loop_3"
+    {
+      time 12.805556 -1.000000
+      param "pyro_taunt_roasty_toasty_loop_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

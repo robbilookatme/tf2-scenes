@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.AutoCappedIntelligence01"
+    {
+      time 0.000000 3.845351
+      param "Medic.AutoCappedIntelligence01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "evilHappyUpper"
+    {
+      time 0.000000 5.718750
+      param "player\medic\emotion\emotion"
+      param2 "evilHappyUpper"
+      event_ramp
+      {
+        0.0303 0.1412
+        2.2533 0.1490
+        2.9533 0.2627
+        5.6467 0.2510
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

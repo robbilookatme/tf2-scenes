@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.HelpMeDefend01"
+    {
+      time 0.000000 2.060771
+      param "Medic.HelpMeDefend01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happy"
+    {
+      time 0.000000 2.770833
+      param "player\medic\emotion\emotion"
+      param2 "yellingUpper"
+      event_ramp
+      {
+        0.1212 0.3490
+        0.6606 0.3882
+        0.8182 0.5294
+        1.2576 0.5098
+        1.4273 0.8078
+        1.7424 0.8078
+        1.9364 0.3569
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

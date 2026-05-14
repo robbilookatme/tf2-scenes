@@ -1,0 +1,47 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.Cheers01"
+    {
+      time 0.000000 1.288707
+      param "Spy.Cheers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBig"
+    {
+      time 0.712963 5.185185
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.4636 0.6510
+        4.2250 0.6471
+      }
+    }
+    event expression "happyBigUpper"
+    {
+      time 0.055556 1.277778
+      param "player\spy\emotion\emotion"
+      param2 "happyBigUpper"
+      event_ramp
+      {
+        0.1688 0.7451
+        1.0625 0.7137
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

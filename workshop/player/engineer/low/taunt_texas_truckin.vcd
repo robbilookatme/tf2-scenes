@@ -1,0 +1,187 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 13.318841 -1.000000
+  param "2.333333"
+  loopcount "255"
+}
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "texas_truckin"
+    {
+      time 0.000000 13.333333
+      param "taunt_texas_truckin"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 13.314526
+      param "player\engineer\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.0001 0.0000
+        2.0167 0.0000
+        2.0333 0.0275
+        2.0500 0.0549
+        2.0667 0.1020
+        2.0833 0.1490
+        2.1000 0.2157
+        2.1167 0.2745
+        2.1333 0.3451
+        2.1500 0.4196
+        2.1833 0.5686
+        2.2000 0.6471
+        2.2167 0.7137
+        2.2333 0.7804
+        2.2500 0.8353
+        2.2667 0.8902
+        2.2833 0.9373
+        2.3000 0.9647
+        2.3167 0.9922
+        2.3333 1.0000
+        7.6645 0.9961
+        7.6978 0.9922
+        7.7145 0.9804
+        7.7478 0.9686
+        7.7645 0.9608
+        7.7978 0.9412
+        7.8311 0.9098
+        7.8645 0.8863
+        7.8978 0.8510
+        7.9311 0.8118
+        7.9645 0.7686
+        7.9978 0.7294
+        8.0311 0.6863
+        8.0811 0.6157
+        8.2311 0.4000
+        8.2978 0.3059
+        8.3311 0.2588
+        8.3645 0.2196
+        8.3978 0.1804
+        8.4311 0.1451
+        8.4645 0.1059
+        8.4978 0.0824
+        8.5311 0.0510
+        8.5645 0.0353
+        8.5978 0.0157
+        8.6311 0.0000
+        8.6645 0.0000
+        8.6810 0.0000
+        8.8811 0.0000
+        8.8895 0.1569
+        8.8978 0.4941
+        8.9144 1.0000
+        11.0478 0.9804
+        12.0145 0.9804
+        12.4645 0.9804
+        12.8311 0.9843
+        13.1145 0.9922
+        13.3145 1.0000
+        13.3145 1.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 13.314527
+      param "player\engineer\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.0000 0.6392
+        1.0667 0.6039
+        1.1167 0.5765
+        1.1833 0.5294
+        1.2500 0.4863
+        1.3000 0.4471
+        1.3667 0.3922
+        1.5500 0.2314
+        1.6167 0.1765
+        1.6833 0.1216
+        1.7333 0.0902
+        1.7667 0.0667
+        1.8000 0.0510
+        1.8333 0.0353
+        1.8667 0.0157
+        1.9000 0.0118
+        1.9333 0.0000
+        1.9667 0.0000
+        1.9999 0.0000
+        13.3145 0.0000
+      }
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 0.480000 0.705669
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 0.293333 0.519002
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 1.233333 1.459002
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.SpringRiderSit"
+    {
+      time 1.700000 2.256009
+      param "Taunt.SpringRiderSit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy03ClothesRustle"
+    {
+      time 0.160000 1.869206
+      param "Taunt.Heavy03ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_dosido_intro_wait_rand"
+    {
+      time 8.093334 9.112767
+      param "engineer_taunt_dosido_intro_wait_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_russian_rand"
+    {
+      time 0.793333 2.549478
+      param "engy_taunt_russian_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

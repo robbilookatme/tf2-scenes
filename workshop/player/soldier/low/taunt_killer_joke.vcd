@@ -1,0 +1,129 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_killer_joke_soldier"
+    {
+      time 0.000000 4.600000
+      param "taunt_killer_joke_soldier"
+    }
+  }
+  channel "face"
+  {
+    event speak "wosh"
+    {
+      time 0.000000 0.145170
+      param "Taunt.MopedStartSwoosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_joke_rim_shot"
+    {
+      time 0.928608 2.944572
+      param "taunt_killer_joke_rimshot"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeePyroStep"
+    {
+      time 0.163937 0.389606
+      param "Taunt.Pyro01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp"
+    {
+      time 0.380869 0.606538
+      param "scout_taunt_the_killer_signature_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 0.048773 0.623104
+      param "scout_taunt_the_homerunners_hobby_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo02EquipmentJingle3"
+    {
+      time 0.340000 0.853469
+      param "Taunt.Demo02EquipmentJingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 2.673333 3.324898
+      param "Taunt.YetiStandeeSniperClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle4"
+    {
+      time 2.813334 3.505352
+      param "Taunt.YetiStandeeSoldierEquipmentLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp"
+    {
+      time 4.073334 4.299003
+      param "pyro_spring_rider_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_foot_stomp_light"
+    {
+      time 4.386666 4.600000
+      param "Selection.EngineerFootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+    {
+      time 4.066667 4.600000
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_foot_stomp_light"
+    {
+      time 2.613333 2.701859
+      param "scout_taunt_the_killer_signature_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_killer_joke_soldier"
+    {
+      time 2.774943 -1.000000
+      param "taunt_killer_joke_soldier"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

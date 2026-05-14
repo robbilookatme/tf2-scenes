@@ -1,0 +1,151 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "peace_demo"
+    {
+      time 0.000000 4.000000
+      param "taunt_peace_demo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "defaultFace"
+    {
+      time 0.000000 4.000000
+      param "player\demo\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0078
+        0.0500 0.0157
+        0.0667 0.0314
+        0.0833 0.0510
+        0.1000 0.0784
+        0.1167 0.1216
+        0.1333 0.1725
+        0.1500 0.2510
+        0.1667 0.3725
+        0.1833 0.5765
+        0.2000 0.8314
+        0.2167 0.9529
+        0.2332 1.0000
+        0.2500 0.0157
+        0.2667 0.0353
+        0.2833 0.0510
+        0.3000 0.0627
+        0.3167 0.0745
+        0.3333 0.0824
+        0.3500 0.0863
+        0.3833 0.0941
+        0.4167 0.0902
+        0.4500 0.0824
+        0.5000 0.0627
+        0.5833 0.0235
+        0.6167 0.0118
+        0.6500 0.0000
+        0.6667 1.0000
+        0.6999 1.0000
+        3.8000 1.0000
+        3.8084 0.9882
+        3.8167 0.9765
+        3.8333 0.9216
+        3.8500 0.8392
+        3.8667 0.7373
+        3.8833 0.6235
+        3.9167 0.3725
+        3.9333 0.2588
+        3.9500 0.1569
+        3.9667 0.0745
+        3.9833 0.0196
+        3.9999 0.0000
+        4.0000 0.0000
+      }
+    }
+    event speak "demo_peace_demo_demo_trade_12"
+    {
+      time 2.233300 3.547495
+      param "demo_taunt_trade_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_taunt_demo_dose_fun_07"
+    {
+      time 0.366700 2.082958
+      param "demo_taunt_dosido_mid_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.166700 1.324795
+      param "heavy_taunt_bomb_voyage_heavy_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_taunt_equipment_jingle2"
+    {
+      time 1.500000 1.839229
+      param "demo_item_preview_demo_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_taunt_equipment_jingle"
+    {
+      time 0.866700 1.312958
+      param "demo_taunt_roar_owar_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_cyoa_pda_equipment"
+    {
+      time 2.333300 3.025318
+      param "medic_taunt_bomb_voyage_medic_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_concrete1"
+    {
+      time 0.833300 1.364865
+      param "engineer_taunt_texas_twirl_em_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_concrete4"
+    {
+      time 2.366700 2.847698
+      param "engineer_taunt_texas_twirl_em_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_peace_demo_cyoa_pda_clothes_rustle_light"
+    {
+      time 3.633300 4.000000
+      param "engineer_item_preview_engineer_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,129 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_mourning_mercs_heavy"
+    {
+      time 0.000000 6.916667
+      param "taunt_mourning_mercs_heavy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "upset1"
+    {
+      time 0.000000 6.916700
+      param "player\heavy\emotion\emotion"
+      param2 "upset1"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2082 1.0000
+        1.8333 1.0000
+        6.1667 1.0000
+        6.9167 0.0000
+        6.9167 0.0000
+      }
+    }
+    event speak "specialcomple"
+    {
+      time 0.200000 3.944217
+      param "Heavy.SpecialCompleted10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+    {
+      time 0.186666 0.760997
+      param "heavy_taunt_cheers_heavy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_equipment_gun2"
+    {
+      time 0.720000 1.840362
+      param "heavy_taunt_soviet_strongarm_taunt_equipment_gun2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_push_impact"
+    {
+      time 0.406667 0.918957
+      param "scout_taunt_neck_snap_scout_body_medium_impact_soft7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_neck_snap_heavy_taunt_yeti_standee_heavy_equipment_light1"
+    {
+      time 2.313334 3.038005
+      param "heavy_taunt_neck_snap_heavy_taunt_yeti_standee_heavy_equipment_light1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_item_preview_demo_taunt_clothes_swipe2"
+    {
+      time 3.846667 4.420998
+      param "demo_item_preview_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_killer_signature_taunt_clothes_swipe"
+    {
+      time 2.233333 2.533787
+      param "scout_taunt_the_killer_signature_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+    {
+      time 5.286666 5.810068
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+    {
+      time 6.146666 6.762539
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+    {
+      time 6.513334 7.217915
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 4.853334 6.562540
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

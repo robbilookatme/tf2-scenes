@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event expression "Squint"
+    {
+      time 0.052083 12.000000
+      param "player\sniper\emotion\emotion"
+      param2 "Squint"
+      event_ramp
+      {
+        0.1879 0.7647
+        0.6182 0.9020
+        11.1536 1.0000
+        11.7297 1.0000
+      }
+    }
+  }
+  channel "emotion"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

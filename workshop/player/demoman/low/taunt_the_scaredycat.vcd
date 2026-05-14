@@ -1,0 +1,213 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_the_scaredycat_demo"
+    {
+      time 0.000000 5.233333
+      param "taunt_the_scaredycat_demo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "scared"
+    {
+      time 0.000000 5.233300
+      param "player\demo\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.0333 1.0000
+        0.0667 1.0000
+        0.1000 1.0000
+        0.7667 1.0000
+        0.9332 0.0000
+        1.1332 1.0000
+        2.2333 1.0000
+        2.3500 0.8510
+        2.7000 0.3961
+        2.8500 0.2000
+        2.9167 0.1216
+        2.9667 0.0588
+        3.0000 0.0275
+        3.0167 0.0118
+        3.0332 0.0000
+        5.0667 0.0000
+        5.1000 0.0000
+        5.1333 0.0000
+        5.1667 0.0000
+        5.2000 0.0000
+        5.2333 0.0000
+        5.2333 0.0000
+      }
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 5.233300
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        0.0667 0.0000
+        0.1000 0.0000
+        4.4667 0.0000
+        4.5667 0.5255
+        4.5750 0.4941
+        4.5833 0.4824
+        4.6000 0.4510
+        4.6167 0.4196
+        4.6333 0.4000
+        4.6667 0.3608
+        4.7000 0.3255
+        4.7333 0.2902
+        4.7833 0.2392
+        4.8333 0.1961
+        4.8833 0.1490
+        4.9333 0.1098
+        4.9833 0.0706
+        5.0333 0.0353
+        5.0667 0.0157
+        5.1000 0.0000
+        5.1333 0.0000
+        5.1667 0.0000
+        5.2000 0.0000
+        5.2333 0.0000
+        5.2333 0.0000
+      }
+    }
+    event expression "pain"
+    {
+      time 0.000000 5.233300
+      param "player\demo\emotion\emotion"
+      param2 "pain"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        0.0667 0.0000
+        0.1000 0.0000
+        0.7667 0.0000
+        0.9333 1.0000
+        1.1332 0.0000
+        5.0667 0.0000
+        5.1000 0.0000
+        5.1333 0.0000
+        5.1667 0.0000
+        5.2000 0.0000
+        5.2333 0.0000
+        5.2333 0.0000
+      }
+    }
+    event speak "PDA.DemoEquipment"
+    {
+      time 0.065217 0.757235
+      param "PDA.DemoEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BunnyHopperStep"
+    {
+      time 0.260869 0.486538
+      param "Taunt.BunnyHopperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 1.586956 3.296162
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment1"
+    {
+      time 1.630694 2.023256
+      param "Selection.DemoEquipment1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment2"
+    {
+      time 1.809524 2.929887
+      param "Selection.DemoEquipment2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BunnyHopperStep"
+    {
+      time 4.224638 4.450307
+      param "Taunt.BunnyHopperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 4.036232 4.610563
+      param "Taunt.SoldierClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.RocketHoverStep"
+    {
+      time 5.021739 5.247408
+      param "Taunt.RocketHoverStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 1.021739 1.322193
+      param "Selection.SpyClothesRustle1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+    {
+      time 4.407609 4.921078
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.scardy_cat"
+    {
+      time 0.000000 -1.000000
+      param "demo.scardy_cat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.scardy_cat_b"
+    {
+      time 1.599088 -1.000000
+      param "demo.scardy_cat_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

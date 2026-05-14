@@ -1,0 +1,151 @@
+// Choreo version 1
+event loop "taunt_drunk_manns_cannon_loop"
+{
+  time 8.495073 -1.000000
+  param "3.404000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_drunk_manns_cannon"
+    {
+      time 0.000000 8.500000
+      param "taunt_drunk_manns_cannon_a2"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "evilHappy"
+    {
+      time 0.000000 8.496845
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.6108 1.0000
+        0.7200 0.0000
+        1.1073 0.0000
+        1.2387 0.9059
+        1.3156 1.0000
+        8.4968 1.0000
+      }
+    }
+    event expression "drunkHappy"
+    {
+      time 0.000000 8.496845
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6436 0.0000
+        0.8342 0.2000
+        1.0944 0.1843
+        1.2611 0.0000
+        2.1533 0.0000
+        2.4067 0.6863
+        2.7733 0.0000
+      }
+    }
+    event expression "happy"
+    {
+      time 0.000000 5.376845
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.5156 0.0000
+        0.7281 1.0000
+        1.0295 1.0000
+        1.1888 0.0000
+      }
+    }
+    event speak "Taunt.TankStartClothesRustle"
+    {
+      time 0.189815 0.841380
+      param "Taunt.TankStartClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeDemoEquipmentJingle"
+    {
+      time 0.500000 0.916621
+      param "Taunt.YetiStandeeDemoEquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerClothesRustle"
+    {
+      time 1.037037 1.688602
+      param "Taunt.YetiStandeeEngineerClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo02EquipmentJingle4"
+    {
+      time 1.699074 1.990049
+      param "Taunt.Demo02EquipmentJingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo02EquipmentJingle3"
+    {
+      time 2.143518 2.656987
+      param "Taunt.Demo02EquipmentJingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo02EquipmentJingle2"
+    {
+      time 2.833333 3.172562
+      param "Taunt.Demo02EquipmentJingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_taunt_equipment_jingle3"
+    {
+      time 3.342592 3.856061
+      param "engineer_taunt_texas_twirl_em_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo02EquipmentJingle3"
+    {
+      time 1.375000 1.888469
+      param "Taunt.Demo02EquipmentJingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.drunk_manns_cannon_laugh"
+    {
+      time 0.564815 -1.000000
+      param "demo.drunk_manns_cannon_laugh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

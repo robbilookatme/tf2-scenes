@@ -1,0 +1,56 @@
+// Choreo version 1
+event loop "fist_bump_pyro_loop"
+{
+  time 5.953334 -1.000000
+  param "1.500000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "fist_bump_pyro"
+    {
+      time 0.000000 5.966667
+      param "taunt_the_fist_bump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_fist_bump_pyro_taunt_clothes_rustle"
+    {
+      time 0.200000 1.909206
+      param "Selection.PyroClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_headbutt_start"
+    {
+      time 2.706667 3.995057
+      param "pyro_taunt_headbutt_start"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_headbutt_start"
+    {
+      time 0.060000 0.864422
+      param "Pyro.HighFive02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

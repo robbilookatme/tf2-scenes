@@ -1,0 +1,45 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 0.600000
+      param "taunt_flag_engineer_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+  }
+  channel "sound"
+  {
+    event speak "MeleeInspect.Movement2"
+    {
+      time 0.078855 0.680057
+      param "MeleeInspect.Movement2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_flag_envelope_slide_out"
+    {
+      time 0.111324 0.533094
+      param "taunt_flag_envelope_slide_out"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

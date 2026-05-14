@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "audio"
+  {
+    event speak "engineer_goldenwrenchkill03"
+    {
+      time 0.000000 2.389456
+      param "engineer_goldenwrenchkill03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 3.062500
+      param "player\engineer\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.2394 0.7922
+        1.5970 0.7922
+        1.8242 0.0157
+        1.9727 0.7922
+        2.8848 0.7922
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

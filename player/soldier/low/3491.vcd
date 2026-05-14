@@ -1,0 +1,57 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "audio"
+  {
+    event speak "Soldier.HatOverHeartTaunt06"
+    {
+      time 0.000000 3.797596
+      param "Soldier.HatOverHeartTaunt06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "painBigUpper"
+    {
+      time 0.020833 3.791667
+      param "player\soldier\emotion\emotion"
+      param2 "painBigUpper"
+      event_ramp
+      {
+        0.0030 0.0039
+        0.2061 0.2745
+        0.3303 0.1176
+        0.4212 0.5725
+        0.6152 0.2039
+        0.7970 0.4235
+        0.9455 0.5059
+        1.0970 0.2118
+        1.2182 0.6353
+        1.4000 0.7412
+        1.5545 0.6275
+        1.7091 0.7569
+        2.2182 0.6392
+        2.4485 0.2863
+        2.5727 0.4980
+        2.8273 0.7725
+        2.9364 0.6902
+        3.0273 0.7843
+        3.1121 0.6510
+        3.2242 0.7843
+        3.3455 0.4078
+        3.6394 0.4824
+        3.7606 0.0039
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,44 @@
+// Choreo version 1
+event stoppoint "end"
+{
+  time 0.782609 -1.000000
+  param "noaction"
+}
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.StunBallPickUp02"
+    {
+      time 0.000000 0.780000
+      param "Scout.StunBallPickUp02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "exp"
+  {
+    event expression "happySmall"
+    {
+      time -0.086957 2.287440
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.1000 0.2627
+        2.1667 0.2667
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

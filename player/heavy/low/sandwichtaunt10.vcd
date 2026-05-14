@@ -1,0 +1,91 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "Heavy.SandwichTaunt10"
+    {
+      time 0.010417 5.663750
+      param "Heavy.SandwichTaunt10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBigUpper"
+    {
+      time 0.000000 1.414394
+      param "player\heavy\emotion\emotion"
+      param2 "happyBigUpper"
+      event_ramp
+      {
+        0.0750 1.0000
+        1.2188 1.0000
+      }
+    }
+    event expression "upperSuprise1"
+    {
+      time 1.206000 2.672000
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.1969 1.0000
+        1.3344 1.0000
+      }
+    }
+    event expression "upperAngry2"
+    {
+      time 2.583144 3.906000
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.1156 1.0000
+        1.2625 1.0000
+      }
+    }
+    event expression "ae"
+    {
+      time 3.894583 5.614583
+      param "player\heavy\phonemes\phonemes"
+      param2 "ae"
+      event_ramp
+      {
+        0.2636 0.9922
+        0.4091 0.4431
+        0.5303 0.9451
+        0.6333 0.5373
+        0.7636 0.8745
+        0.8576 0.4471
+        0.9909 0.8039
+        1.0576 0.4588
+        1.1788 0.8078
+        1.2606 0.4588
+        1.3545 0.8000
+        1.4636 0.7569
+        1.6152 0.4745
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 3.803674 6.286705
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.1121 0.8039
+        2.3933 0.8000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

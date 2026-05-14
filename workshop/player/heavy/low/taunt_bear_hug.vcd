@@ -1,0 +1,176 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "bearhug_heavy"
+    {
+      time 0.000000 5.533333
+      param "taunt_bear_hug_heavy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "heavy_bearhug_heavy_taunt_clothes_swipe2"
+    {
+      time 0.184880 0.759211
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_bearhug_heavy_taunt_flip_land4"
+    {
+      time 3.218181 4.017455
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_bearhug_heavy_taunt_equipment_gun1"
+    {
+      time 3.318181 4.438544
+      param "engineer_taunt_texan_tacklin_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_bearhug_heavy_taunt_yeti_standee_heavy_equipment_light2"
+    {
+      time 4.218181 5.329473
+      param "heavy_item_preview_heavy_taunt_yeti_standee_heavy_equipment_light2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_bearhug_heavy_taunt_workout_footfall1"
+    {
+      time 3.718181 4.011832
+      param "soldier_item_preview_soldier_taunt_workout_footfall2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_bearhug_heavy_taunt_workout_footfall2"
+    {
+      time 5.251481 5.545132
+      param "soldier_item_preview_soldier_taunt_workout_footfall2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happy1"
+    {
+      time 0.000000 5.584882
+      param "player\heavy\emotion\emotion"
+      param2 "happy1"
+      event_ramp
+      {
+        1.3429 0.0000
+        1.5548 0.9098
+        1.8524 0.8980
+        2.3476 0.8941
+        3.2690 0.8980
+        3.4262 0.1490
+        3.5429 0.1333
+        3.6619 0.1451
+        3.9119 0.1490
+        4.0762 0.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 5.584882
+      param "player\heavy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1333 0.0000
+        0.5143 0.9176
+        0.6024 0.9216
+        0.7190 0.9176
+        0.9071 0.0000
+      }
+    }
+    event expression "happybig02"
+    {
+      time 0.000000 5.584882
+      param "player\heavy\emotion\emotion"
+      param2 "happybig02"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.0821 0.0000
+        4.2821 0.9569
+        4.5179 0.4588
+        4.7000 0.4745
+        4.9286 0.4471
+        5.1964 0.0000
+      }
+    }
+    event expression "upperSuprise1"
+    {
+      time 0.000000 5.584882
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.1650 0.0000
+        4.3800 0.8000
+        4.6450 0.0000
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 0.000000 5.584882
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6800 0.0000
+        0.9200 0.9765
+        1.3750 0.9608
+        1.5850 0.0000
+        3.3400 0.0000
+        3.4550 0.8471
+        3.6350 0.8627
+        3.8300 0.7216
+        4.1100 0.9333
+        4.3650 0.0000
+        4.7300 0.0000
+        4.9950 0.9725
+        5.3050 0.9647
+      }
+    }
+    event speak "Taunt.BearHug_Heavy_A"
+    {
+      time 0.200000 -1.000000
+      param "Taunt.BearHug_Heavy_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.BearHug_Heavy_B"
+    {
+      time 4.100000 -1.000000
+      param "Taunt.BearHug_Heavy_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

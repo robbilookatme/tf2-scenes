@@ -1,0 +1,61 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "Heavy.BattleCry01"
+    {
+      time 0.000000 1.880816
+      param "Heavy.BattleCry01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "upperSuprise1"
+    {
+      time 0.013333 1.193334
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.3455 0.8039
+        0.9021 0.7608
+      }
+    }
+    event expression "mad"
+    {
+      time 1.693334 6.143964
+      param "player\heavy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.3273 0.5961
+        3.5761 0.5843
+      }
+    }
+    event expression "upperAngry2"
+    {
+      time 0.973333 2.033334
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.2515 0.7059
+        0.8161 0.7059
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

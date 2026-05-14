@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.HelpMe02"
+    {
+      time 0.000000 1.277097
+      param "Spy.HelpMe02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "scared"
+    {
+      time 0.020833 5.062500
+      param "player\spy\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        1.0333 0.4235
+        4.7333 0.4196
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.062500 1.260417
+      param "player\spy\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.1333 0.3137
+        0.4222 0.3333
+        1.0000 0.3098
+      }
+    }
+  }
+  channel "face"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

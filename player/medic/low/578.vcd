@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.HelpMe02"
+    {
+      time 0.000000 1.666032
+      param "Medic.HelpMe02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "yellingUpper"
+    {
+      time 0.000000 2.062500
+      param "player\medic\emotion\emotion"
+      param2 "yellingUpper"
+      event_ramp
+      {
+        0.1000 0.4706
+        0.7485 0.5686
+        0.9121 0.9451
+        1.8424 0.9373
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

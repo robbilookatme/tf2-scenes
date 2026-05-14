@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+  }
+  channel "emotion"
+  {
+    event expression "painSmall"
+    {
+      time 0.000000 15.000000
+      param "player\sniper\emotion\emotion"
+      param2 "painSmall"
+      event_ramp
+      {
+        0.3378 1.0000
+        0.8444 0.8902
+        1.8667 0.9569
+        2.4111 0.8706
+        3.0889 0.9294
+        4.6222 0.8706
+        6.3444 0.9373
+        6.8444 0.8510
+        7.8667 0.9098
+        9.0556 0.8588
+        9.5222 0.9569
+        10.1000 0.8784
+        11.2444 0.9373
+        12.1222 0.8314
+        12.9111 0.9569
+        13.6111 0.8706
+        14.5557 1.0000
+      }
+    }
+    event expression "painBig"
+    {
+      time 1.541668 3.930557
+      param "player\sniper\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.3444 0.2941
+        0.8667 0.1765
+        1.5111 0.2078
+      }
+    }
+    event expression "painBig"
+    {
+      time 7.972224 11.444446
+      param "player\sniper\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.3444 0.2941
+        0.8667 0.1765
+        1.6222 0.2941
+        2.1111 0.2157
+        2.6389 0.2078
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

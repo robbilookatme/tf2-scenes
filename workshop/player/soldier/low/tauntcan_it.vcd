@@ -1,0 +1,190 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "tauntcan_it"
+    {
+      time 0.000000 5.666667
+      param "tauntcan_it"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "multi_CloseLid"
+    {
+      time 0.000000 5.666700
+      param "player\soldier\emotion\emotion"
+      param2 "multi_CloseLid"
+      event_ramp
+      {
+        0.0000 0.4941
+        5.6667 0.4941
+        5.6667 0.4941
+      }
+    }
+    event expression "mad"
+    {
+      time 0.000000 5.666700
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.5667 0.0000
+        0.9417 0.7451
+        5.0667 0.7451
+        5.4833 0.0000
+        5.6667 0.0000
+        5.6667 0.0000
+      }
+    }
+    event speak "soldier_tauntcan_it_metal_box_impact_soft1"
+    {
+      time 0.233300 0.764479
+      param "soldier_tauntcan_it_metal_box_impact_soft1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_item_metal_pot_pickup"
+    {
+      time 0.533300 1.380828
+      param "soldier_tauntcan_it_item_metal_pot_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_concrete1"
+    {
+      time 0.966700 1.498265
+      param "soldier_tauntcan_it_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_equipment_jingle"
+    {
+      time 1.066700 1.512959
+      param "soldier_tauntcan_it_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_equipment_jingle3"
+    {
+      time 1.866700 2.380169
+      param "soldier_tauntcan_it_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_equipment_jingle2"
+    {
+      time 2.433300 2.772529
+      param "soldier_tauntcan_it_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_cleats_conc_03"
+    {
+      time 3.400000 3.793265
+      param "soldier_tauntcan_it_cleats_conc_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_bat_baseball_hit_robo01"
+    {
+      time 3.433300 4.305998
+      param "soldier_tauntcan_it_bat_baseball_hit_robo01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_concrete4"
+    {
+      time 5.033300 5.514297
+      param "soldier_tauntcan_it_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_boxing_gloves_swing1"
+    {
+      time 3.333300 3.848561
+      param "soldier_tauntcan_it_boxing_gloves_swing1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_eng_swoosh"
+    {
+      time 4.266700 4.838831
+      param "soldier_tauntcan_it_taunt_eng_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_loose_cannon_ball_impact"
+    {
+      time 4.533300 5.126928
+      param "soldier_tauntcan_it_loose_cannon_ball_impact"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_robo_impact_hard_03"
+    {
+      time 4.533300 5.666667
+      param "soldier_tauntcan_it_robo_impact_hard_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_bat_draw_swoosh1"
+    {
+      time 4.000000 4.565578
+      param "soldier_tauntcan_it_bat_draw_swoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_draw_melee"
+    {
+      time 0.000000 0.745941
+      param "soldier_tauntcan_it_draw_melee"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_clothes_swipe2"
+    {
+      time 2.966700 3.541031
+      param "soldier_tauntcan_it_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_can_it_1"
+    {
+      time 0.946325 -1.000000
+      param "soldier_taunt_can_it_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

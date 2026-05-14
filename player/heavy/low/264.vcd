@@ -1,0 +1,83 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "Heavy.Jeers07"
+    {
+      time 0.000000 4.423401
+      param "Heavy.Jeers07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "upperAngry3"
+    {
+      time 0.006667 1.006667
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry3"
+      event_ramp
+      {
+        0.1606 0.9686
+        0.7939 0.9647
+      }
+    }
+    event expression "upperAngry2"
+    {
+      time 0.846667 1.953333
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.3515 0.9765
+        0.8242 0.9569
+      }
+    }
+    event expression "upperSuprise1"
+    {
+      time 1.676667 2.676666
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.2455 0.4314
+        0.7545 0.4235
+      }
+    }
+    event expression "upperAngry2"
+    {
+      time 2.463334 4.654913
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.2879 0.9765
+        1.8182 0.9765
+      }
+    }
+    event expression "idleface"
+    {
+      time 4.345907 7.479240
+      param "player\heavy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.3727 0.6627
+        2.1152 0.6706
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

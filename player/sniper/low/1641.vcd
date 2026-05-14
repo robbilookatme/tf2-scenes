@@ -1,0 +1,44 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.GoodJob01"
+    {
+      time 0.000000 0.830113
+      param "Sniper.GoodJob01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "happyBigClosed"
+    {
+      time 0.000000 2.406250
+      param "player\sniper\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0727 0.5765
+        0.1667 0.6078
+        0.2545 0.8235
+        0.3424 0.7373
+        0.4848 0.8863
+        0.6364 0.7725
+        2.1667 0.6784
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

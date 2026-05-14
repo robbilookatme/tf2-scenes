@@ -1,0 +1,149 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_the_final_score_pyro"
+    {
+      time 0.000000 4.000000
+      param "taunt_the_final_score_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dummyBlend"
+    {
+      time 0.000000 4.000000
+      param "player\pyro\emotion\emotion"
+      param2 "dummyBlend"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.0000 0.0000
+      }
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_trade_03"
+    {
+      time 2.533300 3.792030
+      param "pyro_taunt_the_final_score_pyro_pyro_trade_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_rps_int_08"
+    {
+      time 1.200000 1.967075
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_rps_int_08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_laughevil02"
+    {
+      time 0.133300 1.018651
+      param "pyro_taunt_the_final_score_pyro_pyro_laughevil02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_taunt_equipment_jingle2"
+    {
+      time 1.233300 1.572529
+      param "pyro_taunt_the_final_score_pyro_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 2.166700 2.818264
+      param "pyro_taunt_the_final_score_pyro_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_clap1"
+    {
+      time 2.766700 2.971167
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_clap1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_clap2"
+    {
+      time 2.933300 3.175318
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_clap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_clap3"
+    {
+      time 3.100000 3.336009
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_clap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_clap4"
+    {
+      time 3.266700 3.501802
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_clap4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_pyro_taunt_clap5"
+    {
+      time 3.433300 3.671304
+      param "pyro_taunt_the_final_score_pyro_pyro_taunt_clap5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_taunt_clothes_swipe2"
+    {
+      time 0.033300 0.607631
+      param "pyro_taunt_the_final_score_pyro_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_concrete4"
+    {
+      time 1.333300 1.814298
+      param "pyro_taunt_the_final_score_pyro_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_concrete1"
+    {
+      time 2.500000 3.031565
+      param "pyro_taunt_the_final_score_pyro_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_final_score_pyro_concrete3"
+    {
+      time 3.400000 4.119093
+      param "pyro_taunt_the_final_score_pyro_concrete3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

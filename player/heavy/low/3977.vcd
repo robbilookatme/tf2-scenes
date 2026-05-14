@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "heavy_mvm_taunt01"
+    {
+      time 0.000000 2.894354
+      param "heavy_mvm_taunt01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "upperAngry2"
+    {
+      time 0.031250 2.864583
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.0000 0.0157
+        0.1515 0.6941
+        1.7939 0.7098
+        1.9848 0.9490
+        2.1455 0.7608
+        2.6848 0.7216
+        2.8152 0.0157
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_drunk_manns_cannon"
+    {
+      time 0.000000 1.966667
+      param "taunt_drunk_manns_cannon_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "evilHappy"
+    {
+      time 0.006342 1.964707
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.3040 0.8275
+        0.6000 0.0000
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 1.975123
+      param "player\demo\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.2060 0.0000
+        0.6860 1.0000
+        1.9751 1.0000
+      }
+    }
+    event speak "Wood_Crate.Break"
+    {
+      time 0.000000 1.366145
+      param "Wood_Crate.Break"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoClothesRustleLight"
+    {
+      time 0.208333 0.859898
+      param "PDA.DemoClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.MedicClothesRustleLong"
+    {
+      time 1.078125 1.729690
+      param "Taunt.YetiStandeeSniperClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.EngineerSwoosh"
+    {
+      time 1.395834 1.967966
+      param "Taunt.EngineerSwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.drunk_manns_cannon_outro"
+    {
+      time 0.437500 -1.000000
+      param "demo.drunk_manns_cannon_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

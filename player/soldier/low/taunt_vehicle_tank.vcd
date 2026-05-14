@@ -1,0 +1,61 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 2.925000 -1.000000
+  param "1.670000"
+  loopcount "255"
+}
+actor "Engineer"
+{
+  channel "Anim"
+  {
+    event expression "specialAction01"
+    {
+      time 0.788360 2.930818
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.1220 0.0000
+        0.6200 0.0000
+        0.9580 1.0000
+        2.1424 1.0000
+      }
+    }
+    event expression "painSmallUpper"
+    {
+      time 0.018519 1.018519
+      param "player\soldier\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.1500 0.8000
+        1.0000 0.9529
+      }
+    }
+    event sequence "taunt_vehicle_tank_start"
+    {
+      time 0.000000 2.933333
+      param "taunt_vehicle_tank_start"
+      fixedlength
+    }
+    event speak "soldier_taunt_tank_spawn"
+    {
+      time 0.022222 1.176712
+      param "soldier_taunt_tank_spawn"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,196 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_cheers_soldier"
+    {
+      time 0.000000 6.300000
+      param "taunt_cheers_soldier"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1333 0.6706
+        1.1000 0.6706
+        1.1666 0.0000
+        6.3000 0.0000
+      }
+    }
+    event expression "mad"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.7000 0.0000
+        4.9999 1.0000
+        5.1667 1.0000
+        5.4667 0.0000
+        6.3000 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.1000 0.0000
+        1.1500 0.7451
+        1.1666 1.0000
+        2.5667 1.0000
+        2.8332 0.0000
+        6.3000 0.0000
+      }
+    }
+    event expression "specialAction01"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.0000 0.0000
+        5.1667 0.0000
+        5.4666 0.9804
+        5.7000 0.9804
+        6.3000 0.0000
+        6.3000 0.0000
+      }
+    }
+    event expression "WQ"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "WQ"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6000 0.0000
+        2.8332 0.3647
+        3.9333 0.3647
+        4.1666 0.0000
+        6.3000 0.0000
+      }
+    }
+    event expression "OO"
+    {
+      time 0.000000 6.300000
+      param "player\soldier\emotion\emotion"
+      param2 "OO"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6000 0.0000
+        2.8333 0.6706
+        3.9333 0.6706
+        4.1666 0.0000
+        6.3000 0.0000
+      }
+    }
+    event speak "soldier_sf13_influx_big03"
+    {
+      time 0.033333 2.225057
+      param "soldier_sf13_influx_big03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_killertime_4_drink"
+    {
+      time 2.780000 4.004852
+      param "Scout.DodgeCanDrink"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Soldier.NegativeVocalization04"
+    {
+      time 4.973334 6.305579
+      param "Soldier.NegativeVocalization04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_soldier_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.200000 1.358095
+      param "soldier_item_preview_soldier_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_cheers_heavy_taunt_bottle_slosh"
+    {
+      time 1.766667 2.344263
+      param "heavy_taunt_cheers_heavy_taunt_bottle_slosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_item_preview_demo_taunt_clothes_swipe2"
+    {
+      time 3.913333 4.487664
+      param "demo_item_preview_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_homerunners_hobby_cyoa_pda_swipe"
+    {
+      time 5.326667 5.732245
+      param "scout_taunt_the_homerunners_hobby_cyoa_pda_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_clothes_swipe"
+    {
+      time 2.586667 2.887120
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_wood_solid_impact_hard1"
+    {
+      time 5.606666 5.877845
+      param "pyro_taunt_roasty_toasty_wood_solid_impact_hard1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_nuke_2_grenade_open"
+    {
+      time 1.613333 2.061337
+      param "taunt_demo_nuke_2_grenade_open"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

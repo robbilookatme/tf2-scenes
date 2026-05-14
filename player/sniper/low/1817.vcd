@@ -1,0 +1,32 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.Taunts28"
+    {
+      time 0.000000 1.683447
+      param "Sniper.Taunts28"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scene_ramp
+{
+  0.0120 0.0078
+  0.2800 0.2275
+  0.8200 0.2314
+  1.0900 0.0000
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

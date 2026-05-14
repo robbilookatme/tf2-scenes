@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.GoodJob02"
+    {
+      time 1.109195 2.165703
+      param "Spy.GoodJob02"
+      event_ramp
+      {
+        0.0364 0.6471
+        0.2182 0.6745
+        1.0121 0.6549
+      }
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 1.140445 6.202945
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.2648 0.7176
+        0.5214 0.4078
+        0.9071 0.6863
+        2.5214 0.6706
+        4.8214 0.6902
+      }
+    }
+    event sequence "taunt04_v2"
+    {
+      time 0.000000 4.500000
+      param "taunt04"
+      fixedlength
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

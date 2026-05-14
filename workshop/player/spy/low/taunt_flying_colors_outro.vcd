@@ -1,0 +1,110 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_flag_spy"
+    {
+      time 0.000000 0.466667
+      param "taunt_flag_spy_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "emotion"
+    {
+      time -7.309967 0.530946
+      param ""
+      event_ramp
+      {
+        0.0000 1.0000
+        4.2178 1.0000
+        7.8409 1.0000
+      }
+      flexanimations samples_use_time
+      {
+        "happySmall"
+        {
+          0.0000 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.2971 0.5725 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.9925 0.6431 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.2559 0.5569 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.5896 0.4667 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.8915 0.4196 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0984 0.4078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.4645 0.4078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.1839 0.4078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.7855 0.4078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.5635 0.4157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.3730 0.4196 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          6.3524 0.4275 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          6.9762 0.4275 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.3174 0.4275 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.3885 0.4235 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.3885 0.4235 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.5271 0.4078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.6646 0.2941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+  }
+  channel "expression"
+  {
+    event expression "expression"
+    {
+      time -7.463559 0.530102
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.2186 0.4431
+        0.3794 0.5804
+        0.8837 0.6784
+        1.4188 0.5451
+        1.7522 0.4980
+        2.1188 0.4941
+        2.2576 0.4902
+        2.4125 0.4902
+        3.1562 0.4902
+        4.8423 0.4941
+        6.5298 0.4941
+        6.9062 0.4941
+        7.2715 0.4941
+        7.4270 0.4941
+        7.5048 0.4902
+        7.6501 0.4353
+      }
+      active 0
+    }
+  }
+  channel "sound"
+  {
+    event speak "taunt_flag_envelope_slide_out"
+    {
+      time 0.051254 0.473023
+      param "taunt_flag_envelope_slide_out"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.SpyClothesRustle1"
+    {
+      time 0.135800 0.436254
+      param "Selection.SpyClothesRustle1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

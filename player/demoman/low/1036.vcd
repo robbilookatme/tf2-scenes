@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "demoman"
+{
+  channel "audio"
+  {
+    event speak "Demoman.ThanksForTheTeleporter02"
+    {
+      time 0.000000 0.975238
+      param "Demoman.ThanksForTheTeleporter02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happy"
+    {
+      time 0.000000 2.229167
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.1606 0.4784
+        0.5364 0.5098
+        0.7061 0.6275
+        1.0030 0.3255
+        1.3727 0.2667
+        1.8515 0.3059
+        1.9061 0.2902
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

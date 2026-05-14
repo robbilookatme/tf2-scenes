@@ -1,0 +1,119 @@
+// Choreo version 1
+event loop "taunt_shipwheel_loop"
+{
+  time 13.261073 -1.000000
+  param "5.566600"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_shipwheel"
+    {
+      time 0.000000 13.300000
+      param "taunt_shipwheel_action2"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happy"
+    {
+      time 2.696971 13.300000
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.7083 0.0000
+        2.8749 1.0000
+      }
+    }
+    event speak "Demoman.BattleCry06"
+    {
+      time 1.242424 3.959159
+      param "Demoman.BattleCry06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Soldier01ClothesRustle"
+    {
+      time 0.183333 1.892539
+      param "Taunt.Soldier01ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "step"
+    {
+      time 1.212121 1.437790
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 2.166667 3.875873
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.RocketHoverStep"
+    {
+      time 4.893939 5.119608
+      param "Taunt.RocketHoverStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoEquipment"
+    {
+      time 0.469697 1.161715
+      param "PDA.DemoEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.106726 5.477097
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.1620 0.9216
+        5.1471 0.9373
+      }
+    }
+    event speak "scout_taunt_the_homerunners_hobby_taunt_clothes_swipe2"
+    {
+      time 2.285470 2.585923
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_clothes_swipe"
+    {
+      time 2.765747 3.066200
+      param "pyro_spring_rider_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

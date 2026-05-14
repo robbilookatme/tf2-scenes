@@ -1,0 +1,38 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event expression "default"
+    {
+      time 0.000000 15.000000
+      param "player\medic\emotion\emotion"
+      param2 "default"
+      event_ramp
+      {
+        0.2879 0.3333
+        1.9667 0.3137
+        2.4000 0.6235
+        3.1000 0.3843
+        5.4111 0.2667
+        5.9333 0.5725
+        6.6667 0.3922
+        7.5556 0.4235
+        10.7444 0.2863
+        11.3222 0.5725
+        12.5444 0.3725
+        14.6758 0.3333
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

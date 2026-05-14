@@ -1,0 +1,82 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_the_critical_fail_pyro"
+    {
+      time 0.000000 4.000000
+      param "taunt_the_critical_fail_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_the_critical_fail_pyro_medic_negativevocalization01"
+    {
+      time -1.866634 2.186666
+      param "pyro_taunt_the_critical_fail_pyro_medic_negativevocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.PyroClothesRustleLight"
+    {
+      time 0.035000 0.686565
+      param "PDA.PyroClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MediumClap"
+    {
+      time 0.641667 0.950828
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_clothes_swipe"
+    {
+      time 2.528333 4.001667
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeePyroStep"
+    {
+      time 3.528333 3.754002
+      param "Taunt.YetiStandeePyroStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.NegativeVocalization01"
+    {
+      time 0.128333 1.984342
+      param "Pyro.NegativeVocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.Jeers01"
+    {
+      time 2.581667 3.971009
+      param "Pyro.Jeers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

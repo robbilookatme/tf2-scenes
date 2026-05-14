@@ -1,0 +1,36 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.Taunts34"
+    {
+      time 0.000000 1.433832
+      param "Sniper.Taunts34"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.010417 1.489583
+      param "player\sniper\emotion\emotion"
+      param2 "madUpper"
+    }
+  }
+}
+scene_ramp
+{
+  0.0980 0.5804
+  1.1440 0.4118
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

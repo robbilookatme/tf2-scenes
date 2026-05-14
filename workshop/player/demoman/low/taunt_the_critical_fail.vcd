@@ -1,0 +1,146 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_the_critical_fail_demo"
+    {
+      time 0.000000 3.700000
+      param "taunt_the_critical_fail_demo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "demo_taunt_the_critical_fail_demo_medic_negativevocalization01"
+    {
+      time -0.033300 3.760000
+      param "demo_taunt_the_critical_fail_demo_medic_negativevocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 3.700000
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0167 0.0000
+        0.0333 0.0118
+        0.0500 0.0275
+        0.0667 0.0510
+        0.0833 0.0745
+        0.1000 0.1098
+        0.1167 0.1569
+        0.1333 0.2000
+        0.1500 0.2549
+        0.1667 0.3137
+        0.2000 0.4392
+        0.2167 0.5020
+        0.2333 0.5569
+        0.2500 0.6000
+        0.2667 0.6471
+        0.2833 0.6745
+        0.3000 0.7059
+        0.3167 0.7294
+        0.3332 0.7451
+        0.9667 0.7451
+        0.9833 0.7451
+        1.0167 0.7294
+        1.0332 0.7255
+        1.0667 0.7255
+        1.1167 0.7294
+        1.1500 0.7294
+        1.1667 0.7255
+        1.2500 0.6941
+        1.3000 0.6745
+        1.3500 0.6510
+        1.4000 0.6314
+        1.4333 0.6118
+        1.4667 0.5922
+        1.4999 0.5686
+        3.0800 0.6118
+        3.3420 0.6667
+        3.4440 0.6235
+        3.6460 0.0000
+      }
+    }
+    event speak "demo_item_preview_demo_taunt_clothes_rustle"
+    {
+      time 0.026666 0.327120
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MediumClap"
+    {
+      time 0.440000 0.753696
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+    {
+      time 1.080000 1.654331
+      param "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_item_preview_demo_taunt_equipment_jingle3short"
+    {
+      time 1.393333 1.906802
+      param "demo_item_preview_demo_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoClothesRustleLight"
+    {
+      time 2.960000 3.534331
+      param "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeDemoStep"
+    {
+      time 3.300000 3.300000
+      param "Taunt.YetiStandeeDemoStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Demoman.NegativeVocalization01"
+    {
+      time 0.000000 0.978141
+      param "Demoman.NegativeVocalization02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Demoman.AutoDejectedTie04"
+    {
+      time 1.033333 3.175374
+      param "Demoman.AutoDejectedTie04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

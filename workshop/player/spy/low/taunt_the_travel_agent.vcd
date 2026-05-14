@@ -1,0 +1,156 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 16.153334 -1.000000
+  param "4.125000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_the_travel_agent"
+    {
+      time 0.000000 16.166666
+      param "taunt_the_travel_agent"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "Smile02"
+    {
+      time 0.000000 17.166700
+      param "player\spy\emotion\emotion"
+      param2 "Smile02"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.3750 0.0000
+        1.5833 0.1059
+        1.8332 1.0000
+        16.2083 1.0000
+        16.2708 0.9255
+        16.3124 0.8706
+        16.3541 0.8157
+        16.3958 0.7608
+        16.4374 0.6941
+        16.4791 0.6353
+        16.6249 0.3961
+        16.6666 0.3255
+        16.7083 0.2667
+        16.7499 0.2000
+        16.7916 0.1451
+        16.8333 0.0902
+        16.8749 0.0471
+        16.9165 0.0000
+        17.1667 0.0000
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 17.166700
+      param "player\spy\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.3750 0.0000
+        1.5833 0.0471
+        1.8332 0.4275
+        3.0417 0.4275
+        16.2083 0.4275
+        16.3124 0.3686
+        16.3958 0.3255
+        16.4791 0.2706
+        16.6666 0.1412
+        16.7499 0.0863
+        16.8333 0.0353
+        16.9165 0.0000
+        17.1667 0.0000
+      }
+    }
+    event speak "Taunt.LuxuryLoungeChairAppear"
+    {
+      time 0.018518 0.377974
+      param "Taunt.LuxuryLoungeChairAppear"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSpyClothesRustle"
+    {
+      time 0.104938 0.756503
+      param "PDA.SpyClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+    {
+      time 1.549383 3.258589
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_killertime_2_open"
+    {
+      time 0.802469 2.020133
+      param "engy_taunt_killertime_2_open"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_cyoa_pda_equipment"
+    {
+      time 1.938272 2.630290
+      param "engineer_taunt_texas_twirl_em_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_random_flipFlipping"
+    {
+      time 3.024692 4.170383
+      param "spy_taunt_flip_random_flipFlipping"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_french_revolutions"
+    {
+      time 9.166666 10.795895
+      param "spy_taunt_french_revolutions"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedWheelieLand2"
+    {
+      time 2.248120 3.501862
+      param "Taunt.MopedWheelieLand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.RocketHoverStop"
+    {
+      time 2.490000 3.193515
+      param "Taunt.RocketHoverStop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

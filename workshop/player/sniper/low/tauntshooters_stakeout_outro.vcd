@@ -1,0 +1,84 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "sniper"
+  {
+    event sequence "tauntshooters_stakeout"
+    {
+      time 0.000000 2.291667
+      param "taunt_shooters_stakeout_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "right_CloseLid"
+    {
+      time 0.000000 2.319410
+      param "player\sniper\emotion\emotion"
+      param2 "Cocky"
+      event_ramp
+      {
+        0.0000 1.0000
+      }
+    }
+    event speak "taunt_headbutt_sfx_hand_swoosh"
+    {
+      time 1.333000 1.905131
+      param "taunt_headbutt_sfx_hand_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper.taunt_shooters_stake_outro"
+    {
+      time 0.035715 -1.000000
+      param "sniper.taunt_shooters_stake_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.SniperClothesRustleLight"
+    {
+      time 0.888889 1.540454
+      param "PDA.SniperClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSniperStep"
+    {
+      time 1.722222 1.947891
+      param "Taunt.YetiStandeeSniperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSpyStep"
+    {
+      time 2.055555 2.281224
+      param "Taunt.YetiStandeeSpyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "GlassBottle.StepLeft"
+    {
+      time 0.450000 0.715578
+      param "GlassBottle.StepLeft"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

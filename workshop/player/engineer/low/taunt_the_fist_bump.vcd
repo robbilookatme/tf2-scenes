@@ -1,0 +1,137 @@
+// Choreo version 1
+event loop "fist_bump_engineer_loop"
+{
+  time 5.956957 -1.000000
+  param "1.500000"
+  loopcount "255"
+}
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "fist_bump_engineer"
+    {
+      time 0.000000 5.966667
+      param "taunt_the_fist_bump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "engineer_fist_bump_engineer_pyro_taunt_clap2"
+    {
+      time 0.358000 0.405166
+      param "Taunt.Engineer01HandClap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_pyro_taunt_clap1"
+    {
+      time 0.571330 0.624845
+      param "Taunt.Engineer01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_equipment_jingle2"
+    {
+      time 1.100000 1.613469
+      param "pyro_spring_rider_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBigClosed"
+    {
+      time 0.000000 10.000000
+      param "player\engineer\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.1000 0.0000
+        1.1084 0.0000
+        1.1167 0.0078
+        1.1333 0.0275
+        1.1500 0.0471
+        1.1667 0.0706
+        1.2167 0.1451
+        1.3667 0.3922
+        1.4167 0.4706
+        1.4500 0.5176
+        1.4667 0.5373
+        1.4833 0.5569
+        1.4999 0.5647
+        6.0000 0.5647
+        6.0833 0.5451
+        6.1833 0.5098
+        6.2833 0.4706
+        6.5333 0.3647
+        6.6000 0.3412
+        6.6667 0.3176
+        6.7333 0.2980
+        6.8000 0.2863
+        6.8667 0.2745
+        6.9332 0.2745
+        6.9667 0.2745
+        7.0000 0.2824
+        7.0333 0.2941
+        7.0667 0.3059
+        7.1000 0.3216
+        7.1500 0.3529
+        7.3000 0.4471
+        7.3500 0.4745
+        7.3833 0.4902
+        7.4333 0.5059
+        7.4667 0.5137
+        7.4999 0.5137
+        7.5333 0.5137
+        7.6833 0.4941
+        7.7833 0.4902
+        7.8500 0.4824
+        7.9333 0.4667
+        8.0167 0.4431
+        8.1167 0.4078
+        8.2333 0.3608
+        8.3333 0.3098
+        8.6500 0.1529
+        8.7500 0.1098
+        8.8333 0.0745
+        8.9333 0.0392
+        8.9833 0.0275
+        9.0333 0.0157
+        9.1167 0.0039
+        9.1667 0.0000
+        9.2000 0.0000
+        10.0000 0.0000
+      }
+    }
+    event speak "eng_taunt_headbutt_start_1"
+    {
+      time 0.286232 0.981561
+      param "eng_taunt_headbutt_start_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "eng_taunt_headbutt_start_2"
+    {
+      time 4.351449 4.891948
+      param "eng_taunt_headbutt_start_4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

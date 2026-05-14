@@ -1,0 +1,285 @@
+// Choreo version 1
+event loop "taunt_the_mannbulance_loop"
+{
+  time 11.564393 -1.000000
+  param "2.625000"
+  loopcount "255"
+}
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "taunt_the_mannbulance"
+    {
+      time 0.000000 11.583333
+      param "taunt_the_mannbulance_intro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "mad"
+    {
+      time 0.000000 13.666700
+      param "player\medic\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0001 0.0000
+        0.0417 0.0510
+        0.1042 0.1294
+        0.1667 0.2196
+        0.3334 0.4667
+        0.3959 0.5490
+        0.4376 0.6039
+        0.5001 0.6824
+        0.5417 0.7255
+        0.5834 0.7686
+        0.6251 0.8039
+        0.6667 0.8353
+        0.6876 0.8510
+        0.7292 0.8706
+        0.7917 0.9059
+        0.8334 0.9216
+        0.9167 0.9490
+        1.0001 0.9765
+        1.0626 0.9843
+        1.1459 0.9961
+        1.2084 1.0000
+        1.2501 1.0000
+        1.2917 0.9961
+        1.3542 0.9804
+        1.4167 0.9686
+        1.4792 0.9490
+        1.5209 0.9373
+        1.5626 0.9216
+        1.6251 0.8902
+        1.6667 0.8667
+        1.6876 0.8510
+        1.7084 0.8275
+        1.7292 0.8000
+        1.7501 0.7608
+        1.7709 0.7255
+        1.7917 0.6863
+        1.8126 0.6392
+        1.8542 0.5451
+        1.9376 0.3451
+        1.9792 0.2471
+        2.0001 0.2000
+        2.0209 0.1569
+        2.0417 0.1216
+        2.0626 0.0863
+        2.0834 0.0510
+        2.1042 0.0314
+        2.1251 0.0118
+        2.1459 0.0000
+        2.1666 0.0000
+        11.7084 0.0000
+        11.7292 0.0000
+        11.7501 0.0000
+        11.7709 0.0039
+        11.7917 0.0157
+        11.8334 0.0353
+        11.8542 0.0510
+        11.8959 0.0863
+        11.9167 0.1020
+        11.9584 0.1451
+        12.0001 0.1922
+        12.0626 0.2667
+        12.1251 0.3451
+        12.2709 0.5451
+        12.3334 0.6196
+        12.3959 0.6941
+        12.4376 0.7412
+        12.4584 0.7608
+        12.5001 0.7961
+        12.5209 0.8118
+        12.5626 0.8353
+        12.5834 0.8471
+        12.6042 0.8510
+        12.6251 0.8588
+        12.6459 0.8588
+        12.6667 0.8667
+        12.6876 0.8667
+        12.7292 0.8549
+        12.7709 0.8471
+        12.8126 0.8275
+        12.8542 0.8000
+        12.8959 0.7765
+        12.9376 0.7451
+        12.9792 0.7059
+        13.0417 0.6510
+        13.0834 0.6039
+        13.1251 0.5608
+        13.2084 0.4667
+        13.3751 0.2667
+        13.4584 0.1686
+        13.5001 0.1255
+        13.5417 0.0745
+        13.5834 0.0353
+        13.6251 0.0000
+        13.6667 0.0000
+      }
+    }
+    event expression "painScared"
+    {
+      time 0.000000 13.666700
+      param "player\medic\emotion\emotion"
+      param2 "painScared"
+      event_ramp
+      {
+        0.0001 0.0000
+        0.7084 0.0000
+        0.7501 0.0000
+        1.6667 0.0000
+        1.6876 0.0157
+        1.7084 0.0392
+        1.7292 0.0706
+        1.7501 0.1098
+        1.7709 0.1569
+        1.7917 0.2000
+        1.8126 0.2510
+        1.8334 0.3059
+        1.8542 0.3608
+        1.9376 0.6000
+        1.9584 0.6510
+        1.9792 0.7059
+        2.0001 0.7608
+        2.0209 0.8118
+        2.0417 0.8549
+        2.0626 0.8941
+        2.0834 0.9294
+        2.1042 0.9608
+        2.1251 0.9804
+        2.1459 0.9922
+        2.1666 1.0000
+        11.7084 1.0000
+        11.7292 0.9961
+        11.7501 0.9922
+        11.7709 0.9843
+        11.7917 0.9804
+        11.8334 0.9569
+        11.8542 0.9451
+        11.8959 0.9098
+        11.9167 0.8902
+        11.9584 0.8510
+        11.9792 0.8314
+        12.0209 0.7804
+        12.0834 0.7059
+        12.1251 0.6471
+        12.1667 0.5922
+        12.2917 0.4118
+        12.3542 0.3216
+        12.4167 0.2353
+        12.4584 0.1804
+        12.5001 0.1373
+        12.5209 0.1098
+        12.5626 0.0706
+        12.6042 0.0353
+        12.6251 0.0196
+        12.6666 0.0000
+        13.5417 0.0000
+        13.6250 0.0000
+        13.6667 0.0000
+      }
+    }
+    event speak "dtep"
+    {
+      time 0.326719 0.942592
+      param "Taunt.YetiStandeeHeavyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dtep"
+    {
+      time 0.601852 1.082850
+      param "Taunt.YetiStandeeHeavyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy01ClothesRustle"
+    {
+      time 0.071429 0.645760
+      param "Selection.SpyClothesRustle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+    {
+      time 1.190476 2.899682
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedWheelieLand2"
+    {
+      time 1.849207 3.102949
+      param "Taunt.MopedWheelieLand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic.mannbulance_intro"
+    {
+      time 0.849206 2.734104
+      param "medic.mannbulance_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+    {
+      time 4.849206 5.149660
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 5.595238 6.169569
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_clothes_swipe"
+    {
+      time 8.142858 8.717189
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic.mannbulance_loop"
+    {
+      time 5.007937 -1.000000
+      param "medic.mannbulance_loop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.EngineerSwoosh"
+    {
+      time 1.317461 1.889592
+      param "Taunt.EngineerSwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

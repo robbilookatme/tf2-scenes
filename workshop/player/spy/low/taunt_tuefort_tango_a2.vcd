@@ -1,0 +1,241 @@
+// Choreo version 1
+event loop "taunt_tuefort_tango_loop"
+{
+  time 11.073013 -1.000000
+  param "7.930000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_tuefort_tango"
+    {
+      time 0.000000 11.100000
+      param "taunt_tuefort_tango_a2"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "scared"
+    {
+      time 0.000000 11.100000
+      param "player\spy\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 0.0000
+        6.3381 0.0000
+        6.6048 0.2353
+        6.9047 0.0000
+      }
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+    {
+      time 0.088072 0.662403
+      param "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_clothes_rustle"
+    {
+      time 0.454772 2.163978
+      param "spy_taunt_tuefort_tango_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_cyoa_pda_equipment_light"
+    {
+      time 1.121372 1.709377
+      param "spy_taunt_tuefort_tango_cyoa_pda_equipment_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 1.988072 2.988458
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 2.788072 3.784898
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 3.621371 4.621757
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 4.354772 5.351597
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_yeti_standee_spy_clothes_rustle"
+    {
+      time 5.221372 5.872937
+      param "spy_taunt_tuefort_tango_taunt_yeti_standee_spy_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_yeti_standee_equipment_jingle4"
+    {
+      time 5.688071 6.104692
+      param "spy_taunt_tuefort_tango_taunt_yeti_standee_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 6.221372 7.218197
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 7.088071 8.088456
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 8.043171 9.043556
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 8.843171 9.839996
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 9.743171 10.743556
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 10.609771 11.606596
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_a1"
+    {
+      time 0.098039 -1.000000
+      param "spy_taunt_tuefort_tango_a1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_a2"
+    {
+      time 5.177323 -1.000000
+      param "spy_taunt_tuefort_tango_a2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_the_crypt_creeper_spy_laughshort02"
+    {
+      time 3.477011 4.736692
+      param "spy_taunt_tuefort_tango_laugh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 11.100000
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 1.0000
+        0.9143 1.0000
+        1.0856 0.0000
+        2.1619 0.0000
+        2.4618 1.0000
+        3.6524 0.9961
+        4.0523 0.0000
+        4.5953 0.0000
+        5.0618 0.9961
+        5.4286 0.5373
+        5.7619 1.0000
+        6.4286 1.0000
+        6.6953 0.0000
+        8.7047 0.0000
+        9.0046 0.5961
+        10.0714 0.5961
+        10.4713 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 11.100000
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6428 0.0000
+        1.0427 1.0000
+        2.2095 1.0000
+        2.5094 0.0000
+        2.5595 0.0000
+        3.5572 0.0000
+        3.9571 1.0000
+        4.4572 1.0000
+        4.9237 0.0000
+        7.3143 0.0000
+        7.5475 1.0000
+        8.7809 1.0000
+        9.0808 0.0000
+        10.0800 0.0000
+        10.4799 1.0000
+        11.1000 1.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

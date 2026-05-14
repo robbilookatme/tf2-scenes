@@ -1,0 +1,206 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_mourning_mercs_spy"
+    {
+      time 0.000000 7.000000
+      param "taunt_mourning_mercs_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "painBig"
+    {
+      time 0.000000 7.000000
+      param "player\spy\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0104 0.0000
+        0.0208 0.0196
+        0.0417 0.0824
+        0.0625 0.1608
+        0.0833 0.2549
+        0.1458 0.5608
+        0.1667 0.6510
+        0.1875 0.7373
+        0.2082 0.8000
+        0.2188 0.8314
+        0.2292 0.8510
+        0.2500 0.8941
+        0.2708 0.9255
+        0.2917 0.9490
+        0.3125 0.9686
+        0.3333 0.9804
+        0.3542 0.9922
+        0.3749 1.0000
+        1.9583 1.0000
+        1.9792 1.0000
+        2.0833 1.0000
+        2.1042 0.9686
+        2.1250 0.9451
+        2.1458 0.9137
+        2.1875 0.8510
+        2.2500 0.7451
+        2.2917 0.6745
+        2.3125 0.6471
+        2.3333 0.6157
+        2.3542 0.5843
+        2.3749 0.5608
+        2.3958 0.5451
+        2.4167 0.5294
+        2.4375 0.5255
+        2.4583 0.5216
+        2.5625 0.5137
+        2.6042 0.5216
+        2.6667 0.5373
+        2.7083 0.5451
+        2.7292 0.5412
+        2.7500 0.5373
+        2.7708 0.5255
+        2.7917 0.5137
+        2.8021 0.5059
+        2.8125 0.4902
+        2.8333 0.4549
+        2.8542 0.4157
+        2.8958 0.3137
+        2.9167 0.2706
+        2.9375 0.2353
+        2.9582 0.2118
+        2.9792 0.1961
+        3.0000 0.1843
+        3.0208 0.1843
+        3.0417 0.1843
+        3.0625 0.1843
+        3.1250 0.2039
+        3.1458 0.2039
+        3.2917 0.2157
+        3.5208 0.2314
+        3.6250 0.2353
+        3.6875 0.2353
+        3.7500 0.2353
+        3.8125 0.2275
+        3.8750 0.2157
+        3.9167 0.2118
+        3.9271 0.2039
+        3.9375 0.2000
+        3.9583 0.1804
+        3.9792 0.1569
+        4.0000 0.1255
+        4.0625 0.0275
+        4.0833 0.0000
+        7.0000 0.0000
+      }
+    }
+    event speak "pyro_taunt_partytrick_7_clap"
+    {
+      time 4.506667 4.741769
+      param "pyro_taunt_partytrick_7_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_mvm_resurrect02"
+    {
+      time 5.420000 7.032472
+      param "spy_mvm_resurrect02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_partytrick_8_clap"
+    {
+      time 4.713334 4.943946
+      param "pyro_taunt_partytrick_8_clap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 0.000000 1.709206
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+    {
+      time 0.213333 0.917913
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe"
+    {
+      time 0.540000 0.840454
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+    {
+      time 2.080000 2.654331
+      param "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_clothes_swipe"
+    {
+      time 2.900000 3.200454
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 5.373333 7.082540
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+    {
+      time 3.240000 3.855873
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Default.StepRight"
+    {
+      time 6.720000 7.200997
+      param "Default.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_mourning_mercs_cry"
+    {
+      time 0.000000 -1.000000
+      param "spy_taunt_mourning_mercs_cry"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

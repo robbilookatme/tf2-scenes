@@ -1,0 +1,50 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.JarateToss01"
+    {
+      time 0.000000 1.061338
+      param "Sniper.JarateToss01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "Cocky"
+    {
+      time 0.007752 1.257752
+      param "player\sniper\emotion\emotion"
+      param2 "Cocky"
+      event_ramp
+      {
+        0.1121 0.6941
+        0.3788 0.7569
+        0.5091 0.9137
+        1.1212 0.8118
+      }
+    }
+    event expression "happyBigUpper"
+    {
+      time 0.399225 1.257752
+      param "player\sniper\emotion\emotion"
+      param2 "happyBigUpper"
+      event_ramp
+      {
+        0.0667 0.8039
+        0.3030 0.9059
+        0.7147 0.5608
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

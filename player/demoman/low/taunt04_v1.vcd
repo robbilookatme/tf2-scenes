@@ -1,0 +1,112 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "body"
+  {
+    event sequence "taunt04"
+    {
+      time 0.000000 5.000000
+      param "taunt04"
+      fixedlength
+    }
+    event expression "silence"
+    {
+      time 0.000000 1.000000
+      param "player\demo\emotion\emotion"
+      param2 "silence"
+      event_ramp
+      {
+        0.2172 0.6275
+        0.8034 0.6314
+      }
+    }
+    event expression "happy"
+    {
+      time 2.000000 3.000000
+      param "player\demo\emotion\emotion"
+      param2 "happy"
+      event_ramp
+      {
+        0.0542 0.1137
+        0.2600 0.9333
+        0.3462 1.0000
+        0.7512 1.0000
+      }
+    }
+    event expression "evilHappy"
+    {
+      time 2.845238 3.845238
+      param "player\demo\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0615 0.7686
+        0.0914 0.8824
+        0.1600 0.9686
+        0.2496 1.0000
+        0.6519 1.0000
+        0.8019 1.0000
+      }
+    }
+    event expression "madUpper"
+    {
+      time 0.827381 2.200000
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.1363 0.4667
+        1.1450 0.4431
+      }
+    }
+    event expression "mad"
+    {
+      time 3.777778 4.316667
+      param "player\demo\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0771 0.7176
+        0.4514 0.8157
+      }
+    }
+    event expression "ax"
+    {
+      time 2.002222 3.002222
+      param "player\demo\phonemes\phonemes_strong"
+      param2 "ax"
+      event_ramp
+      {
+        0.0700 0.0235
+        0.1607 0.0314
+        0.1726 0.0745
+        0.2400 0.6549
+        0.4700 0.6706
+        0.6750 0.6510
+        0.8024 0.5137
+        0.8950 0.0000
+      }
+    }
+  }
+  channel "audio"
+  {
+    event speak "Demoman.Taunts13"
+    {
+      time 0.000000 3.877733
+      param "Demoman.Taunts13"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

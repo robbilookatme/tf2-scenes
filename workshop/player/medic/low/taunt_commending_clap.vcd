@@ -1,0 +1,458 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "taunt_commending_clap_medic"
+    {
+      time 0.000000 4.966667
+      param "taunt_commending_clap_medic"
+    }
+  }
+  channel "face"
+  {
+    event expression "yellingUpper"
+    {
+      time 0.000000 4.933300
+      param "player\medic\emotion\emotion"
+      param2 "yellingUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.4667 0.0000
+        0.4834 0.0078
+        0.5000 0.0392
+        0.5167 0.0863
+        0.5333 0.1451
+        0.5500 0.2157
+        0.5667 0.2902
+        0.6000 0.4471
+        0.6167 0.5216
+        0.6334 0.5922
+        0.6500 0.6510
+        0.6667 0.6980
+        0.6834 0.7294
+        0.6999 0.7373
+        0.8834 0.7373
+        1.1667 0.7373
+        1.1834 0.7294
+        1.2000 0.6980
+        1.2167 0.6510
+        1.2334 0.5922
+        1.2500 0.5216
+        1.2667 0.4471
+        1.3000 0.2902
+        1.3167 0.2157
+        1.3334 0.1451
+        1.3500 0.0863
+        1.3667 0.0392
+        1.3834 0.0078
+        1.3999 0.0000
+        2.8000 0.0000
+        2.8084 0.0039
+        2.8167 0.0118
+        2.8334 0.0471
+        2.8500 0.1020
+        2.8667 0.1647
+        2.9000 0.3020
+        2.9167 0.3686
+        2.9334 0.4196
+        2.9500 0.4549
+        2.9666 0.4706
+        3.2667 0.4706
+        3.2751 0.4667
+        3.2834 0.4588
+        3.3000 0.4353
+        3.3167 0.3961
+        3.3334 0.3490
+        3.3500 0.2902
+        3.3834 0.1765
+        3.4000 0.1216
+        3.4167 0.0706
+        3.4334 0.0353
+        3.4500 0.0078
+        3.4666 0.0000
+        4.9333 0.0000
+      }
+    }
+    event expression "specialAction01Upper"
+    {
+      time 0.000000 4.933300
+      param "player\medic\emotion\emotion"
+      param2 "specialAction01Upper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2000 0.0000
+        0.2084 0.0039
+        0.2167 0.0275
+        0.2333 0.0980
+        0.2500 0.2039
+        0.2834 0.4353
+        0.3000 0.5412
+        0.3167 0.6118
+        0.3250 0.6314
+        0.3333 0.6392
+        0.4667 0.6392
+        0.4833 0.6314
+        0.5000 0.6039
+        0.5167 0.5647
+        0.5334 0.5137
+        0.5500 0.4510
+        0.5667 0.3882
+        0.6000 0.2510
+        0.6167 0.1843
+        0.6334 0.1255
+        0.6500 0.0745
+        0.6667 0.0353
+        0.6833 0.0078
+        0.6999 0.0000
+        4.9333 0.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 4.933300
+      param "player\medic\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.4000 0.0000
+        1.4167 0.0118
+        1.4333 0.0549
+        1.4500 0.1176
+        1.4667 0.1961
+        1.4833 0.2902
+        1.5000 0.3922
+        1.5334 0.6039
+        1.5500 0.7059
+        1.5667 0.8000
+        1.5834 0.8784
+        1.6000 0.9412
+        1.6167 0.9843
+        1.6333 1.0000
+        3.2667 1.0000
+        3.2751 0.9882
+        3.2834 0.9765
+        3.3000 0.9216
+        3.3167 0.8392
+        3.3334 0.7373
+        3.3500 0.6235
+        3.3834 0.3725
+        3.4000 0.2588
+        3.4167 0.1569
+        3.4334 0.0745
+        3.4500 0.0196
+        3.4667 0.0000
+        3.9334 0.0000
+        3.9500 0.0118
+        3.9667 0.0549
+        3.9833 0.1176
+        4.0000 0.1961
+        4.0167 0.2902
+        4.0333 0.3922
+        4.0667 0.6039
+        4.0833 0.7059
+        4.1000 0.8000
+        4.1167 0.8784
+        4.1333 0.9412
+        4.1500 0.9843
+        4.1666 1.0000
+        4.5667 1.0000
+        4.5833 0.9843
+        4.6000 0.9412
+        4.6167 0.8784
+        4.6333 0.8000
+        4.6500 0.7059
+        4.6667 0.6039
+        4.7000 0.3922
+        4.7167 0.2902
+        4.7333 0.1961
+        4.7500 0.1176
+        4.7667 0.0549
+        4.7833 0.0118
+        4.7999 0.0000
+        4.9333 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 4.933300
+      param "player\medic\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.1667 0.0000
+        1.1834 0.0118
+        1.2000 0.0549
+        1.2167 0.1176
+        1.2334 0.1961
+        1.2500 0.2902
+        1.2667 0.3922
+        1.3000 0.6039
+        1.3167 0.7059
+        1.3334 0.8000
+        1.3500 0.8784
+        1.3667 0.9412
+        1.3834 0.9843
+        1.4000 1.0000
+        1.4167 0.9843
+        1.4334 0.9412
+        1.4500 0.8784
+        1.4667 0.8000
+        1.4833 0.7059
+        1.5000 0.6039
+        1.5334 0.3922
+        1.5500 0.2902
+        1.5667 0.1961
+        1.5834 0.1176
+        1.6000 0.0549
+        1.6167 0.0118
+        1.6333 0.0000
+        4.9333 0.0000
+      }
+    }
+    event expression "happySmallUpper"
+    {
+      time 0.000000 4.933300
+      param "player\medic\emotion\emotion"
+      param2 "happySmallUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        3.2667 0.0000
+        3.2751 0.0078
+        3.2834 0.0196
+        3.3000 0.0745
+        3.3167 0.1569
+        3.3334 0.2588
+        3.3500 0.3725
+        3.3834 0.6235
+        3.4000 0.7373
+        3.4167 0.8392
+        3.4334 0.9216
+        3.4500 0.9765
+        3.4667 1.0000
+        3.9334 0.9961
+        3.9500 0.9843
+        3.9667 0.9412
+        3.9833 0.8784
+        4.0000 0.8000
+        4.0167 0.7059
+        4.0333 0.6039
+        4.0667 0.3922
+        4.0833 0.2902
+        4.1000 0.1961
+        4.1167 0.1176
+        4.1333 0.0549
+        4.1500 0.0118
+        4.1666 0.0000
+        4.9333 0.0000
+      }
+    }
+    event speak "medic_taunt_commending_clap_medic_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.354905 1.006470
+      param "engineer_taunt_neck_snap_engineer_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_clothes_swipe2"
+    {
+      time 1.466700 2.041031
+      param "medic_item_preview_medic_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap3"
+    {
+      time 1.566700 1.886700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap7"
+    {
+      time 1.766700 2.080396
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap2"
+    {
+      time 1.966700 2.275861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap2"
+    {
+      time 2.166700 2.486700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap1"
+    {
+      time 2.366700 2.686700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap3"
+    {
+      time 2.566700 2.875861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap2"
+    {
+      time 2.766700 3.080396
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap2"
+    {
+      time 2.966700 3.286700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap7"
+    {
+      time 3.166700 3.475861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap1"
+    {
+      time 3.366700 3.686700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap2"
+    {
+      time 3.566700 3.883027
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_pyro_taunt_clap3"
+    {
+      time 3.766700 4.086700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_clothes_swipe"
+    {
+      time 4.366700 4.667154
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_clothes_swipe2"
+    {
+      time 4.633400 4.966667
+      param "medic_item_preview_medic_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_equipment_jingle4"
+    {
+      time 0.666700 0.957675
+      param "medic_taunt_borrowed_bones_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_foot_stomp"
+    {
+      time 1.866700 2.092369
+      param "medic_item_preview_medic_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_foot_stomp_light"
+    {
+      time 4.833400 4.921926
+      param "medic_taunt_neck_snap_medic_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_medic_taunt_clothes_swipe2"
+    {
+      time -0.433400 4.966667
+      param "medic_taunt_commending_clap_medic_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_A"
+    {
+      time 0.431183 0.783836
+      param "medic_taunt_commending_clap_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_B"
+    {
+      time 1.415054 -1.000000
+      param "medic_taunt_commending_clap_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_commending_clap_C"
+    {
+      time 2.224731 4.109629
+      param "medic_taunt_commending_clap_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_item_preview_scout_taunt_clothes_rustle"
+    {
+      time 0.015054 0.315508
+      param "spy_item_preview_spy_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

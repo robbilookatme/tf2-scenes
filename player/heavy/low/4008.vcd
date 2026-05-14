@@ -1,0 +1,65 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "heavy_mvm_close_call02"
+    {
+      time 0.000000 4.095964
+      param "heavy_mvm_close_call02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "upperSuprise1"
+    {
+      time 0.027778 1.027778
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.0212 0.0353
+        0.2182 0.8000
+        0.3818 0.7725
+        0.5788 0.0235
+      }
+    }
+    event expression "upperUpset1"
+    {
+      time 0.425926 2.398148
+      param "player\heavy\emotion\emotion"
+      param2 "upperUpset1"
+      event_ramp
+      {
+        0.5515 0.0392
+        0.7242 0.6745
+        0.8545 0.0353
+      }
+    }
+    event expression "upperSad1"
+    {
+      time 1.037037 4.064815
+      param "player\heavy\emotion\emotion"
+      param2 "upperSad1"
+      event_ramp
+      {
+        0.0061 0.0157
+        0.0636 0.4314
+        1.5364 0.4706
+        2.5485 0.5059
+        2.8242 0.4118
+        3.0030 0.0157
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

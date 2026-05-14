@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.SpecialCompleted-AssistedKill02"
+    {
+      time 0.000000 1.590567
+      param "Spy.SpecialCompleted-AssistedKill02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.031250 5.072917
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.1091 0.1490
+        1.2000 0.1608
+        1.5688 0.6392
+        2.8063 0.6431
+        4.8125 0.6039
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

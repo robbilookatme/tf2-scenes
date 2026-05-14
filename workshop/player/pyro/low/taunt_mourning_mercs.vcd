@@ -1,0 +1,101 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_mourning_mercs_pyro"
+    {
+      time 0.000000 7.333333
+      param "taunt_mourning_mercs_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dummyBlend"
+    {
+      time 0.000000 7.333300
+      param "player\pyro\emotion\emotion"
+      param2 "dummyBlend"
+      event_ramp
+      {
+        0.0000 0.0000
+        7.3333 0.0000
+      }
+    }
+    event speak "pyro_taunt_rps_lose_03"
+    {
+      time 2.253333 4.363854
+      param "pyro_taunt_rps_lose_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Pyro01FootStomp"
+    {
+      time 6.073334 6.596735
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+    {
+      time 6.746667 7.362540
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+    {
+      time 7.140000 7.844580
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_yeti_standee_equipment_jingle2"
+    {
+      time 0.100000 1.220363
+      param "pyro_taunt_the_skating_scorcher_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_yeti_standee_equipment_jingle2"
+    {
+      time 2.253333 2.645896
+      param "pyro_taunt_the_skating_scorcher_taunt_equipment_gun2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_neck_snap_scout_body_medium_impact_soft7"
+    {
+      time 2.146667 2.658957
+      param "scout_taunt_neck_snap_scout_body_medium_impact_soft7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 5.593334 7.302541
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,57 @@
+// Choreo version 1
+event stoppoint "FireCompletion"
+{
+  time 2.778685 -1.000000
+  param ""
+}
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "SpeakEvent"
+    {
+      time 0.000000 2.778685
+      param "Heavy.Award14"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "upperHappy2"
+    {
+      time 0.010000 2.814716
+      param "player\heavy\emotion\emotion"
+      param2 "upperHappy2"
+      event_ramp
+      {
+        0.1667 0.7843
+        0.3212 0.9412
+        0.5618 0.8157
+        2.5495 0.8157
+      }
+    }
+    event expression "happy1"
+    {
+      time 2.638050 4.271383
+      param "player\heavy\emotion\emotion"
+      param2 "happy1"
+      event_ramp
+      {
+        0.2333 0.7412
+        0.9758 0.7412
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

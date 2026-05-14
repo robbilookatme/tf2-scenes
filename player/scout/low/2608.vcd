@@ -1,0 +1,56 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.TripleJump01"
+    {
+      time 0.000000 1.568004
+      param "Scout.TripleJump01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "ow"
+    {
+      time 0.000000 1.578431
+      param "player\scout\phonemes\phonemes"
+      param2 "ow"
+      event_ramp
+      {
+        0.1697 0.9137
+        0.3200 0.8824
+        0.4030 0.5686
+        0.5230 0.8784
+        0.5909 0.5490
+        0.6927 0.7922
+        0.7691 0.5412
+        0.8891 0.8784
+        1.2515 0.8078
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 2.470000
+      param "player\scout\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0917 0.4549
+        1.4993 0.5451
+        1.6420 0.8941
+        2.4200 0.9098
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,120 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_the_scaredycat_spy"
+    {
+      time 0.000000 4.066667
+      param "taunt_the_scaredycat_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "painBig"
+    {
+      time 0.000000 4.066700
+      param "player\spy\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0333 0.0000
+        0.1999 1.0000
+        1.5666 1.0000
+        1.6999 0.0000
+        4.0667 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 4.066700
+      param "player\spy\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.5666 0.0000
+        1.6999 1.0000
+        3.5000 1.0000
+        4.0665 0.0000
+        4.0667 0.0000
+      }
+    }
+    event speak "PDA.SpyClothesRustleLight"
+    {
+      time 0.000000 0.651565
+      param "PDA.SpyClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeScoutStep"
+    {
+      time 1.853333 2.079002
+      param "Taunt.YetiStandeeScoutStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSpyStep"
+    {
+      time 1.100000 1.325669
+      param "Taunt.YetiStandeeSpyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+    {
+      time 1.653333 3.362539
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Concrete.StepRight"
+    {
+      time 3.593333 4.074331
+      param "Concrete.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeSpyStep"
+    {
+      time 3.880000 4.105669
+      param "Taunt.YetiStandeeSpyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy.scardy_cat"
+    {
+      time 0.040000 -1.000000
+      param "spy.scardy_cat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy.scardy_cat_b"
+    {
+      time 3.226666 -1.000000
+      param "spy.scardy_cat_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

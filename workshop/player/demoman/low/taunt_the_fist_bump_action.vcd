@@ -1,0 +1,85 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "fist_bump_demo"
+    {
+      time 0.000000 3.966666
+      param "taunt_the_fist_bump_fistbump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "demo_fist_bump_demo_taunt_clothes_rustle"
+    {
+      time 0.033300 0.684865
+      param "Taunt.YetiStandeeDemoClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_taunt_shotgun_twirl"
+    {
+      time 0.066700 0.494092
+      param "Selection.ScoutShotgunTwirl"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_taunt_shotgun_twirl"
+    {
+      time 0.400000 0.827392
+      param "Selection.ScoutShotgunTwirl"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_boxing_gloves_swing2"
+    {
+      time 1.066700 1.625090
+      param "scout_taunt_the_trackmans_touchdown_boxing_gloves_swing2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_fist_bump_demo_taunt_equipment_jingle"
+    {
+      time 1.900000 2.346258
+      param "Taunt.Demo02EquipmentJingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "drunkHappy"
+    {
+      time 0.000000 3.969136
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.0000 1.0000
+        3.3565 1.0000
+      }
+    }
+    event speak "Demoman.BattleCry06"
+    {
+      time 2.148147 3.322387
+      param "taunt_demo_rps_win_27"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

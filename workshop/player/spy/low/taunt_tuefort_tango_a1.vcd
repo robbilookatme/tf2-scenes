@@ -1,0 +1,170 @@
+// Choreo version 1
+event loop "taunt_tuefort_tango_loop"
+{
+  time 6.486110 -1.000000
+  param "3.280000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_tuefort_tango"
+    {
+      time 0.000000 6.500000
+      param "taunt_tuefort_tango_a1"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+    {
+      time 0.080556 0.654887
+      param "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_cyoa_pda_equipment"
+    {
+      time 0.980556 1.672574
+      param "spy_taunt_tuefort_tango_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_yeti_standee_spy_clothes_rustle"
+    {
+      time 0.480556 1.132121
+      param "spy_taunt_tuefort_tango_taunt_yeti_standee_spy_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_cyoa_pda_clothes_rustle_long"
+    {
+      time 1.713856 2.871951
+      param "spy_taunt_tuefort_tango_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_foot_stomp_light"
+    {
+      time 2.713856 2.802382
+      param "spy_taunt_tuefort_tango_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 3.422256 4.422642
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 4.222256 5.219081
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 5.122256 6.122642
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 5.988856 6.985681
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "scared"
+    {
+      time 0.000000 6.511112
+      param "player\spy\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.6413 0.0000
+        1.8097 0.3412
+        2.0028 0.3216
+        2.1679 0.0000
+        6.2472 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 6.498737
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6703 0.0000
+        2.9776 0.9804
+        4.0847 0.9725
+        4.4777 0.0000
+        5.6465 0.0000
+        5.6515 0.0000
+        6.0285 1.0000
+        6.4987 1.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 6.516829
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2113 0.9137
+        0.6344 0.6784
+        1.5906 1.0000
+        1.9647 0.1020
+        2.2048 1.0000
+        2.7000 0.9882
+        2.8969 0.0000
+      }
+    }
+    event speak "spy_taunt_tuefort_tango_a1"
+    {
+      time 0.078807 -1.000000
+      param "spy_taunt_tuefort_tango_a1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_laugh"
+    {
+      time 3.034091 -1.000000
+      param "spy_taunt_tuefort_tango_laugh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

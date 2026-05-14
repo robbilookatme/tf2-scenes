@@ -1,0 +1,142 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "peace_scout"
+    {
+      time 0.000000 4.000000
+      param "taunt_peace_scout"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 4.000000
+      param "player\scout\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1000 0.1333
+        0.2666 0.8941
+        0.3666 1.0000
+        3.2000 1.0000
+        3.3999 0.0039
+        3.4999 1.0000
+        3.7000 1.0000
+        3.7999 0.5686
+        3.9999 0.0000
+        4.0000 0.0000
+      }
+    }
+    event speak "scout_peace_scout_scout_taunt_int_14"
+    {
+      time 1.133300 1.954706
+      param "scout_taunt_peace_VO_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_scout_positivevocalization04"
+    {
+      time 0.200000 1.041723
+      param "scout_taunt_peace_VO_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.097396 1.255491
+      param "scout_taunt_the_homerunners_hobby_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_taunt_yeti_standee_scout_swing"
+    {
+      time 0.233300 0.546679
+      param "Taunt.YetiStandeeScoutSwing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_taunt_equipment_gun1"
+    {
+      time 0.900000 2.020363
+      param "heavy_taunt_heavy_workout_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_dirt1"
+    {
+      time 0.833300 1.329672
+      param "medic_tauntdoctors_defibrillators_dirt1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_dirt3"
+    {
+      time 0.933300 1.548674
+      param "medic_taunt_bomb_voyage_medic_dirt4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_dirt4"
+    {
+      time 1.233300 1.729672
+      param "medic_tauntdoctors_defibrillators_dirt1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_dirt2"
+    {
+      time 1.366700 2.226065
+      param "medic_tauntdoctors_defibrillators_dirt2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_concrete4"
+    {
+      time 2.333300 2.814298
+      param "engineer_taunt_texas_twirl_em_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_cyoa_pda_clothes_rustle_light"
+    {
+      time 3.066700 3.718265
+      param "spy_taunt_neck_snap_spy_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_peace_scout_taunt_clothes_swipe2"
+    {
+      time 3.600000 4.000000
+      param "pyro_item_preview_pyro_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

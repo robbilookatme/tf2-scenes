@@ -1,0 +1,311 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_commending_clap_heavy"
+    {
+      time 0.000000 5.100000
+      param "taunt_commending_clap_heavy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 5.100000
+      param "player\heavy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.0000 0.0000
+        2.0167 0.0000
+        2.0334 0.0039
+        2.0500 0.0157
+        2.0834 0.0392
+        2.1500 0.0941
+        2.1834 0.1176
+        2.2000 0.1255
+        2.2167 0.1294
+        2.2333 0.1333
+        2.8999 0.1333
+        2.9167 0.1333
+        2.9334 0.1255
+        2.9667 0.1137
+        3.0000 0.0902
+        3.0667 0.0392
+        3.1000 0.0196
+        3.1334 0.0039
+        3.1500 0.0000
+        3.1666 0.0000
+        3.7334 0.0000
+        3.7500 0.0039
+        3.7667 0.0157
+        3.7834 0.0353
+        3.8000 0.0627
+        3.8167 0.0941
+        3.8334 0.1294
+        3.8500 0.1725
+        3.8667 0.2196
+        3.8834 0.2667
+        3.9167 0.3686
+        3.9667 0.5255
+        3.9834 0.5765
+        4.0000 0.6235
+        4.0167 0.6706
+        4.0334 0.7137
+        4.0500 0.7490
+        4.0667 0.7804
+        4.0834 0.8078
+        4.1000 0.8275
+        4.1167 0.8392
+        4.1334 0.8431
+        4.1417 0.8431
+        4.1500 0.8353
+        4.1667 0.8157
+        4.1834 0.7843
+        4.2000 0.7451
+        4.2334 0.6627
+        4.2500 0.6235
+        4.2667 0.5922
+        4.2834 0.5725
+        4.2999 0.5647
+        4.6667 0.5647
+        4.6834 0.5569
+        4.7000 0.5451
+        4.7167 0.5216
+        4.7334 0.4902
+        4.7500 0.4549
+        4.7667 0.4157
+        4.7834 0.3725
+        4.8334 0.2353
+        4.8500 0.1882
+        4.8667 0.1451
+        4.8834 0.1059
+        4.9000 0.0706
+        4.9167 0.0392
+        4.9334 0.0157
+        4.9500 0.0039
+        4.9667 0.0000
+        5.1000 0.0000
+      }
+    }
+    event expression "upperSuprise1"
+    {
+      time 0.000000 5.100000
+      param "player\heavy\emotion\emotion"
+      param2 "upperSuprise1"
+      event_ramp
+      {
+        0.0000 0.0000
+        3.7334 0.0000
+        3.7500 0.0000
+        3.7667 0.0039
+        3.7834 0.0078
+        3.8167 0.0235
+        3.8334 0.0314
+        3.8667 0.0510
+        3.9834 0.1412
+        4.0334 0.1765
+        4.0667 0.1922
+        4.0834 0.2000
+        4.1167 0.2078
+        4.1334 0.2078
+        4.1417 0.2078
+        4.1500 0.2039
+        4.1667 0.1882
+        4.1834 0.1647
+        4.2000 0.1333
+        4.2334 0.0706
+        4.2500 0.0431
+        4.2666 0.0196
+        4.2834 0.0039
+        4.2999 0.0000
+        5.1000 0.0000
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 0.000000 5.100000
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.1334 0.0000
+        4.1667 0.0000
+        4.2500 0.0196
+        4.2834 0.0235
+        4.6667 0.0235
+        4.7334 0.0196
+        4.9000 0.0000
+        4.9667 0.0000
+        5.1000 0.0000
+      }
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_gun1"
+    {
+      time 0.633400 1.753763
+      param "heavy_taunt_heavy_workout_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_gun2"
+    {
+      time 0.233400 0.625962
+      param "heavy_taunt_heavy_workout_taunt_equipment_gun2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_hard_clap1"
+    {
+      time 0.666700 0.986700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_hard_clap3"
+    {
+      time 1.333400 1.647096
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_hard_clap2"
+    {
+      time 2.000000 2.309161
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_hard_clap3"
+    {
+      time 2.666700 2.986700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_hard_clap1"
+    {
+      time 3.333400 3.653400
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_jingle"
+    {
+      time 0.700000 1.146258
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_jingle3"
+    {
+      time 1.366700 1.880169
+      param "demo_item_preview_demo_taunt_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_jingle2"
+    {
+      time 2.033400 2.372629
+      param "heavy_tauntrussian_rubdown_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_jingle"
+    {
+      time 2.700000 3.146259
+      param "medic_taunt_borrowed_bones_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_jingle4"
+    {
+      time 3.366700 3.657675
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_workout_pushup1"
+    {
+      time 0.066700 1.063525
+      param "heavy_tauntrussian_rubdown_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_clothes_swipe"
+    {
+      time 4.800000 5.100454
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_foot_stomp_light"
+    {
+      time 4.933400 5.021926
+      param "heavy_taunt_neck_snap_heavy_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_soviet_strongarm_rep_stretch_done"
+    {
+      time 4.000000 4.446304
+      param "heavy_taunt_soviet_strongarm_sand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_heavy_taunt_equipment_gun1"
+    {
+      time 4.033400 4.425962
+      param "heavy_taunt_soviet_strongarm_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_A"
+    {
+      time 1.073343 2.777516
+      param "heavy_taunt_commending_clap_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_commending_clap_B"
+    {
+      time 3.781024 5.100000
+      param "heavy_taunt_commending_clap_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

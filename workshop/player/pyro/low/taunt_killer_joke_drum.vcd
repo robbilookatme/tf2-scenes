@@ -1,0 +1,33 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_killer_joke_pyro"
+    {
+      time 0.000000 4.600000
+      param "taunt_killer_joke_pyro"
+    }
+  }
+  channel "face"
+  {
+    event speak "taunt_killer_joke_pyro"
+    {
+      time 3.107345 -1.000000
+      param "taunt_killer_joke_pyro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

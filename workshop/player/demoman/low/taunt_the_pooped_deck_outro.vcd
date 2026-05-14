@@ -1,0 +1,72 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "pooped_deck"
+    {
+      time 0.000000 1.966667
+      param "taunt_the_pooped_deck_end"
+      fixedlength
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 1.967696
+      param "player\demo\emotion\emotion"
+      param2 "defaultFace"
+    }
+  }
+  channel "face"
+  {
+    event speak "Taunt.DemoStaggerSlosh3"
+    {
+      time 0.750000 1.031565
+      param "Paintcan.ImpactHard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.EngineerClothesRustle"
+    {
+      time 1.226667 1.878232
+      param "PDA.DemoClothesRustleLightItch"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_headbutt_sfx_hand_swoosh"
+    {
+      time 1.253333 1.825464
+      param "taunt_headbutt_sfx_hand_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_burp_03"
+    {
+      time 0.040000 0.601633
+      param "taunt_demo_burp_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.DemoStaggerSlosh3"
+    {
+      time 0.615819 1.710513
+      param "Taunt.DemoStaggerSlosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

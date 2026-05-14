@@ -1,0 +1,245 @@
+// Choreo version 1
+event loop "taunt_the_road_rager_loop"
+{
+  time 7.953947 -1.000000
+  param "4.041000"
+  loopcount "255"
+}
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_the_road_rager"
+    {
+      time 0.000000 7.958333
+      param "taunt_the_road_rager_intro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 7.958333
+      param "player\heavy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0196
+        0.6867 0.0196
+        0.6967 0.0196
+        0.7167 0.0196
+        0.7267 0.0196
+        0.7367 0.0196
+        0.7567 0.0196
+        0.7967 0.0196
+        0.8067 0.0196
+        0.8167 0.0196
+        0.8567 0.0196
+        0.8750 0.0196
+        1.1233 0.0196
+        1.1250 0.0196
+        1.1350 0.0196
+        1.1433 0.0196
+        1.1450 0.0196
+        1.1550 0.0196
+        1.1633 0.0196
+        1.1650 0.0196
+        1.1750 0.0196
+        1.1850 0.0196
+        1.1950 0.0196
+        1.2050 0.0196
+        1.2250 0.0196
+        1.2350 0.0196
+        1.2500 0.0196
+        1.4367 0.0196
+        1.4567 0.0196
+        1.4667 0.0196
+        1.4767 0.0196
+        1.4867 0.0196
+        1.5067 0.0196
+        1.5167 0.0196
+        1.5267 0.0196
+        1.5367 0.0196
+        1.5467 0.0196
+        1.5667 0.0196
+      }
+    }
+    event expression "happybig02"
+    {
+      time 0.000000 7.953947
+      param "player\heavy\emotion\emotion"
+      param2 "happybig02"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.8333 0.0000
+        2.0417 0.6353
+        3.0417 0.0000
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 0.000000 7.953947
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.4167 0.0000
+        1.0833 0.6706
+        1.5833 0.6824
+        1.8333 0.3255
+        2.0417 0.0000
+        2.6667 0.3686
+        2.8750 0.0863
+        3.0417 0.1804
+        3.2500 0.1804
+        3.4583 0.5961
+        3.9133 1.0000
+        7.9539 1.0000
+      }
+    }
+    event expression "idleface"
+    {
+      time 0.000000 7.958333
+      param "player\heavy\emotion\emotion"
+      param2 "idleface"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6667 0.0000
+        2.8750 0.6275
+        3.2500 0.6275
+        3.4583 0.0000
+      }
+    }
+    event expression "dead01"
+    {
+      time 0.000000 7.958333
+      param "player\heavy\emotion\emotion"
+      param2 "dead01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2500 0.1922
+        0.8333 0.1922
+        1.0833 0.0000
+      }
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_foot_stomp"
+    {
+      time 0.271930 0.497599
+      param "heavy_taunt_heavy_workout_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_the_trackmans_touchdown_taunt_foot_stomp"
+    {
+      time 0.598086 0.823755
+      param "scout_taunt_the_trackmans_touchdown_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.HeavyClothesRustleLight"
+    {
+      time 0.175439 0.749770
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 1.614035 2.188366
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pda_clothes_rustle_long"
+    {
+      time 2.719298 4.428504
+      param "Taunt.RocketHoverClothes"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_equipment_gun2"
+    {
+      time 0.287480 0.800949
+      param "Taunt.Heavy03EquipmentJingleShort"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy03EquipmentJingleShort"
+    {
+      time 0.666667 1.180136
+      param "Taunt.Heavy03EquipmentJingleShort"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_tauntrussian_rubdown_taunt_foot_stomp_light"
+    {
+      time 1.810606 1.899132
+      param "heavy_tauntrussian_rubdown_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_road_rager_intro"
+    {
+      time 3.954546 -1.000000
+      param "heavy_taunt_road_rager_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_road_rager_flex"
+    {
+      time 1.833333 -1.000000
+      param "heavy_taunt_road_rager_flex"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.TankEndEngineStop"
+    {
+      time 0.181372 2.205454
+      param "Taunt.TankEndEngineStop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedStartLand"
+    {
+      time 0.480392 1.900619
+      param "Taunt.MopedStartLand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "MetalVehicle.ImpactHard"
+    {
+      time 3.250293 4.637527
+      param "BumperCar.Bump"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

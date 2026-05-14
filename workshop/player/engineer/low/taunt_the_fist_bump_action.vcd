@@ -1,0 +1,163 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "fist_bump_engineer"
+    {
+      time 0.000000 3.966666
+      param "taunt_the_fist_bump_fistbump"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "engineer_fist_bump_engineer_boxing_gloves_swing2"
+    {
+      time 1.362689 1.921079
+      param "scout_taunt_the_trackmans_touchdown_boxing_gloves_swing2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_clothes_rustle"
+    {
+      time 0.262689 0.914254
+      param "Taunt.YetiStandeeEngineerClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_hard_clap3"
+    {
+      time 0.762688 1.063119
+      param "Taunt.MedicHardClap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_hard_clap1"
+    {
+      time 0.329289 0.628994
+      param "Taunt.MedicHardClap1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_hard_clap2"
+    {
+      time 0.600508 0.900508
+      param "Taunt.MedicHardClap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_equipment_jingle"
+    {
+      time 1.062689 1.508947
+      param "pyro_spring_rider_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_clothes_swipe"
+    {
+      time 2.192654 2.598232
+      param "PDA.Swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_fist_bump_engineer_taunt_clothes_swipe2"
+    {
+      time 2.496489 3.070820
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBigClosed"
+    {
+      time -6.031074 3.968926
+      param "player\engineer\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.1000 0.0000
+        1.1084 0.0000
+        1.1167 0.0078
+        1.1333 0.0275
+        1.1500 0.0471
+        1.1667 0.0706
+        1.2167 0.1451
+        1.3667 0.3922
+        1.4167 0.4706
+        1.4500 0.5176
+        1.4667 0.5373
+        1.4833 0.5569
+        1.4999 0.5647
+        6.0000 0.5647
+        6.0833 0.5451
+        6.1833 0.5098
+        6.2833 0.4706
+        6.5333 0.3647
+        6.6000 0.3412
+        6.6667 0.3176
+        6.7333 0.2980
+        6.8000 0.2863
+        6.8667 0.2745
+        6.9332 0.2745
+        6.9667 0.2745
+        7.0000 0.2824
+        7.0333 0.2941
+        7.0667 0.3059
+        7.1000 0.3216
+        7.1500 0.3529
+        7.3000 0.4471
+        7.3500 0.4745
+        7.3833 0.4902
+        7.4333 0.5059
+        7.4667 0.5137
+        7.4999 0.5137
+        7.5333 0.5137
+        7.6833 0.4941
+        7.7833 0.4902
+        7.8500 0.4824
+        7.9333 0.4667
+        8.0167 0.4431
+        8.1167 0.4078
+        8.2333 0.3608
+        8.3333 0.3098
+        8.6500 0.1529
+        8.7500 0.1098
+        8.8333 0.0745
+        8.9333 0.0392
+        8.9833 0.0275
+        9.0333 0.0157
+        9.1167 0.0039
+        9.1667 0.0000
+        9.2000 0.0000
+        10.0000 0.0000
+      }
+    }
+    event speak "Engineer.Cheers01"
+    {
+      time 2.127119 3.514511
+      param "Engineer.Cheers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

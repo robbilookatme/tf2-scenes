@@ -1,0 +1,134 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_the_final_score_soldier"
+    {
+      time 0.000000 3.866667
+      param "taunt_the_final_score_soldier"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 3.866700
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0084 0.0157
+        0.0167 0.0471
+        0.0333 0.1373
+        0.0500 0.2471
+        0.0833 0.4706
+        0.1000 0.5804
+        0.1167 0.6824
+        0.1333 0.7804
+        0.1500 0.8588
+        0.1667 0.9255
+        0.1833 0.9765
+        0.1999 1.0000
+        3.3667 1.0000
+        3.3833 0.9961
+        3.4000 0.9843
+        3.4167 0.9686
+        3.4333 0.9569
+        3.4500 0.9294
+        3.4667 0.9059
+        3.4833 0.8863
+        3.5000 0.8549
+        3.5333 0.7961
+        3.5500 0.7608
+        3.5833 0.6902
+        3.6000 0.6510
+        3.6333 0.5686
+        3.6667 0.4863
+        3.7000 0.4000
+        3.8000 0.1373
+        3.8167 0.0902
+        3.8333 0.0510
+        3.8500 0.0157
+        3.8666 0.0000
+        3.8667 0.0000
+      }
+    }
+    event speak "soldier_taunt_the_final_score_soldier_soldier_laughshort01"
+    {
+      time 0.100000 1.252290
+      param "soldier_taunt_the_final_score_soldier_soldier_laughshort01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_soldier_jeers05"
+    {
+      time 1.500000 3.554966
+      param "soldier_taunt_the_final_score_soldier_soldier_jeers05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.066700 1.224795
+      param "soldier_taunt_the_final_score_soldier_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_cyoa_pda_clothes_rustle_light"
+    {
+      time 2.600000 3.251565
+      param "soldier_taunt_the_final_score_soldier_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_cyoa_pda_equipment"
+    {
+      time 1.433300 2.125318
+      param "soldier_taunt_the_final_score_soldier_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_taunt_heel_click"
+    {
+      time 1.533300 1.984774
+      param "soldier_taunt_the_final_score_soldier_taunt_heel_click"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_concrete2"
+    {
+      time 3.333300 3.956339
+      param "soldier_taunt_the_final_score_soldier_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_the_final_score_soldier_concrete4"
+    {
+      time 3.733300 4.214298
+      param "soldier_taunt_the_final_score_soldier_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

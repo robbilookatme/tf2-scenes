@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "taunt_the_critical_fail_engineer"
+    {
+      time 0.000000 3.466667
+      param "taunt_the_critical_fail_engineer"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "engineer_taunt_the_critical_fail_engineer_medic_jeers08"
+    {
+      time 1.233300 3.481667
+      param "engineer_taunt_the_critical_fail_engineer_medic_jeers08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.EngineerClothesRustleLight"
+    {
+      time 0.055000 0.706564
+      param "PDA.EngineerClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 0.955000 1.180669
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_clothes_swipe2"
+    {
+      time 1.015000 1.589331
+      param "demo_taunt_roar_owar_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_item_preview_demo_taunt_clothes_rustle"
+    {
+      time 2.675000 2.975454
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 3.281667 3.460669
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Engineer.NegativeVocalization04"
+    {
+      time 0.075000 2.902029
+      param "Engineer.NegativeVocalization07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Engineer.Jeers03"
+    {
+      time 1.348333 2.596406
+      param "Engineer.Jeers03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

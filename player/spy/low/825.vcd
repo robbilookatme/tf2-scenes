@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.SpecialCompleted10"
+    {
+      time 0.013889 1.215522
+      param "Spy.SpecialCompleted10"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "mad"
+    {
+      time 0.305556 5.083333
+      param "player\spy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.9182 0.8000
+        2.3364 0.8471
+        4.5677 0.8196
+      }
+    }
+    event expression "madUpper"
+    {
+      time 0.083333 1.180556
+      param "player\spy\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.1636 0.5608
+        0.9273 0.4549
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

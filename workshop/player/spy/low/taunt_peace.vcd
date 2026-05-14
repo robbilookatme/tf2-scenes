@@ -1,0 +1,109 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "peace_spy"
+    {
+      time 0.000000 4.000000
+      param "taunt_peace_spy"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 4.000000
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.5393 0.9373
+        3.8250 1.0000
+      }
+    }
+    event speak "spy_peace_spy_spy_highfive08"
+    {
+      time 0.266700 1.139716
+      param "Spy.HighFive08"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_spy_mvm_loot_common03"
+    {
+      time 2.833300 3.736452
+      param "spy_mvm_loot_common03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.200000 1.358095
+      param "PDA.MedicClothesRustleLong"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_taunt_yeti_standee_scout_swing"
+    {
+      time 2.300000 2.613379
+      param "Taunt.YetiStandeeScoutSwing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_taunt_yeti_standee_spy_swing"
+    {
+      time 0.800000 1.015918
+      param "Taunt.YetiStandeeSpySwing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_taunt_clothes_swipe2"
+    {
+      time 3.733300 4.000000
+      param "heavy_taunt_neck_snap_heavy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_concrete1"
+    {
+      time 1.900000 2.523038
+      param "pyro_taunt_roasty_toasty_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_concrete4"
+    {
+      time 2.533300 3.014298
+      param "pyro_taunt_roasty_toasty_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_peace_spy_taunt_clothes_rustle"
+    {
+      time 1.500000 3.209206
+      param "heavy_tauntrussian_rubdown_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

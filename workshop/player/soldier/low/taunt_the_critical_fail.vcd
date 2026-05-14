@@ -1,0 +1,197 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_the_critical_fail_soldier"
+    {
+      time 0.000000 3.366667
+      param "taunt_the_critical_fail_soldier"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "painSmallUpper"
+    {
+      time 0.000000 3.370000
+      param "player\soldier\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.8667 0.0000
+        0.8750 0.0000
+        0.8833 0.0157
+        0.9000 0.0667
+        0.9167 0.1294
+        0.9333 0.2157
+        0.9500 0.3059
+        0.9833 0.4902
+        1.0000 0.5804
+        1.0167 0.6588
+        1.0333 0.7373
+        1.0500 0.7961
+        1.0666 0.8353
+        1.0833 0.8667
+        1.1000 0.8863
+        1.1167 0.8941
+        1.1333 0.9059
+        1.1500 0.9059
+        1.1667 0.9059
+        1.1833 0.9059
+        1.2000 0.8941
+        1.2833 0.8510
+        1.3000 0.8471
+        1.3167 0.8353
+        1.3332 0.8353
+        1.6850 0.4824
+        1.7318 0.3765
+        1.8910 0.0000
+        2.6333 0.8353
+        2.6500 0.8392
+        2.6833 0.8510
+        2.7000 0.8510
+        2.7167 0.8510
+        2.7333 0.8353
+        2.7500 0.8157
+        2.7833 0.7804
+        2.8000 0.7608
+        2.8333 0.7098
+        2.9167 0.5843
+        2.9333 0.5608
+        3.3700 0.0000
+      }
+    }
+    event speak "soldier_taunt_the_critical_fail_soldier_medic_negativevocalization01"
+    {
+      time -0.033300 3.351063
+      param "soldier_taunt_the_critical_fail_soldier_medic_negativevocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 3.370000
+      param "player\soldier\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0667 0.0000
+        0.1417 1.0000
+        0.1667 0.9922
+        0.2000 0.9804
+        0.2167 0.9765
+        0.2333 0.9765
+        0.2500 0.9843
+        0.2667 0.0000
+        0.2750 0.0118
+        0.2833 0.0314
+        0.3000 0.0706
+        0.3167 0.1255
+        0.3500 0.2392
+        0.3667 0.2902
+        0.3833 0.3412
+        0.3999 0.3686
+        0.4084 0.3804
+        0.4167 0.3843
+        0.4333 0.4000
+        0.4500 0.4000
+        0.4667 0.3961
+        0.5167 0.3765
+        0.5332 0.3686
+        0.8667 0.3686
+        0.8750 0.3647
+        0.8833 0.3608
+        0.9000 0.3412
+        0.9167 0.3059
+        0.9333 0.2706
+        0.9500 0.2353
+        1.0000 0.1098
+        1.0167 0.0706
+        1.0333 0.0392
+        1.0500 0.0157
+        1.0666 0.0000
+        1.0833 0.9961
+        1.1000 0.9804
+        1.1167 0.9804
+        1.1333 0.9765
+        1.1500 0.9686
+        1.1667 0.9765
+        1.2000 0.9804
+        1.2833 1.0000
+        1.3167 0.0000
+        1.3332 0.0000
+        3.3700 0.0000
+      }
+    }
+    event speak "soldier_item_preview_soldier_taunt_clothes_swipe2"
+    {
+      time 0.028369 0.602700
+      param "soldier_item_preview_soldier_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.SoldierEquipment"
+    {
+      time 0.202128 0.894146
+      param "PDA.SoldierEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_taunt_clothes_swipe2"
+    {
+      time 1.042553 1.616884
+      param "soldier_tauntcan_it_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_swipe2"
+    {
+      time 2.741135 3.041588
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+    {
+      time 3.131206 3.372340
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Soldier.PainSharp03"
+    {
+      time 0.003546 0.372163
+      param "Soldier.PainSharp03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Soldier.Taunts04"
+    {
+      time 1.099291 2.196434
+      param "Soldier.NegativeVocalization03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

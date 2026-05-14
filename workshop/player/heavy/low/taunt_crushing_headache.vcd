@@ -1,0 +1,174 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_crushing_headache"
+    {
+      time 0.000000 4.416667
+      param "taunt_crushing_headache"
+    }
+  }
+  channel "face"
+  {
+    event expression "actionfire01"
+    {
+      time 0.000000 4.375000
+      param "player\heavy\emotion\emotion"
+      param2 "actionfire01"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.7083 0.0000
+        1.8332 1.0000
+        2.6667 1.0000
+        3.3749 0.0000
+        4.3750 0.0000
+      }
+    }
+    event expression "happysmall02"
+    {
+      time 0.000000 4.375000
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.6667 0.0000
+        3.3749 0.6667
+        3.7917 0.6667
+        4.0832 0.0000
+        4.3750 0.0000
+      }
+    }
+    event expression "idleface"
+    {
+      time 0.000000 4.375000
+      param "player\heavy\emotion\emotion"
+      param2 "idleface"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.5000 0.0000
+        0.7082 0.7725
+        1.7083 0.7725
+        1.8332 0.0000
+        4.3750 0.0000
+      }
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_medium_clap1"
+    {
+      time 2.958300 3.274627
+      param "heavy_taunt_neck_snap_heavy_taunt_medium_clap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_medium_clap2"
+    {
+      time 3.500000 3.816327
+      param "heavy_taunt_neck_snap_heavy_taunt_medium_clap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_medium_clap3"
+    {
+      time 3.820000 4.136326
+      param "heavy_item_preview_heavy_taunt_medium_clap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_step2"
+    {
+      time 0.250000 0.865873
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_step1"
+    {
+      time 0.791700 1.315101
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_equipment_light2"
+    {
+      time 0.208300 1.319592
+      param "heavy_item_preview_heavy_taunt_yeti_standee_heavy_equipment_light2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_equipment_light1"
+    {
+      time 1.708300 2.432971
+      param "heavy_taunt_neck_snap_heavy_taunt_yeti_standee_heavy_equipment_light1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_sorcery_staff_break"
+    {
+      time 1.708300 2.703084
+      param "soldier_tauntstarspangled_strategy_taunt_sorcery_staff_break"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_step2"
+    {
+      time 3.750000 4.365873
+      param "Taunt.YetiStandeeHeavyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_taunt_yeti_standee_heavy_step2"
+    {
+      time 4.000000 4.416667
+      param "Taunt.YetiStandeeHeavyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_1"
+    {
+      time 0.321428 -1.000000
+      param "heavy_taunt_crushing_headache_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_crushing_headache_2"
+    {
+      time 3.348639 -1.000000
+      param "heavy_taunt_crushing_headache_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_rustle"
+    {
+      time 2.741530 4.416667
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

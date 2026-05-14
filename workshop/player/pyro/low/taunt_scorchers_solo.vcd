@@ -1,0 +1,88 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 14.500000 -1.000000
+  param "1.333333"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "scorchers_solo"
+    {
+      time 0.000000 14.541667
+      param "taunt_scorchers_solo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "Taunt.MedicHardClap3"
+    {
+      time 0.458300 0.758731
+      param "Taunt.MedicHardClap3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_taunt_yeti_standee_pyro_step"
+    {
+      time -2.342592 -2.116923
+      param "Taunt.YetiStandeePyroStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeePyroEquipment"
+    {
+      time 1.125000 1.571259
+      param "pyro_spring_rider_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_scorchers_solo_cyoa_pda_fly_swoosh"
+    {
+      time 0.250000 0.648345
+      param "PDA.DemoFlySwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Wood_Box.ImpactHard"
+    {
+      time 0.791700 1.194376
+      param "Wood_Box.ImpactHard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_flip_random_flipAdmire"
+    {
+      time 0.125000 1.026973
+      param "pyro_taunt_flip_random_flipFlipping"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "music"
+    {
+      time 1.602065 14.047825
+      param "Taunt.scorchers_solo_music"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,146 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_neck_snap_pyro"
+    {
+      time 0.000000 6.466667
+      param "taunt_neck_snap_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.100000 0.751565
+      param "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_yeti_standee_equipment_jingle2"
+    {
+      time 0.500000 0.992744
+      param "pyro_taunt_neck_snap_pyro_taunt_yeti_standee_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_foot_stomp"
+    {
+      time 1.133300 1.358969
+      param "pyro_taunt_neck_snap_pyro_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_long"
+    {
+      time 1.066700 2.224795
+      param "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_equipment_jingle2"
+    {
+      time 1.666700 2.005929
+      param "pyro_taunt_neck_snap_pyro_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_pl_fallpain"
+    {
+      time 2.833300 3.350670
+      param "pyro_taunt_neck_snap_pyro_pl_fallpain"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_clothes_rustle"
+    {
+      time 2.800000 4.509206
+      param "pyro_taunt_neck_snap_pyro_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_foot_stomp"
+    {
+      time 3.400000 3.625669
+      param "pyro_taunt_neck_snap_pyro_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_foot_stomp_light"
+    {
+      time 3.833300 3.921826
+      param "pyro_taunt_neck_snap_pyro_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_clothes_swipe2"
+    {
+      time 4.600000 5.174331
+      param "pyro_taunt_neck_snap_pyro_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_pyro_taunt_workout_get_down"
+    {
+      time 5.266700 7.265883
+      param "pyro_taunt_neck_snap_pyro_taunt_workout_get_down"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_01"
+    {
+      time 0.040000 -1.000000
+      param "pyro_taunt_neck_snap_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_02"
+    {
+      time 3.040000 -1.000000
+      param "pyro_taunt_neck_snap_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_03"
+    {
+      time 4.653334 -1.000000
+      param "pyro_taunt_neck_snap_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_neck_snap_04"
+    {
+      time 5.773334 -1.000000
+      param "pyro_taunt_neck_snap_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

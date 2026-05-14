@@ -1,0 +1,304 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "taunt_peace_out"
+    {
+      time 0.000000 4.533333
+      param "taunt_peace_out"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 4.533300
+      param "player\scout\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.9000 0.0000
+        0.9084 0.0078
+        0.9167 0.0196
+        0.9333 0.0745
+        0.9500 0.1569
+        0.9667 0.2588
+        0.9833 0.3725
+        1.0167 0.6235
+        1.0333 0.7373
+        1.0500 0.8392
+        1.0667 0.9216
+        1.0833 0.9765
+        1.0999 1.0000
+        1.2667 1.0000
+        1.2833 0.9961
+        1.3000 0.9882
+        1.3167 0.9804
+        1.3333 0.9686
+        1.4000 0.9098
+        1.4167 0.8941
+        1.4333 0.8863
+        1.4500 0.8784
+        1.4666 0.8784
+        1.7000 0.8784
+        1.7167 0.8706
+        1.7333 0.8510
+        1.7500 0.8235
+        1.7667 0.7843
+        1.7833 0.7412
+        1.8000 0.6863
+        1.8167 0.6275
+        1.8333 0.5686
+        1.9000 0.3059
+        1.9167 0.2471
+        1.9333 0.1882
+        1.9500 0.1373
+        1.9667 0.0902
+        1.9833 0.0510
+        2.0000 0.0235
+        2.0167 0.0039
+        2.0332 0.0000
+        4.5333 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 4.533300
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1667 0.0000
+        0.1750 0.0078
+        0.1833 0.0275
+        0.2000 0.1020
+        0.2167 0.2157
+        0.2333 0.3490
+        0.2667 0.6471
+        0.2833 0.7804
+        0.3000 0.8941
+        0.3167 0.9686
+        0.3332 1.0000
+        0.9000 1.0000
+        0.9084 0.9882
+        0.9167 0.9765
+        0.9333 0.9216
+        0.9500 0.8392
+        0.9667 0.7373
+        0.9833 0.6235
+        1.0167 0.3725
+        1.0333 0.2588
+        1.0500 0.1569
+        1.0667 0.0745
+        1.0833 0.0196
+        1.0999 0.0000
+        1.7000 0.0000
+        1.7167 0.0039
+        1.7333 0.0275
+        1.7500 0.0588
+        1.7667 0.1020
+        1.7833 0.1529
+        1.8000 0.2157
+        1.8167 0.2784
+        1.8333 0.3490
+        1.9000 0.6471
+        1.9167 0.7176
+        1.9333 0.7804
+        1.9500 0.8431
+        1.9667 0.8941
+        1.9833 0.9373
+        2.0000 0.9686
+        2.0167 0.9922
+        2.0332 1.0000
+        4.1667 1.0000
+        4.1750 0.9882
+        4.1833 0.9765
+        4.2000 0.9216
+        4.2167 0.8392
+        4.2333 0.7412
+        4.2500 0.6235
+        4.2833 0.3765
+        4.3000 0.2588
+        4.3167 0.1569
+        4.3333 0.0745
+        4.3500 0.0196
+        4.3666 0.0000
+        4.5333 0.0000
+      }
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 4.533300
+      param "player\scout\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.5333 0.0000
+        2.5500 0.0000
+        2.5667 0.0118
+        2.5833 0.0235
+        2.6000 0.0392
+        2.6167 0.0627
+        2.6500 0.1098
+        2.7000 0.1843
+        2.7167 0.2078
+        2.7333 0.2275
+        2.7500 0.2471
+        2.7667 0.2588
+        2.7833 0.2667
+        2.8000 0.2706
+        2.8084 0.2706
+        2.8167 0.2627
+        2.8333 0.2431
+        2.8500 0.2118
+        2.8667 0.1765
+        2.9000 0.0941
+        2.9167 0.0588
+        2.9333 0.0275
+        2.9500 0.0078
+        2.9666 0.0000
+        4.5333 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 4.533300
+      param "player\scout\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.9000 0.0000
+        0.9084 0.0039
+        0.9167 0.0078
+        0.9333 0.0353
+        0.9500 0.0784
+        0.9667 0.1294
+        0.9833 0.1843
+        1.0167 0.3098
+        1.0333 0.3686
+        1.0500 0.4196
+        1.0667 0.4588
+        1.0833 0.4863
+        1.1000 0.4980
+        1.1084 0.4941
+        1.1167 0.4824
+        1.1333 0.4471
+        1.1500 0.3882
+        1.1667 0.3216
+        1.2000 0.1725
+        1.2167 0.1059
+        1.2333 0.0510
+        1.2500 0.0118
+        1.2666 0.0000
+        2.8000 0.0000
+        2.8084 0.0000
+        2.8167 0.0078
+        2.8333 0.0353
+        2.8500 0.0706
+        2.8667 0.1176
+        2.9000 0.2196
+        2.9167 0.2667
+        2.9333 0.3059
+        2.9500 0.3294
+        2.9667 0.3412
+        2.9833 0.3373
+        3.0000 0.3294
+        3.0167 0.3216
+        3.0333 0.3098
+        3.0500 0.2941
+        3.0667 0.2784
+        3.1000 0.2392
+        3.1333 0.1961
+        3.2000 0.1020
+        3.2333 0.0627
+        3.2500 0.0431
+        3.2667 0.0275
+        3.2833 0.0157
+        3.3000 0.0078
+        3.3167 0.0000
+        3.3332 0.0000
+        4.5333 0.0000
+      }
+    }
+    event speak "scout_taunt_peace_out_taunt_jackhammer_down_strike"
+    {
+      time 0.433300 1.612076
+      param "demo_taunt_roar_owar_taunt_jackhammer_down_strike"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out_cyoa_pda_equipment_light"
+    {
+      time 0.900000 1.488004
+      param "scout_item_preview_scout_cyoa_pda_equipment_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out_taunt_clothes_swipe2"
+    {
+      time 2.066700 2.641031
+      param "scout_item_preview_scout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out_metal_hit_hand3"
+    {
+      time 2.266700 2.420532
+      param "medic_tauntthe_head_doctor_metal_hit_hand3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out_taunt_jackhammer_down_strike"
+    {
+      time 3.033300 4.212075
+      param "demo_taunt_roar_owar_taunt_jackhammer_down_strike"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out_taunt_springrider_getup"
+    {
+      time 3.600000 4.451111
+      param "Taunt.Taunt.SpringRiderGetUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_peace_out"
+    {
+      time 0.715385 -1.000000
+      param "scout_taunt_peace_out"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+    {
+      time 0.120513 1.829719
+      param "scout_taunt_runners_rhythm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

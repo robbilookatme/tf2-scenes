@@ -1,0 +1,176 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.ThanksForTheTeleporter02"
+    {
+      time 0.000000 4.000000
+      param "Medic.ThanksForTheTeleporter02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "imported_flex"
+  {
+    event flexanimation "medic"
+    {
+      time 0.000000 1.555700
+      param ""
+      flexanimations samples_use_time
+      {
+        "NT"
+        {
+          0.2500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.3000 0.1882 curve_linear_interp_to_curve_linear_interp
+          0.3500 0.5255 curve_linear_interp_to_curve_linear_interp
+          0.4000 0.3216 curve_linear_interp_to_curve_linear_interp
+          0.4500 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "er"
+        {
+          1.1500 0.0000 curve_linear_interp_to_curve_linear_interp
+          1.2000 0.2000 curve_linear_interp_to_curve_linear_interp
+          1.2500 0.2000 curve_linear_interp_to_curve_linear_interp
+          1.3000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "EE"
+        {
+          0.3500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.4500 0.7725 curve_linear_interp_to_curve_linear_interp
+          0.5000 0.1490 curve_linear_interp_to_curve_linear_interp
+          0.5500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.8500 0.0157 curve_linear_interp_to_curve_linear_interp
+          0.9000 0.4118 curve_linear_interp_to_curve_linear_interp
+          0.9500 0.3333 curve_linear_interp_to_curve_linear_interp
+          1.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "Y"
+        {
+          1.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+          1.1000 1.0000 curve_linear_interp_to_curve_linear_interp
+          1.1500 1.0000 curve_linear_interp_to_curve_linear_interp
+          1.2000 0.8000 curve_linear_interp_to_curve_linear_interp
+          1.2500 0.1725 curve_linear_interp_to_curve_linear_interp
+          1.3000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "sh"
+        {
+          0.0500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.6500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.7000 0.1490 curve_linear_interp_to_curve_linear_interp
+          0.7500 0.7725 curve_linear_interp_to_curve_linear_interp
+          0.8000 1.0000 curve_linear_interp_to_curve_linear_interp
+          0.8500 0.3725 curve_linear_interp_to_curve_linear_interp
+          0.9000 0.0000 curve_linear_interp_to_curve_linear_interp
+          1.0000 1.0000 curve_linear_interp_to_curve_linear_interp
+          1.1000 0.0000 curve_linear_interp_to_curve_linear_interp
+          1.3000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "silence"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "OH"
+        {
+          0.8000 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.8500 0.6000 curve_linear_interp_to_curve_linear_interp
+          0.9000 0.3490 curve_linear_interp_to_curve_linear_interp
+          0.9500 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "AW"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "OO"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "DS"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.0500 0.2235 curve_linear_interp_to_curve_linear_interp
+          0.1000 0.6000 curve_linear_interp_to_curve_linear_interp
+          0.1500 0.1216 curve_linear_interp_to_curve_linear_interp
+          0.2000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "PP"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "MB"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "UH"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "ae"
+        {
+          0.0500 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.1000 0.2471 curve_linear_interp_to_curve_linear_interp
+          0.1500 0.8745 curve_linear_interp_to_curve_linear_interp
+          0.2000 1.0000 curve_linear_interp_to_curve_linear_interp
+          0.2500 1.0000 curve_linear_interp_to_curve_linear_interp
+          0.3000 0.6471 curve_linear_interp_to_curve_linear_interp
+          0.3500 0.0235 curve_linear_interp_to_curve_linear_interp
+          0.4000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "ah"
+        {
+          0.4000 0.0000 curve_linear_interp_to_curve_linear_interp
+          0.4500 0.2235 curve_linear_interp_to_curve_linear_interp
+          0.5000 0.8471 curve_linear_interp_to_curve_linear_interp
+          0.5500 1.0000 curve_linear_interp_to_curve_linear_interp
+          0.6500 1.0000 curve_linear_interp_to_curve_linear_interp
+          0.7000 0.8471 curve_linear_interp_to_curve_linear_interp
+          0.7500 0.2235 curve_linear_interp_to_curve_linear_interp
+          0.8000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "FV"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "WQ"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "TH"
+        {
+          0.0000 0.0000 curve_linear_interp_to_curve_linear_interp
+        }
+        "eyes_updown"
+        {
+          0.0000 0.4980 curve_linear_interp_to_curve_linear_interp
+        }
+        "eyes_rightleft"
+        {
+          0.0000 0.4980 curve_linear_interp_to_curve_linear_interp
+        }
+      }
+    }
+  }
+  channel "imported sounds"
+  {
+    event speak "Medic.ThanksForTheTeleporter03"
+    {
+      time 0.000000 1.555700
+      param "Medic.ThanksForTheTeleporter03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

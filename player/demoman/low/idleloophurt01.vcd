@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "demoman"
+{
+  channel "audio"
+  {
+    event expression "pain"
+    {
+      time 0.027778 14.569445
+      param "player\demo\emotion\emotion"
+      param2 "pain"
+      event_ramp
+      {
+        0.5369 0.8902
+        2.1692 0.9686
+        2.8077 0.7294
+        3.5385 0.7804
+        4.9769 0.6627
+        5.7538 0.9882
+        7.4769 0.9373
+        9.8385 0.8902
+        11.4538 0.9686
+        12.6077 0.8902
+        14.0148 1.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

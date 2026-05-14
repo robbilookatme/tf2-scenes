@@ -1,0 +1,41 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "audio"
+  {
+    event speak "Heavy.PainSharp03"
+    {
+      time 0.000000 0.568163
+      param "Heavy.PainSharp03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "upset1"
+    {
+      time 0.016667 1.380000
+      param "player\heavy\emotion\emotion"
+      param2 "upset1"
+      event_ramp
+      {
+        0.1667 0.9843
+        0.2909 0.7098
+        0.4354 0.8157
+        0.8030 0.7686
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

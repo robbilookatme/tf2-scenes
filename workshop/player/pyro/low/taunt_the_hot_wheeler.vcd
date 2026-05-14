@@ -1,0 +1,104 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 11.962963 -1.000000
+  param "3.400000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_the_hot_wheeler"
+    {
+      time 0.000000 12.000000
+      param "taunt_the_hot_wheeler"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_the_hot_wheeler_pyro_highfive_success02"
+    {
+      time 0.842693 2.226094
+      param "Pyro.HighFiveSuccess02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_hot_wheeler_pyro_painsharp01"
+    {
+      time 0.208300 0.498300
+      param "Pyro.PainSharp01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.PyroClothesRustleLight"
+    {
+      time 0.078431 0.729996
+      param "PDA.PyroClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 1.256336 1.830667
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedEndShake"
+    {
+      time 2.721904 3.975646
+      param "Taunt.MopedWheelieLand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 5.313409 5.366924
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 6.073372 6.126887
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap"
+    {
+      time 5.746205 5.799720
+      param "Taunt.Demo01HandClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.MedicClothesRustleLight"
+    {
+      time 2.277921 2.852252
+      param "scout_taunt_the_trackmans_touchdown_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

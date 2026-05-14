@@ -1,0 +1,129 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "taunt_the_scaredycat_engineer"
+    {
+      time 0.000000 5.600000
+      param "taunt_the_scaredycat_engineer"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "scared"
+    {
+      time 0.000000 5.600000
+      param "player\engineer\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0667 0.6667
+        0.0999 1.0000
+        3.0000 1.0000
+        3.2999 0.4902
+        4.5667 0.4902
+        4.7666 0.0000
+        5.4333 0.0000
+        5.4667 0.0000
+        5.5000 0.0000
+        5.5333 0.0000
+        5.5667 0.0000
+        5.6000 0.0000
+        5.6000 0.0000
+      }
+    }
+    event speak "Taunt.YetiStandeeEngineerClothesRustle"
+    {
+      time 0.000000 1.709206
+      param "Taunt.SurgeonsSqueezeboxDrawClothes"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedEndScoutFoot1"
+    {
+      time 0.181159 0.406828
+      param "Taunt.MopedEndScoutFoot1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.HeavyClothesRustleLight"
+    {
+      time 2.318841 2.970406
+      param "PDA.HeavyClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy01ClothesRustle"
+    {
+      time 4.304348 6.013555
+      param "Taunt.Heavy01ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.WorkOutFoot1"
+    {
+      time 5.427536 5.688330
+      param "Taunt.WorkOutFoot1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_bucking_bronco_taunt_equipment_jingle4"
+    {
+      time 2.362319 2.653294
+      param "engineer_bucking_bronco_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer.scardy_cat"
+    {
+      time 0.079710 -1.000000
+      param "engineer.scardy_cat"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Demo01HandClap2"
+    {
+      time 4.891304 4.938469
+      param "Taunt.Demo01HandClap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer.scardy_cat_b"
+    {
+      time 4.913044 -1.000000
+      param "engineer.scardy_cat_b"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Heavy03ClothesSwipe"
+    {
+      time 4.811594 5.112048
+      param "Taunt.Heavy03ClothesSwipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

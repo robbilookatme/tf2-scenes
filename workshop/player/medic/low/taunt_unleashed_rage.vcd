@@ -1,0 +1,192 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "taunt_unleashed_rage_medic"
+    {
+      time 0.000000 5.625000
+      param "taunt_unleashed_rage_medic"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "madUpper"
+    {
+      time -0.005556 5.625000
+      param "player\medic\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0208 0.0588
+        0.0417 0.1255
+        0.1250 0.4000
+        0.1458 0.4667
+        0.1667 0.5255
+        0.1875 0.5843
+        0.2083 0.6353
+        0.2292 0.6902
+        0.2499 0.7255
+        0.2604 0.7451
+        0.2708 0.7569
+        0.2917 0.7647
+        0.3125 0.7686
+        0.3333 0.7608
+        0.3750 0.7451
+        0.3958 0.7294
+        0.4166 0.7255
+        4.7500 0.7255
+        4.7917 0.7294
+        4.8750 0.7490
+        4.9167 0.7608
+        4.9375 0.7608
+        4.9583 0.7608
+        4.9792 0.7608
+        5.0000 0.7490
+        5.0208 0.7451
+        5.0417 0.7255
+        5.0625 0.7059
+        5.1042 0.6706
+        5.1667 0.6000
+        5.2292 0.5255
+        5.2917 0.4510
+        5.3542 0.3608
+        5.5208 0.1294
+        5.5833 0.0510
+        5.6250 0.0000
+      }
+    }
+    event speak "medic_taunt_unleashed_rage_medic_soldier_paincrticialdeath02"
+    {
+      time 4.277778 5.206576
+      param "Medic.NegativeVocalization04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_unleashed_rage_medic_soldier_taunts01"
+    {
+      time 0.211144 1.229919
+      param "Medic.Jeers01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Medic.Jeers04"
+    {
+      time 2.833333 3.907256
+      param "Medic.NegativeVocalization06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Medic.Jeers12"
+    {
+      time 1.505556 2.605601
+      param "Medic.NegativeVocalization07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_item_preview_medic_taunt_surgeons_squeezebox_draw_clothes"
+    {
+      time 0.133335 0.707666
+      param "Selection.SpyClothesRustle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_taunt_neck_snap_medic_taunt_clothes_swipe2"
+    {
+      time 1.572222 2.146553
+      param "medic_taunt_neck_snap_medic_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_item_preview_sniper_taunt_yeti_standee_sniper_clothes_rustle"
+    {
+      time 4.405557 5.625000
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_neck_snap_spy_taunt_clothes_swipe2"
+    {
+      time 3.038890 3.613221
+      param "spy_taunt_neck_snap_spy_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+    {
+      time 4.849999 5.373400
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeMedicStep"
+    {
+      time 0.450000 0.675669
+      param "Taunt.YetiStandeeMedicStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle"
+    {
+      time 1.683334 2.129592
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+    {
+      time 3.212699 3.726168
+      param "medic_tauntdoctors_defibrillators_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_clothes_swipe2"
+    {
+      time 4.650000 5.224331
+      param "demo_taunt_roar_owar_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_item_preview_engineer_taunt_foot_stomp_light"
+    {
+      time 5.322222 5.410748
+      param "engineer_item_preview_engineer_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+    {
+      time 4.888889 5.179864
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

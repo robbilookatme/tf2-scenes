@@ -1,0 +1,40 @@
+// Choreo version 1
+actor "demoman"
+{
+  channel "audio"
+  {
+    event speak "Demoman.BattleCry03"
+    {
+      time 0.000000 2.263946
+      param "Demoman.BattleCry03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.000000 4.458333
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.0424 0.6510
+        0.7697 0.6863
+        0.9606 0.8824
+        1.1000 0.7373
+        1.2364 0.9373
+        4.3152 0.8980
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,94 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_shanty_shipmate"
+    {
+      time 0.000000 1.833333
+      param "taunt_shanty_shipmate_outro"
+      fixedlength
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 1.847859
+      param "player\demo\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.5300 0.1412
+        1.1120 1.0000
+        1.8479 1.0000
+      }
+    }
+  }
+  channel "face"
+  {
+    event speak "PDA.EngineerClothesRustleLight"
+    {
+      time 0.000000 1.158095
+      param "PDA.MedicClothesRustleLong"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 1.181111 1.755442
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Sniper02FootStomp"
+    {
+      time 0.598958 0.824627
+      param "Taunt.BunnyHopperStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeDemoStep"
+    {
+      time 0.916667 1.621248
+      param "Taunt.YetiStandeeDemoStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_equipment_gun1"
+    {
+      time 0.723958 1.844321
+      param "heavy_taunt_heavy_workout_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeEngineerHopStep"
+    {
+      time 1.442708 1.668377
+      param "Taunt.YetiStandeeEngineerHopStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo.shanty_shipmate_outro"
+    {
+      time 0.036458 -1.000000
+      param "demo.shanty_shipmate_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

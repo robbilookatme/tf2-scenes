@@ -1,0 +1,158 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "sniper"
+  {
+    event sequence "peace_sniper"
+    {
+      time 0.000000 4.000000
+      param "taunt_peace_sniper"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBigClosed"
+    {
+      time 0.000000 4.000000
+      param "player\sniper\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0084 0.0039
+        0.0167 0.0157
+        0.0333 0.0627
+        0.0500 0.1333
+        0.0833 0.2863
+        0.1000 0.3529
+        0.1167 0.4000
+        0.1332 0.4196
+        0.1417 0.4275
+        0.1500 0.4431
+        0.1833 0.5412
+        0.1999 0.5647
+        0.2084 0.5686
+        0.2167 0.5765
+        0.2333 0.6039
+        0.2667 0.6784
+        0.2833 0.7059
+        0.3000 0.7176
+        0.3084 0.7294
+        0.3167 0.7608
+        0.3500 0.9529
+        0.3666 1.0000
+        0.4750 0.0000
+        0.5333 0.0078
+        0.8167 0.0039
+        0.9750 0.0039
+        1.0666 1.0000
+        1.8000 1.0000
+        1.8333 0.0000
+        1.8833 0.0118
+        1.9000 0.0118
+        2.0999 0.9961
+        2.9500 0.9961
+        3.0833 0.9922
+        3.4833 0.9725
+        3.5833 0.9686
+        3.8000 0.9686
+        3.8084 0.9608
+        3.8167 0.9490
+        3.8333 0.8941
+        3.8500 0.8157
+        3.8667 0.7176
+        3.8833 0.6039
+        3.9167 0.3647
+        3.9333 0.2510
+        3.9500 0.1529
+        3.9667 0.0706
+        3.9833 0.0196
+        3.9999 0.0000
+        4.0000 0.0000
+      }
+    }
+    event speak "sniper_peace_sniper_sniper_taunt_admire_06"
+    {
+      time 1.933300 3.869763
+      param "sniper_taunt_peace_VO_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_sniper_cheers05"
+    {
+      time 0.166700 1.699217
+      param "Sniper.Cheers05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.066700 1.224795
+      param "pyro_item_preview_pyro_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.900000 1.551565
+      param "soldier_item_preview_soldier_taunt_yeti_standee_soldier_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_taunt_clothes_swipe"
+    {
+      time 2.666700 2.967153
+      param "engineer_taunt_texas_twirl_em_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_taunt_clothes_swipe2"
+    {
+      time 3.666700 4.000000
+      param "engineer_taunt_texas_twirl_em_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_concrete4"
+    {
+      time 0.366700 0.847698
+      param "engineer_taunt_texas_twirl_em_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_concrete2"
+    {
+      time 1.600000 2.223039
+      param "engineer_taunt_texas_twirl_em_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "sniper_peace_sniper_concrete4"
+    {
+      time 3.900000 4.000000
+      param "medic_tauntthe_head_doctor_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

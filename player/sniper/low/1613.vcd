@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.BattleCry02"
+    {
+      time -0.010417 0.842917
+      param "Sniper.BattleCry02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "AggresiveClosed"
+    {
+      time 0.010417 1.656250
+      param "player\sniper\emotion\emotion"
+      param2 "AggresiveClosed"
+      event_ramp
+      {
+        0.1333 0.5686
+        0.3455 0.6000
+        0.4909 0.9608
+        0.6515 0.9922
+        0.7697 0.8431
+        1.4394 0.7961
+      }
+    }
+    event expression "AggresiveClosed"
+    {
+      time 1.031250 3.375000
+      param "player\sniper\emotion\emotion"
+      param2 "AggresiveClosed"
+      event_ramp
+      {
+        0.5394 1.0000
+        2.1212 0.9961
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

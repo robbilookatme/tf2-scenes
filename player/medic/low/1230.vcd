@@ -1,0 +1,50 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "audio"
+  {
+    event speak "Medic.LaughShort03"
+    {
+      time 0.000000 0.946213
+      param "Medic.LaughShort03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "evilHappy"
+    {
+      time 0.010417 2.489583
+      param "player\medic\emotion\emotion"
+      param2 "evilHappy"
+      event_ramp
+      {
+        0.0364 0.7765
+        2.4424 0.7608
+      }
+    }
+    event expression "jawOpen"
+    {
+      time 0.000000 1.000000
+      param "player\medic\emotion\emotion"
+      param2 "jawOpen"
+      event_ramp
+      {
+        0.3606 0.0039
+        0.5212 0.0000
+        0.6727 0.0980
+        0.7879 0.0941
+        0.8697 0.0039
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

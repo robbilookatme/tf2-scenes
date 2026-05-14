@@ -1,0 +1,51 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "audio"
+  {
+    event speak "Engineer.CloakedSpy03"
+    {
+      time 0.000000 1.787936
+      param "Engineer.CloakedSpy03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "madUpper"
+    {
+      time -0.010417 1.958334
+      param "player\engineer\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.2121 0.9765
+        1.6906 1.0000
+      }
+    }
+    event expression "mad"
+    {
+      time 1.583333 4.197917
+      param "player\engineer\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.4983 0.6980
+        0.8963 0.6980
+        1.3996 0.6980
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

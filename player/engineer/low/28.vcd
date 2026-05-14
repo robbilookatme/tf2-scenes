@@ -1,0 +1,64 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "audio"
+  {
+    event speak "Engineer.AutoOnFire01"
+    {
+      time 0.000000 2.530975
+      param "Engineer.AutoOnFire01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "painBigUpper"
+    {
+      time 0.020833 3.093750
+      param "player\engineer\emotion\emotion"
+      param2 "painBigUpper"
+      event_ramp
+      {
+        0.3152 1.0000
+        2.3424 1.0000
+        3.0729 0.0000
+      }
+    }
+    event expression "painBig"
+    {
+      time 2.291667 3.916667
+      param "player\engineer\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.4333 0.9843
+        0.6636 0.6510
+        0.9079 0.7137
+        1.1170 0.6039
+      }
+    }
+    event expression "painSmall"
+    {
+      time 3.375000 5.552083
+      param "player\engineer\emotion\emotion"
+      param2 "painSmall"
+      event_ramp
+      {
+        0.4758 1.0000
+        1.1000 1.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

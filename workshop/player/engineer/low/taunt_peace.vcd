@@ -1,0 +1,117 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "peace_engineer"
+    {
+      time 0.000000 4.000000
+      param "taunt_peace_engineer"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happyBigClosed"
+    {
+      time 0.000000 4.000000
+      param "player\engineer\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0666 0.0000
+        0.2333 0.8431
+        0.8333 0.9961
+        3.6666 0.8863
+        3.7332 0.4314
+        3.8332 0.3569
+        3.9332 0.2275
+        4.0000 0.0000
+        4.0000 0.0000
+      }
+    }
+    event speak "engineer_peace_engineer_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.166700 0.818265
+      param "heavy_taunt_bomb_voyage_heavy_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_cyoa_pda_equipment"
+    {
+      time 0.433300 1.125318
+      param "engineer_taunt_bomb_voyage_engineer_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_heavy_taunt_chest_hit1"
+    {
+      time 2.000000 2.480952
+      param "engineer_taunt_texas_twirl_em_taunt_yeti_chest_hit7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_heavy_taunt_chest_hit3"
+    {
+      time 1.766700 2.061598
+      param "heavy_taunt_flip_random_chesthits"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_engineer_specialcompleted01"
+    {
+      time 0.100000 2.514875
+      param "Engineer.SpecialCompleted01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_taunt_clothes_rustle"
+    {
+      time 1.466700 3.175906
+      param "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_taunt_clothes_swipe2"
+    {
+      time 3.400000 3.974331
+      param "engineer_taunt_texas_twirl_em_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_concrete4"
+    {
+      time 3.733300 4.000000
+      param "pyro_taunt_roasty_toasty_concrete3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_peace_engineer_concrete1"
+    {
+      time 0.366700 0.898265
+      param "engineer_taunt_texas_twirl_em_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

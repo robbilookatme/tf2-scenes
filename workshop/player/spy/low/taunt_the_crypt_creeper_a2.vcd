@@ -1,0 +1,129 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 4.603175 -1.000000
+  param "3.200000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_the_crypt_creeper_intro"
+    {
+      time 0.000000 4.633334
+      param "taunt_the_crypt_creeper_A2"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "spy_taunt_the_crypt_creeper_spy_taunts06"
+    {
+      time 0.026950 0.653889
+      param "spy_taunt_the_crypt_creeper_spy_taunts06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_the_crypt_creeper_spy_mvm_resurrect09"
+    {
+      time 1.026950 1.930102
+      param "spy_taunt_the_crypt_creeper_spy_mvm_resurrect09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 4.633366
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0740 0.0000
+        0.2532 1.0000
+        2.5780 1.0000
+        2.8254 0.0000
+        4.6254 0.0000
+      }
+    }
+    event expression "defaultFace"
+    {
+      time 0.000000 4.625427
+      param "player\spy\emotion\emotion"
+      param2 "defaultFace"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.8094 0.0000
+        2.9800 1.0000
+        4.6254 0.9765
+        4.6254 0.9216
+        4.6254 0.7373
+        4.6254 0.2549
+        4.6254 0.0706
+        4.6254 0.0000
+        4.6254 1.0000
+      }
+    }
+    event speak "Wood_Crate.ImpactHard"
+    {
+      time 0.015873 0.455215
+      param "Wood_Crate.ImpactHard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_item_preview_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 2.134920 2.435373
+      param "Taunt.Soldier03ClothesSwipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_spring_rider_taunt_clothes_swipe2"
+    {
+      time 0.849206 1.423537
+      param "pyro_spring_rider_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Breakable.Crate"
+    {
+      time 2.952381 4.008889
+      param "Wood_Crate.ImpactHard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.DemoFlySwoosh"
+    {
+      time 2.753968 3.152313
+      param "PDA.DemoFlySwoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 0.333333 0.633786
+      param "demo_taunt_roar_owar_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

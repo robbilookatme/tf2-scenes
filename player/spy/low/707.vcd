@@ -1,0 +1,37 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "audio"
+  {
+    event speak "Spy.BattleCry04"
+    {
+      time 0.000000 0.786576
+      param "Spy.BattleCry04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "specialAction01Upper"
+    {
+      time 0.052083 5.093750
+      param "player\spy\emotion\emotion"
+      param2 "specialAction01Upper"
+      event_ramp
+      {
+        0.1459 0.6745
+        1.2357 0.5725
+        4.7286 0.6588
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

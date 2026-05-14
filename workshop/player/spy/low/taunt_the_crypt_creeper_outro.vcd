@@ -1,0 +1,112 @@
+// Choreo version 1
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_the_crypt_creeper_intro"
+    {
+      time 0.000000 2.116667
+      param "taunt_the_crypt_creeper_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "spy_taunt_the_crypt_creeper_spy_mvm_resurrect06"
+    {
+      time 0.309556 1.521710
+      param "spy_taunt_the_crypt_creeper_spy_mvm_resurrect06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_the_skating_scorcher_projectile_swoosh5"
+    {
+      time 0.146521 0.616634
+      param "engineer_taunt_texas_twirl_em_projectile_swoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+    {
+      time 0.587302 2.116667
+      param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+    {
+      time 1.031746 1.555147
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+    {
+      time 1.658730 2.116667
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+    {
+      time 1.904763 2.116667
+      param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 2.109556
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.8318 0.0000
+        1.0708 0.5373
+        1.7508 0.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 2.109556
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.1048 0.0000
+        0.2219 1.0000
+        0.3871 0.9647
+        0.5532 0.9216
+        0.6742 0.9216
+        0.7548 0.8000
+        0.8516 0.0000
+      }
+    }
+    event speak "Wood_Crate.ImpactHard"
+    {
+      time 0.025641 0.588974
+      param "Wood_Crate.ImpactHard"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

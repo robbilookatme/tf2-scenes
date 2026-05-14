@@ -1,0 +1,52 @@
+// Choreo version 1
+actor "sniper"
+{
+  channel "audio"
+  {
+    event speak "Sniper.LaughHappy01"
+    {
+      time 0.000000 1.184218
+      param "Sniper.LaughHappy01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "n"
+    {
+      time 0.930556 5.555555
+      param "player\sniper\phonemes\phonemes"
+      param2 "n"
+      event_ramp
+      {
+        0.4050 0.7725
+        4.4444 0.7647
+      }
+    }
+  }
+  channel "emotion"
+  {
+    event expression "happyBig"
+    {
+      time 0.000000 5.614583
+      param "player\sniper\emotion\emotion"
+      param2 "happyBigClosed"
+      event_ramp
+      {
+        0.0485 0.7137
+        0.6333 0.8627
+        1.3970 0.7608
+        5.3650 0.7137
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

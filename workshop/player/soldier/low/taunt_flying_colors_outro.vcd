@@ -1,0 +1,63 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_flag_soldier"
+    {
+      time 0.000000 0.466667
+      param "taunt_flag_soldier_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "emotion"
+    {
+      time -7.641548 0.551786
+      param ""
+      flexanimations samples_use_time
+      {
+        "mad"
+        {
+          0.1640 0.0078 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.4753 0.2784 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.6667 0.3294 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.9400 0.3373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.1113 0.3373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.3971 0.3373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.6160 0.2980 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.8840 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.8873 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "silence"
+        {
+          1.6360 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.8873 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.8080 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+  }
+  channel "sound"
+  {
+    event speak "EvictionNotice.Swing"
+    {
+      time 0.078452 0.627069
+      param "EvictionNotice.Swing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

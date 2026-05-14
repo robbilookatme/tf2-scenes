@@ -1,0 +1,32 @@
+// Choreo version 1
+event loop "taunt_roasty_toasty_loop"
+{
+  time 20.851852 -1.000000
+  param "3.666000"
+  loopcount "255"
+}
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_roasty_toasty"
+    {
+      time 0.000000 20.875000
+      param "taunt_roasty_toasty"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

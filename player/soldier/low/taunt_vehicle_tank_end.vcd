@@ -1,0 +1,34 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Anim"
+  {
+    event expression "mad"
+    {
+      time 0.002415 1.294686
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.1461 0.9922
+      }
+    }
+    event sequence "taunt_vehicle_tank_end"
+    {
+      time 0.000000 1.300000
+      param "taunt_vehicle_tank_end"
+      fixedlength
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,106 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_roasty_toasty"
+    {
+      time 0.000000 3.458333
+      param "taunt_roasty_toasty_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_roasty_toasty_taunt_fire"
+    {
+      time 0.000000 -1.000000
+      param "pyro_taunt_roasty_toasty_taunt_fire"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_item_wood_pole_drop"
+    {
+      time 1.736076 2.920883
+      param "pyro_taunt_roasty_toasty_item_wood_pole_drop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_pyro_taunt_clap2"
+    {
+      time 2.194477 2.436495
+      param "pyro_taunt_roasty_toasty_pyro_taunt_clap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_pyro_taunt_clap4"
+    {
+      time 2.361076 2.596178
+      param "pyro_taunt_roasty_toasty_pyro_taunt_clap4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_pyro_taunt_clap7"
+    {
+      time 2.527777 2.771632
+      param "pyro_taunt_roasty_toasty_pyro_taunt_clap7"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_pyro_taunt_clap6"
+    {
+      time 2.694475 2.925087
+      param "pyro_taunt_roasty_toasty_pyro_taunt_clap6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_concrete4"
+    {
+      time 3.069475 3.550473
+      param "pyro_taunt_roasty_toasty_concrete4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_outro"
+    {
+      time 1.986076 3.159409
+      param "pyro_taunt_roasty_toasty_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_equipment_jingle4"
+    {
+      time 2.194477 2.485452
+      param "pyro_taunt_roasty_toasty_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_roasty_toasty_taunt_tie_fix"
+    {
+      time 1.194477 1.824318
+      param "pyro_taunt_roasty_toasty_taunt_tie_fix"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,141 @@
+// Choreo version 1
+event loop "taunt_tuefort_tango_loop"
+{
+  time 5.500000 -1.000000
+  param "2.333000"
+  loopcount "255"
+}
+actor "spy"
+{
+  channel "spy"
+  {
+    event sequence "taunt_tuefort_tango"
+    {
+      time 0.000000 5.500000
+      param "taunt_tuefort_tango_intro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "spy_taunt_tuefort_tango_cyoa_pda_clothes_rustle_long"
+    {
+      time 0.100000 1.258095
+      param "spy_taunt_tuefort_tango_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_cyoa_pda_equipment_light"
+    {
+      time 1.433300 2.021305
+      param "spy_taunt_tuefort_tango_cyoa_pda_equipment_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+    {
+      time 1.700000 2.274331
+      param "spy_taunt_tuefort_tango_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 2.366700 3.367085
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 3.166700 4.163525
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+    {
+      time 4.066700 5.067085
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+    {
+      time 4.933300 5.930125
+      param "spy_taunt_tuefort_tango_taunt_workout_pushup1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_tuefort_tango_taunt_foot_stomp"
+    {
+      time 1.000000 1.225669
+      param "spy_taunt_tuefort_tango_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmall"
+    {
+      time 0.000000 5.488095
+      param "player\spy\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.8333 0.0000
+        2.2332 1.0000
+        3.3816 1.0000
+        3.7974 0.0000
+        4.2566 0.0000
+        4.8200 0.0000
+        4.8482 0.0000
+        5.1185 0.9686
+        5.4881 1.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 5.523810
+      param "player\spy\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6332 1.0000
+        1.0000 1.0000
+        1.9000 0.9961
+        2.2519 0.0000
+        3.4333 0.0000
+        3.7815 1.0000
+        4.8926 1.0000
+        5.2074 0.0000
+      }
+    }
+    event speak "spy_taunt_tuefort_tango_intro"
+    {
+      time 0.083333 -1.000000
+      param "spy_taunt_tuefort_tango_intro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

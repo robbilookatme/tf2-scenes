@@ -1,0 +1,243 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "taunt_neck_snap_soldier"
+    {
+      time 0.000000 6.433333
+      param "taunt_neck_snap_soldier"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "soldier_taunt_neck_snap_soldier_taunt_clothes_rustle"
+    {
+      time 0.229024 1.938230
+      param "soldier_taunt_neck_snap_soldier_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_yeti_standee_soldier_clothes_rustle"
+    {
+      time 1.129025 1.780590
+      param "soldier_taunt_neck_snap_soldier_taunt_yeti_standee_soldier_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_yeti_standee_equipment_jingle4"
+    {
+      time 1.529025 1.945646
+      param "soldier_taunt_neck_snap_soldier_taunt_yeti_standee_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_cyoa_pda_clothes_rustle_long"
+    {
+      time 2.729024 3.887119
+      param "soldier_taunt_neck_snap_soldier_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_knife_swing"
+    {
+      time 2.862325 3.225976
+      param "soldier_taunt_neck_snap_soldier_knife_swing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_pl_fallpain"
+    {
+      time 2.862325 3.379694
+      param "soldier_taunt_neck_snap_soldier_pl_fallpain"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+    {
+      time 3.529025 3.754694
+      param "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_equipment_jingle2"
+    {
+      time 3.562325 3.901554
+      param "soldier_taunt_neck_snap_soldier_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_clothes_swipe2"
+    {
+      time 3.862325 4.436656
+      param "soldier_taunt_neck_snap_soldier_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_knuckle_crack"
+    {
+      time 4.429025 4.748209
+      param "soldier_taunt_neck_snap_soldier_taunt_knuckle_crack"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_clothes_swipe"
+    {
+      time 4.429025 4.729479
+      param "soldier_taunt_neck_snap_soldier_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_clothes_rustle"
+    {
+      time 5.062325 6.771531
+      param "soldier_taunt_neck_snap_soldier_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+    {
+      time 6.229026 6.454695
+      param "soldier_taunt_neck_snap_soldier_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_taunt_equipment_jingle4"
+    {
+      time 6.229026 6.520001
+      param "soldier_taunt_neck_snap_soldier_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_fist_hit_world2"
+    {
+      time 5.529025 6.062744
+      param "soldier_taunt_neck_snap_soldier_fist_hit_world2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_soldier_fist_hit_world1"
+    {
+      time 5.829024 6.319046
+      param "soldier_taunt_neck_snap_soldier_fist_hit_world1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "specialAction01Upper"
+    {
+      time 0.000000 6.429025
+      param "player\soldier\emotion\emotion"
+      param2 "specialAction01Upper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.9120 0.0000
+        1.1160 0.0000
+        1.4020 1.0000
+        2.7440 1.0000
+        2.9300 0.0000
+        4.5440 0.0000
+        4.7440 1.0000
+        6.0100 1.0000
+        6.3260 0.0000
+      }
+    }
+    event expression "painSmall"
+    {
+      time 0.000000 6.437358
+      param "player\soldier\emotion\emotion"
+      param2 "painSmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.5720 0.0000
+        0.7660 1.0000
+        0.8580 1.0000
+        1.1340 0.0000
+        2.7060 0.0000
+        2.8940 1.0000
+        4.3320 1.0000
+        4.5280 0.0000
+      }
+    }
+    event expression "specialAction01"
+    {
+      time 0.000000 6.429025
+      param "player\soldier\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2020 0.7020
+        0.6020 0.6706
+        0.7560 0.0588
+        1.0320 0.9882
+        1.1580 0.9804
+        1.4320 0.0000
+        4.2460 0.0000
+        4.4820 0.9333
+        4.5560 0.9176
+        4.7820 0.0000
+      }
+    }
+    event speak "soldier_taunt_neck_snap_04"
+    {
+      time 0.027777 2.726213
+      param "soldier_taunt_neck_snap_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_05"
+    {
+      time 2.905555 -1.000000
+      param "soldier_taunt_neck_snap_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_06"
+    {
+      time 4.472222 -1.000000
+      param "soldier_taunt_neck_snap_06"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_taunt_neck_snap_07"
+    {
+      time 5.250000 -1.000000
+      param "soldier_taunt_neck_snap_07"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

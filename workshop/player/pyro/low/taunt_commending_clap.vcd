@@ -1,0 +1,226 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_commending_clap_pyro"
+    {
+      time 0.000000 5.000000
+      param "taunt_commending_clap_pyro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 1.366700 1.686700
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap1"
+    {
+      time 1.475862 1.785023
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap3"
+    {
+      time 1.666700 1.980396
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 1.833300 2.149626
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 1.981609 2.297936
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap7"
+    {
+      time 2.158654 2.472350
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap1"
+    {
+      time 2.333300 2.649627
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 2.490804 2.810804
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap3"
+    {
+      time 2.658654 2.967815
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 2.833300 3.146996
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap3"
+    {
+      time 3.000000 3.316327
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 3.166700 3.475861
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_pyro_taunt_clap2"
+    {
+      time 3.333300 3.653300
+      param "Taunt.MediumClap"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_equipment_gun1"
+    {
+      time 0.290146 1.410509
+      param "pyro_taunt_the_skating_scorcher_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_cyoa_pda_clothes_rustle_light"
+    {
+      time 0.100000 0.751565
+      param "pyro_taunt_neck_snap_pyro_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_clothes_swipe2"
+    {
+      time 1.130985 1.705316
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_foot_stomp"
+    {
+      time 1.500000 1.725669
+      param "pyro_spring_rider_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_foot_stomp"
+    {
+      time 1.766700 1.992369
+      param "pyro_spring_rider_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_foot_stomp"
+    {
+      time 2.166700 2.392369
+      param "pyro_item_preview_pyro_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_clothes_rustle"
+    {
+      time 3.733300 5.000000
+      param "pyro_item_preview_pyro_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_foot_stomp_light"
+    {
+      time 4.933300 5.000000
+      param "medic_taunt_neck_snap_medic_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_foot_stomp"
+    {
+      time 4.700000 4.925669
+      param "pyro_spring_rider_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_pyro_taunt_yeti_standee_equipment_jingle3"
+    {
+      time 0.000000 0.513469
+      param "spy_taunt_tuefort_tango_taunt_yeti_standee_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_A"
+    {
+      time 0.045977 0.891805
+      param "pyro_taunt_commending_clap_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_commending_clap_C"
+    {
+      time 3.841763 3.888929
+      param "Taunt.Demo01HandClap2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

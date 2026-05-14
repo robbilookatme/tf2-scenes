@@ -1,0 +1,39 @@
+// Choreo version 1
+actor "demoman"
+{
+  channel "audio"
+  {
+    event speak "Demoman.AutoCappedIntelligence02"
+    {
+      time 0.000000 2.107211
+      param "Demoman.AutoCappedIntelligence02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "screamingUpper"
+    {
+      time 0.000000 3.614583
+      param "player\demo\emotion\emotion"
+      param2 "screamingUpper"
+      event_ramp
+      {
+        0.0273 0.2667
+        0.9848 0.4157
+        1.1394 1.0000
+        1.8273 0.9725
+        2.0273 0.1765
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

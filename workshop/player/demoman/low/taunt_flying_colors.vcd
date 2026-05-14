@@ -1,0 +1,171 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 9.333000 -1.000000
+  param "4.000000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_flag_demoman"
+    {
+      time 0.000000 9.333333
+      param "taunt_flag_demo"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "emotion"
+    {
+      time -0.106667 9.793334
+      param ""
+      flexanimations samples_use_time
+      {
+        "multi_CloseLid"
+        {
+          0.1714 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.9286 0.5765 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.6504 0.6941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.4896 0.7451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.7817 0.7451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          8.2000 0.7373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          8.7349 0.7373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          9.1571 0.7255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          9.7714 0.6039 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "happy"
+        {
+          2.0920 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.4857 0.1451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.8744 0.6588 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.1286 0.6941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.3510 0.6353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6587 0.0039 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6784 0.0039 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "evilHappy"
+        {
+          0.4133 0.7647 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.6433 0.8039 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.0125 0.8157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.7510 0.8039 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0278 0.8000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.2286 0.8000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.4608 0.6863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.7194 0.2196 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.9363 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "painUpper"
+        {
+          3.3157 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.7268 0.4000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.4143 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.1222 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          6.0508 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          6.9143 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          7.6714 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          8.4857 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          9.0000 0.4745 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          9.3397 0.4353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+    event flexanimation "blink"
+    {
+      time 4.659000 5.268116
+      param ""
+      flexanimations samples_use_time
+      {
+        "CloseLid" combo
+        {
+          0.1235 0.6471 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.2769 1.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.3863 0.6941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        {
+          0.1671 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+  }
+  channel "sound"
+  {
+    event speak "Weapon_Fist.HitHand"
+    {
+      time 0.174000 0.327832
+      param "Weapon_Fist.HitHand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Grenade_Pipebomb.Draw"
+    {
+      time 2.630434 3.669527
+      param "Weapon_Grenade_Pipebomb.Draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Arrow.ImpactWood"
+    {
+      time 1.667000 2.640674
+      param "Weapon_Arrow.ImpactWood"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment2"
+    {
+      time 2.913043 4.033406
+      param "Selection.DemoEquipment2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Fist.Miss"
+    {
+      time 0.739131 1.304709
+      param "Weapon_Fist.Miss"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_flag"
+    {
+      time 0.000000 -1.000000
+      param "demo_taunt_flag"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_flag_umbrella_pickup"
+    {
+      time 1.833000 2.343839
+      param "taunt_flag_umbrella_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.MopedStartSwoosh2"
+    {
+      time 0.813532 0.958702
+      param "Taunt.MopedStartSwoosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "soldier"
+{
+  channel "audio"
+  {
+    event speak "Soldier.StandOnThePoint02"
+    {
+      time 0.000000 3.622313
+      param "Soldier.StandOnThePoint02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "emotion"
+  {
+    event expression "madUpper"
+    {
+      time 0.000000 3.776176
+      param "player\soldier\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.2464 0.8510
+        0.6506 0.6196
+        0.7962 0.8549
+        1.3329 0.6314
+        1.5208 0.8667
+        1.9626 0.6431
+        2.2341 0.8745
+        2.5048 0.8706
+        2.7822 0.6078
+        3.1110 0.8863
+        3.4976 0.8941
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

@@ -1,0 +1,97 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+  }
+  channel "face"
+  {
+    event expression "mad"
+    {
+      time 0.000000 2.009293
+      param "player\medic\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0001 1.0000
+        0.6460 0.0000
+      }
+    }
+    event expression "painScared"
+    {
+      time 0.000000 2.009293
+      param "player\medic\emotion\emotion"
+      param2 "painScared"
+      event_ramp
+      {
+        0.0001 0.0314
+        0.3220 0.6863
+        1.5640 0.7451
+      }
+    }
+    event speak "taunt_headbutt_sfx_hand_swoosh"
+    {
+      time 0.018519 0.590650
+      param "taunt_headbutt_sfx_hand_swoosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic.mannbulance_outro"
+    {
+      time 0.916667 0.992132
+      param "medic.mannbulance_outro"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.TankEndEngineStop"
+    {
+      time 0.000000 2.024082
+      param "Taunt.TankEndEngineStop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_landings"
+    {
+      time 0.564815 1.364089
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeDemoStep"
+    {
+      time 1.759259 2.375132
+      param "Taunt.YetiStandeeDemoStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.YetiStandeeHeavyStep"
+    {
+      time 1.944444 2.467845
+      param "Taunt.YetiStandeeHeavyStep"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event sequence "taunt_the_mannbulance_outro"
+    {
+      time 0.000000 2.000000
+      param "taunt_the_mannbulance_outro"
+      fixedlength
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

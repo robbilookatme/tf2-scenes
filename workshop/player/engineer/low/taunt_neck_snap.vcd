@@ -1,0 +1,252 @@
+// Choreo version 1
+actor "Engineer"
+{
+  channel "Engineer"
+  {
+    event sequence "taunt_neck_snap_engineer"
+    {
+      time 0.000000 6.466667
+      param "taunt_neck_snap_engineer"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happySmall"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3332 1.0000
+        2.0333 1.0000
+        2.1167 0.1608
+        2.1332 0.0000
+        5.2000 0.0000
+        5.3332 1.0000
+        5.8333 1.0000
+        6.3333 0.0000
+        6.4667 0.0000
+      }
+    }
+    event expression "painSmall"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "painSmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3332 0.3059
+        2.0333 0.3059
+        2.1332 0.7294
+        2.2666 0.5216
+        2.7333 0.5216
+        2.9999 0.0000
+        3.8667 0.0000
+        3.9999 0.6863
+        5.2000 0.6863
+        5.3332 0.7255
+        5.8333 0.7255
+        6.3333 0.0000
+        6.4667 0.0000
+      }
+    }
+    event expression "painBig"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "painBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.7333 0.0000
+        2.9999 1.0000
+        3.8667 1.0000
+        3.9999 0.0000
+        6.4667 0.0000
+      }
+    }
+    event expression "scared"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "scared"
+      event_ramp
+      {
+        0.0000 0.0000
+        2.1333 0.0000
+        2.2666 0.6353
+        2.7333 0.6353
+        2.9999 0.0000
+        6.4667 0.0000
+      }
+    }
+    event expression "mad"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        3.8667 0.0000
+        3.9999 0.1608
+        5.2000 0.1608
+        5.3332 0.0000
+        6.4667 0.0000
+      }
+    }
+    event expression "happyBig"
+    {
+      time 0.000000 6.466700
+      param "player\engineer\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0000 0.0000
+        6.4667 0.0000
+      }
+    }
+    event speak "engineer_taunt_neck_snap_engineer_cyoa_pda_spin"
+    {
+      time 2.900000 3.679229
+      param "engineer_taunt_neck_snap_engineer_cyoa_pda_spin"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_yeti_standee_engineer_equipment"
+    {
+      time 0.866700 1.558718
+      param "engineer_taunt_neck_snap_engineer_taunt_yeti_standee_engineer_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_pl_fallpain"
+    {
+      time 2.800000 3.317369
+      param "engineer_taunt_neck_snap_engineer_pl_fallpain"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+    {
+      time 3.933300 4.158969
+      param "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+    {
+      time 1.233300 1.458969
+      param "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_foot_stomp_light"
+    {
+      time 1.533300 1.621826
+      param "engineer_taunt_neck_snap_engineer_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_cyoa_pda_clothes_rustle_light"
+    {
+      time 4.833300 5.484865
+      param "engineer_taunt_neck_snap_engineer_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+    {
+      time 6.100000 6.325669
+      param "engineer_taunt_neck_snap_engineer_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_cyoa_pda_draw"
+    {
+      time 0.166700 0.953276
+      param "engineer_taunt_neck_snap_engineer_cyoa_pda_draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_yeti_standee_equipment"
+    {
+      time 0.266700 0.691643
+      param "engineer_taunt_neck_snap_engineer_taunt_yeti_standee_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_neck_snap_engineer_taunt_equipment_jingle"
+    {
+      time 3.900000 4.346259
+      param "engineer_taunt_neck_snap_engineer_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_neck_snap_01"
+    {
+      time 0.213333 -1.000000
+      param "engy_taunt_neck_snap_01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_neck_snap_02"
+    {
+      time 1.266667 -1.000000
+      param "engy_taunt_neck_snap_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_neck_snap_03"
+    {
+      time 2.886667 -1.000000
+      param "engy_taunt_neck_snap_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_neck_snap_04"
+    {
+      time 4.353333 -1.000000
+      param "engy_taunt_neck_snap_04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engy_taunt_neck_snap_05"
+    {
+      time 6.193334 -1.000000
+      param "engy_taunt_neck_snap_05"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

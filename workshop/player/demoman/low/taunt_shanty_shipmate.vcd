@@ -1,0 +1,192 @@
+// Choreo version 1
+event loop "taunt_shanty_shipmate_loop"
+{
+  time 11.091333 -1.000000
+  param "1.400000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_shanty_shipmate"
+    {
+      time 0.000000 11.100000
+      param "taunt_shanty_shipmate"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "drunkHappy"
+    {
+      time -0.431818 12.601482
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.7000 0.0000
+        0.7167 0.0000
+        1.1259 0.9882
+        2.8000 1.0000
+        3.3278 0.3882
+        6.0111 0.2353
+        9.3667 0.2784
+        10.6167 0.7686
+        13.0277 1.0000
+      }
+    }
+    event speak "demo_taunt_dosido_start_rand"
+    {
+      time 0.125000 1.841259
+      param "demo_taunt_dosido_start_rand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "engineer_taunt_texas_twirl_em_projectile_swoosh6"
+    {
+      time 0.062500 0.615380
+      param "engineer_taunt_texas_twirl_em_projectile_swoosh6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "spy_taunt_flip_landings"
+    {
+      time 0.444445 1.243719
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment1"
+    {
+      time 0.590278 1.282296
+      param "PDA.HeavyEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "SolidMetal.Strain"
+    {
+      time 1.761995 2.211995
+      param "Taunt.RunnersRhythmBongoSlide"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment2"
+    {
+      time 1.810607 2.203169
+      param "Selection.DemoEquipment1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 1.699496 1.999950
+      param "Selection.SpyClothesRustle1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "SolidMetal.Strain"
+    {
+      time 4.078297 4.528297
+      param "Taunt.RunnersRhythmBongoSlide"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment2"
+    {
+      time 4.170713 5.291076
+      param "Selection.DemoEquipment2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 4.106076 4.680407
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+    {
+      time 7.704746 8.005199
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_dosido_mid_rand"
+    {
+      time 2.594735 4.310993
+      param "demo.shanty_shipmate_rowing"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+    {
+      time 6.365967 6.940298
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "SolidMetal.Strain"
+    {
+      time 8.617424 9.067424
+      param "Taunt.RunnersRhythmBongoSlide"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Selection.DemoEquipment2"
+    {
+      time 8.818814 9.510833
+      param "PDA.DemoEquipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_soviet_strongarm_taunt_clothes_rustle"
+    {
+      time 8.238686 9.947892
+      param "Taunt.Heavy01ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "madUpper"
+    {
+      time 0.166667 11.007576
+      param "player\demo\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        5.7000 0.0000
+        6.4278 0.7176
+        7.9833 0.7608
+        9.1889 0.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

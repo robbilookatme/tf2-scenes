@@ -1,0 +1,69 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_the_road_rager"
+    {
+      time 0.000000 1.250000
+      param "taunt_the_road_rager_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "happysmall02"
+    {
+      time 0.000000 1.250000
+      param "player\heavy\emotion\emotion"
+      param2 "happysmall02"
+      event_ramp
+      {
+        0.0000 1.0000
+        1.0833 0.6706
+      }
+    }
+    event speak "flip_land3"
+    {
+      time 0.833333 1.250000
+      param "spy_taunt_flip_landings"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.EngineerClothesRustleLight"
+    {
+      time 0.385965 1.149911
+      param "heavy_taunt_flip_random_exerts"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+    {
+      time 0.561404 0.861858
+      param "heavy_taunt_heavy_workout_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.TankEndEngineStop"
+    {
+      time 0.017544 1.250000
+      param "Taunt.TankEndEngineStop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

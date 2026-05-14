@@ -1,0 +1,61 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "audio"
+  {
+    event speak "Scout.Award11"
+    {
+      time 0.000000 2.402676
+      param "Scout.Award11"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "happySmallUpper"
+    {
+      time -0.007092 1.242908
+      param "player\scout\emotion\emotion"
+      param2 "happySmallUpper"
+      event_ramp
+      {
+        0.1121 0.8863
+        1.0909 0.8784
+        1.1879 0.8039
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 1.093750 2.093750
+      param "player\scout\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0515 0.8745
+        0.1667 0.9490
+        0.9545 0.9451
+      }
+    }
+    event expression "happySmall"
+    {
+      time 2.010417 4.833333
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0970 0.9098
+        0.3091 1.0000
+        2.7909 1.0000
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

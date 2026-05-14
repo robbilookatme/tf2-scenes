@@ -1,0 +1,90 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_cremators_condolences"
+    {
+      time 0.000000 4.766666
+      param "taunt_cremators_condolences"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "pyro_taunt_cremators_condolences_taunt_clothes_swipe2"
+    {
+      time 0.493333 1.067664
+      param "pyro_taunt_roasty_toasty_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_cremators_condolences_taunt_equipment_jingle3"
+    {
+      time 0.733300 1.246769
+      param "demo_item_preview_demo_taunt_yeti_standee_equipment_jingle3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_cremators_condolences_taunt_tie_fix"
+    {
+      time 3.266700 3.896541
+      param "heavy_taunt_soviet_strongarm_taunt_tie_fix"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_cremators_condolences_taunt_workout_footfall2"
+    {
+      time 4.466700 4.692369
+      param "heavy_taunt_heavy_workout_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_cremators_condolences_taunt_yeti_standee_equipment_jingle"
+    {
+      time 4.533300 4.766666
+      param "engineer_taunt_texas_twirl_em_taunt_yeti_standee_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_cremators_condolences_taunt_clothes_swipe"
+    {
+      time 4.066700 4.367154
+      param "pyro_spring_rider_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_rps_lose_03"
+    {
+      time 0.683334 2.793855
+      param "pyro_taunt_rps_lose_03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.LaughEvil04"
+    {
+      time 3.270834 4.444168
+      param "Pyro.LaughEvil04"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

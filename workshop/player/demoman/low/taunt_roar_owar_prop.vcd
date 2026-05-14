@@ -1,0 +1,32 @@
+// Choreo version 1
+event loop "loop"
+{
+  time 5.714912 -1.000000
+  param "5.300000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_roar_owar"
+    {
+      time 0.000000 5.766667
+      param "taunt_roar_owar"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

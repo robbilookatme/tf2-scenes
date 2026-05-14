@@ -1,0 +1,48 @@
+// Choreo version 1
+actor "scout"
+{
+  channel "audio"
+  {
+  }
+  channel "emotion"
+  {
+    event expression "madUpper"
+    {
+      time 0.013334 16.626665
+      param "player\scout\emotion\emotion"
+      param2 "madUpper"
+      event_ramp
+      {
+        0.6200 0.5412
+        1.9900 0.5529
+        2.4500 0.2745
+        3.4300 0.2353
+        3.8900 0.4941
+        4.3000 0.3451
+        4.8400 0.2745
+        7.1500 0.2745
+        7.7900 0.4824
+        8.3000 0.1255
+        8.9500 0.1255
+        10.6800 0.1176
+        11.2100 0.4235
+        11.7300 0.1765
+        13.0800 0.0667
+        13.7200 0.0980
+        14.0600 0.3725
+        14.5500 0.1451
+        15.6200 0.1255
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
