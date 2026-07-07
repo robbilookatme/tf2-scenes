@@ -1,0 +1,444 @@
+// Choreo version 1
+actor "Heavy"
+{
+  channel "Heavy"
+  {
+    event sequence "taunt_the_circuit_breaker"
+    {
+      time 0.000000 6.100000
+      param "taunt_the_circuit_breaker"
+    }
+  }
+  channel "face"
+  {
+    event expression "dead03"
+    {
+      time 0.000000 6.066700
+      param "player\heavy\emotion\emotion"
+      param2 "dead03"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0167 0.0000
+        0.0333 0.0118
+        0.0500 0.0235
+        0.0667 0.0431
+        0.0833 0.0667
+        0.1000 0.0941
+        0.1167 0.1216
+        0.1333 0.1529
+        0.2000 0.2824
+        0.2167 0.3137
+        0.2333 0.3412
+        0.2500 0.3686
+        0.2667 0.3922
+        0.2833 0.4118
+        0.3000 0.4275
+        0.3167 0.4353
+        0.3333 0.4392
+        0.3500 0.4353
+        0.3667 0.4314
+        0.3833 0.4235
+        0.4000 0.4118
+        0.4167 0.3961
+        0.4333 0.3804
+        0.4500 0.3608
+        0.4833 0.3176
+        0.5167 0.2667
+        0.5833 0.1686
+        0.6167 0.1216
+        0.6500 0.0784
+        0.6667 0.0588
+        0.6833 0.0392
+        0.7000 0.0275
+        0.7167 0.0157
+        0.7333 0.0039
+        0.7500 0.0000
+        0.7666 0.0000
+        0.8500 0.0000
+        0.8833 0.0039
+        0.9000 0.0039
+        0.9666 0.0000
+        3.6167 0.0000
+        3.8833 0.9922
+        4.7500 0.9882
+        4.8000 0.9882
+        4.9000 0.9765
+        4.9667 0.9765
+        5.0000 0.9725
+        5.1000 0.9529
+        5.1500 0.9490
+        5.6667 0.9490
+        5.7167 0.9490
+        5.7667 0.9569
+        6.0000 0.9961
+        6.0500 0.0000
+        6.0667 0.0000
+      }
+    }
+    event expression "upperAngry2"
+    {
+      time 0.000000 6.066700
+      param "player\heavy\emotion\emotion"
+      param2 "upperAngry2"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.0167 0.0000
+        0.0333 0.0078
+        0.0500 0.0196
+        0.0667 0.0353
+        0.0833 0.0549
+        0.1000 0.0745
+        0.1167 0.0980
+        0.2167 0.2549
+        0.2333 0.2784
+        0.2500 0.2980
+        0.2667 0.3176
+        0.2833 0.3333
+        0.3000 0.3451
+        0.3167 0.3529
+        0.3333 0.3569
+        0.3500 0.3529
+        0.3667 0.3490
+        0.3833 0.3412
+        0.4000 0.3333
+        0.4167 0.3216
+        0.4500 0.2902
+        0.4833 0.2549
+        0.6167 0.0980
+        0.6500 0.0627
+        0.6667 0.0471
+        0.7000 0.0196
+        0.7167 0.0118
+        0.7333 0.0039
+        0.7500 0.0000
+        0.7667 0.0000
+        0.8833 0.0078
+        0.9667 0.0000
+        1.0000 0.0039
+        1.0167 0.0118
+        1.0333 0.0196
+        1.0500 0.0314
+        1.0667 0.0549
+        1.0833 0.0824
+        1.1000 0.1333
+        1.1333 0.2784
+        1.1500 0.3255
+        1.1667 0.3529
+        1.1833 0.3765
+        1.2000 0.3882
+        1.2167 0.3961
+        1.2333 0.4039
+        1.2666 0.4118
+        2.2667 0.4118
+        2.2833 0.4039
+        2.3000 0.3843
+        2.3167 0.3608
+        2.3333 0.3294
+        2.3500 0.2902
+        2.3667 0.2471
+        2.4000 0.1608
+        2.4167 0.1176
+        2.4333 0.0784
+        2.4500 0.0471
+        2.4667 0.0235
+        2.4833 0.0039
+        2.4999 0.0000
+        3.6167 0.0000
+        3.8833 0.9922
+        4.7500 0.9922
+        4.8833 0.9843
+        4.9333 0.9843
+        4.9500 0.9961
+        4.9667 0.0157
+        4.9750 0.0314
+        4.9833 0.0510
+        5.0000 0.0941
+        5.0167 0.1451
+        5.0833 0.3647
+        5.1000 0.4118
+        5.1167 0.4588
+        5.1333 0.4941
+        5.1500 0.5216
+        5.1666 0.5333
+        5.6667 0.5333
+        5.6833 0.5294
+        5.7000 0.5255
+        5.7167 0.5137
+        5.7333 0.4980
+        5.7500 0.4824
+        5.7667 0.4627
+        5.7833 0.4392
+        5.8000 0.4118
+        5.8333 0.3569
+        5.9167 0.2039
+        5.9500 0.1451
+        5.9833 0.0941
+        6.0000 0.0706
+        6.0167 0.0510
+        6.0333 0.0314
+        6.0500 0.0196
+        6.0667 0.0078
+        6.0667 0.0000
+        6.0667 0.0000
+        6.0667 0.0000
+      }
+    }
+    event expression "mad"
+    {
+      time 0.000000 6.066700
+      param "player\heavy\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3333 0.0000
+        0.3500 0.0000
+        0.3667 0.0078
+        0.3833 0.0235
+        0.4000 0.0431
+        0.4167 0.0627
+        0.4333 0.0902
+        0.4500 0.1176
+        0.4667 0.1490
+        0.4833 0.1843
+        0.5167 0.2588
+        0.6000 0.4510
+        0.6333 0.5216
+        0.6500 0.5529
+        0.6667 0.5843
+        0.6833 0.6078
+        0.7000 0.6314
+        0.7167 0.6471
+        0.7333 0.6627
+        0.7500 0.6706
+        0.7666 0.6745
+        0.8333 0.6667
+        0.8833 0.6588
+        0.9667 0.6745
+        1.0000 0.6667
+        1.0167 0.6549
+        1.0333 0.6392
+        1.0500 0.6157
+        1.0667 0.5843
+        1.0833 0.5333
+        1.1000 0.4549
+        1.1333 0.2196
+        1.1500 0.1412
+        1.1667 0.0902
+        1.1833 0.0549
+        1.2000 0.0314
+        1.2167 0.0157
+        1.2333 0.0078
+        1.2666 0.0000
+        2.2667 0.0000
+        2.2833 0.0157
+        2.3000 0.0588
+        2.3167 0.1176
+        2.3333 0.1961
+        2.3500 0.2863
+        2.3667 0.3922
+        2.4000 0.6078
+        2.4167 0.7098
+        2.4333 0.8000
+        2.4500 0.8784
+        2.4667 0.9373
+        2.4833 0.9804
+        2.4999 1.0000
+        3.6000 1.0000
+        3.6167 0.9961
+        3.6333 0.9882
+        3.6500 0.9725
+        3.6667 0.9569
+        3.6833 0.9373
+        3.7000 0.9137
+        3.7333 0.8627
+        3.7833 0.7804
+        3.8000 0.7569
+        3.8167 0.7333
+        3.8333 0.7098
+        3.8500 0.6941
+        3.8667 0.6824
+        3.8833 0.6745
+        3.8999 0.6706
+        4.7333 0.6706
+        4.7500 0.6784
+        4.7667 0.6941
+        4.7833 0.7216
+        4.8000 0.7569
+        4.8084 0.7725
+        4.8500 0.8745
+        4.8667 0.9137
+        4.8833 0.9451
+        4.9000 0.9725
+        4.9167 0.9882
+        4.9333 1.0000
+        4.9500 0.9176
+        4.9750 0.8039
+        5.0000 0.7020
+        5.0167 0.6314
+        5.0833 0.3647
+        5.1167 0.2275
+        5.1333 0.1529
+        5.1500 0.0784
+        5.1666 0.0000
+        6.0667 0.0000
+      }
+    }
+    event speak "heavy_taunt_the_circuit_breaker_heavy_battlecry03"
+    {
+      time 2.233300 3.968992
+      param "heavy_taunt_the_circuit_breaker_heavy_battlecry03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_scout_mvm_m_jeers09"
+    {
+      time 0.600000 6.100000
+      param "heavy_taunt_the_circuit_breaker_scout_mvm_m_jeers09"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_scout_mvm_m_helpme03"
+    {
+      time 2.666700 6.100000
+      param "heavy_taunt_the_circuit_breaker_scout_mvm_m_helpme03"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+    {
+      time 0.100000 0.665578
+      param "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_metal_gloves_hit"
+    {
+      time 0.366700 1.059739
+      param "heavy_taunt_the_circuit_breaker_metal_gloves_hit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_concrete1"
+    {
+      time 1.400000 1.931565
+      param "heavy_taunt_the_circuit_breaker_concrete1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_bat_draw_swoosh2"
+    {
+      time 1.433300 1.987994
+      param "heavy_taunt_the_circuit_breaker_bat_draw_swoosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_metal_hit_hand1"
+    {
+      time 1.633300 1.789309
+      param "heavy_taunt_the_circuit_breaker_metal_hit_hand1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_concrete2"
+    {
+      time 1.866700 2.489738
+      param "heavy_taunt_the_circuit_breaker_concrete2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+    {
+      time 1.866700 2.432278
+      param "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_metal_hit_hand2"
+    {
+      time 2.033300 2.131985
+      param "heavy_taunt_the_circuit_breaker_metal_hit_hand2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_mvm_money_pickup"
+    {
+      time 3.500000 4.150680
+      param "heavy_taunt_the_circuit_breaker_mvm_money_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_spy_shield_break"
+    {
+      time 3.500000 4.985896
+      param "heavy_taunt_the_circuit_breaker_spy_shield_break"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_item_metal_scrap_drop"
+    {
+      time 5.033300 5.756792
+      param "heavy_taunt_the_circuit_breaker_item_metal_scrap_drop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+    {
+      time 4.833300 5.398878
+      param "heavy_taunt_the_circuit_breaker_bat_draw_swoosh1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_spark6"
+    {
+      time 2.500000 2.892472
+      param "heavy_taunt_the_circuit_breaker_spark6"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_spark5"
+    {
+      time 3.033300 3.397472
+      param "heavy_taunt_the_circuit_breaker_spark5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "heavy_taunt_the_circuit_breaker_spark3"
+    {
+      time 2.900000 3.352154
+      param "heavy_taunt_the_circuit_breaker_spark3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

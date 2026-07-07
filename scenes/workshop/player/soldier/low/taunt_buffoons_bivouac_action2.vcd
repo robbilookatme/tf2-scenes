@@ -1,0 +1,142 @@
+// Choreo version 1
+event loop "LOOP_B"
+{
+  time -0.196078 -1.000000
+  param "4.000000"
+  loopcount "0"
+}
+event loop "LOOP_C"
+{
+  time 9.785037 -1.000000
+  param "4.237000"
+  loopcount "255"
+}
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 9.833334
+      param "taunt_buffoons_bivouac_a2"
+      fixedlength
+    }
+  }
+  channel "SFX"
+  {
+    event speak "soldier_item_preview_cyoa_pda_clothes_rustle"
+    {
+      time 0.177294 0.828859
+      param "demo_taunt_forehead_slice_cyoa_pda_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_slap_draw"
+    {
+      time 0.943993 1.529027
+      param "Weapon_Slap.Draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_demo_stagger_slosh2"
+    {
+      time 1.010593 2.105287
+      param "Taunt.DemoStaggerSlosh2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_cyoa_pda_swipe"
+    {
+      time 1.710593 2.116171
+      param "scout_taunt_the_homerunners_hobby_cyoa_pda_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_luxury_lounge_sit"
+    {
+      time 3.477294 4.231829
+      param "Taunt.LuxuryLoungeSit"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_cl"
+    {
+      time 4.343993 6.053200
+      param "spy_taunt_peace_taunt_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_bottle_slosh"
+    {
+      time 4.451654 5.029250
+      param "heavy_taunt_cheers_heavy_taunt_bottle_slosh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_luxury_lounge_sip"
+    {
+      time 4.810594 5.437828
+      param "Taunt.LuxuryLoungeSip"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_clothes_swipe2"
+    {
+      time 6.477294 7.051625
+      param "demo_item_preview_demo_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "VO"
+  {
+    event speak "taunt_soldier_buffoons_bivouac_action_02"
+    {
+      time 0.077294 -1.000000
+      param "taunt_soldier_buffoons_bivouac_action_02"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+    event expression "player\soldier\emotion\emotion/happySmall"
+    {
+      time 0.000000 0.066294
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+    }
+    event expression "player\soldier\emotion\emotion/specialAction01"
+    {
+      time 0.263294 2.354294
+      param "player\soldier\emotion\emotion"
+      param2 "specialAction01"
+    }
+    event expression "player\soldier\emotion\emotion/happySmall"
+    {
+      time 3.915294 9.794294
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

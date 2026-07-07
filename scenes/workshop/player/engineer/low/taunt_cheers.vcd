@@ -197,7 +197,7 @@ actor "Engineer"
     }
     event speak "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
     {
-      time 4.540000 6.249207
+      time 4.540000 5.666667
       param "demo_taunt_neck_snap_demo_taunt_clothes_rustle"
       fixedlength
       cctype "cc_master"
@@ -221,7 +221,7 @@ actor "Engineer"
     }
     event speak "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
     {
-      time 5.500231 6.023632
+      time 5.500231 5.666667
       param "demo_taunt_roar_owar_taunt_yeti_standee_demo_step1"
       fixedlength
       cctype "cc_master"

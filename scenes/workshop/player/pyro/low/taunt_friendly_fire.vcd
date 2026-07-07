@@ -1,0 +1,133 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "taunt_friendly_fire"
+    {
+      time 0.000000 4.333333
+      param "taunt_friendly_fire"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dummyBlend"
+    {
+      time 0.000000 4.333333
+      param "player\pyro\emotion\emotion"
+      param2 "dummyBlend"
+      event_ramp
+      {
+        0.0000 0.0000
+        4.3333 0.0000
+      }
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_machete_draw"
+    {
+      time 1.700000 2.419819
+      param "pyro_taunt_friendly_fire_taunt_machete_draw"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+    {
+      time 0.133300 0.579558
+      param "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_equipment_jingle2"
+    {
+      time 1.233300 1.572529
+      param "pyro_taunt_friendly_fire_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_moped_start_handle_grab"
+    {
+      time 1.266700 1.353049
+      param "pyro_taunt_friendly_fire_taunt_moped_start_handle_grab"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_cyoa_pda_clothes_rustle_light"
+    {
+      time 2.800000 3.451565
+      param "pyro_taunt_friendly_fire_cyoa_pda_clothes_rustle_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_clothes_swipe2"
+    {
+      time 3.800000 4.333333
+      param "pyro_taunt_friendly_fire_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+    {
+      time 3.833300 4.279559
+      param "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_yeti_standee_soldier_step3"
+    {
+      time 3.600000 4.080997
+      param "pyro_taunt_friendly_fire_taunt_yeti_standee_soldier_step3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_flare_detonator_explode_world"
+    {
+      time 1.766700 4.333333
+      param "pyro_taunt_friendly_fire_flare_detonator_explode_world"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_yeti_standee_pyro_equipment"
+    {
+      time 0.700000 1.392018
+      param "pyro_taunt_friendly_fire_taunt_yeti_standee_pyro_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Pyro.NegativeVocalization01"
+    {
+      time 2.925438 4.333333
+      param "Pyro.NegativeVocalization01"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_headbutt_success_exert"
+    {
+      time 0.048246 0.703212
+      param "pyro_taunt_headbutt_success_exert"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
