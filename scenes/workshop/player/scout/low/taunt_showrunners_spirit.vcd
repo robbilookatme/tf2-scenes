@@ -1,0 +1,266 @@
+// Choreo version 1
+event stoppoint "end"
+{
+  time 4.665471 -1.000000
+  param "noaction"
+}
+actor "scout"
+{
+  channel "scout"
+  {
+    event sequence "taunt_showrunners_spirit"
+    {
+      time 0.000000 4.666667
+      param "taunt_showrunners_spirit"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "mad"
+    {
+      time 0.006173 4.666667
+      param "player\scout\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3667 0.0000
+        0.4000 0.1059
+        0.4333 0.2157
+        0.4667 0.3137
+        0.5000 0.4157
+        0.5333 0.5059
+        0.5667 0.6000
+        0.6000 0.6824
+        0.6167 0.7216
+        0.6500 0.7961
+        0.6667 0.8314
+        0.6833 0.8588
+        0.7000 0.8902
+        0.7167 0.9216
+        0.7333 0.9451
+        0.7500 0.9608
+        0.7667 0.9804
+        0.7833 0.9922
+        0.8000 1.0000
+        0.8167 0.9961
+        0.8333 0.9804
+        0.8500 0.9608
+        0.8667 0.9412
+        0.8833 0.9098
+        0.9000 0.8745
+        0.9167 0.8392
+        0.9333 0.8000
+        0.9500 0.7490
+        0.9667 0.7059
+        1.0000 0.6000
+        1.0500 0.4392
+        1.0833 0.3412
+        1.1000 0.2902
+        1.1167 0.2392
+        1.1333 0.1961
+        1.1500 0.1490
+        1.1667 0.1137
+        1.1833 0.0824
+        1.2000 0.0510
+        1.2167 0.0314
+        1.2333 0.0118
+        1.2500 0.0000
+        1.2666 0.0000
+        4.6667 0.0000
+      }
+    }
+    event expression "happySmall"
+    {
+      time 0.003876 4.670576
+      param "player\scout\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.4414 0.0078
+        2.2425 0.6510
+        2.5103 0.6549
+        3.3828 0.6353
+        4.0897 0.6471
+        4.5241 0.4078
+        4.6667 0.0000
+      }
+    }
+    event expression "painSmall"
+    {
+      time -0.018518 4.648181
+      param "player\scout\emotion\emotion"
+      param2 "painSmallUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3667 0.0000
+        0.7999 0.2980
+        1.2772 0.3765
+        1.7105 0.0235
+        2.5999 0.0000
+        3.0333 0.0000
+        4.6667 0.0000
+      }
+    }
+    event expression "specialAction01"
+    {
+      time 0.000000 4.666700
+      param "player\scout\emotion\emotion"
+      param2 "specialAction01"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.2027 0.7686
+        0.7897 0.6353
+        1.3108 0.6118
+        1.8276 0.0627
+        1.9828 0.0000
+        4.6667 0.0000
+      }
+    }
+    event speak "scout_taunt_showrunners_spirit_draw_default"
+    {
+      time 0.216700 1.389081
+      param "taunt_scout_showrunners_spirit_voice_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_equipment_gun1"
+    {
+      time 0.533300 1.653663
+      param "scout_taunt_showrunners_spirit_taunt_equipment_gun1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_equipment_gun2"
+    {
+      time 1.433300 1.825862
+      param "scout_taunt_showrunners_spirit_taunt_equipment_gun2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_yeti_standee_sniper_clothes_rustle"
+    {
+      time 2.533300 3.184865
+      param "scout_taunt_showrunners_spirit_taunt_yeti_standee_sniper_clothes_rustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_clothes_swipe"
+    {
+      time 3.033300 3.333753
+      param "scout_taunt_showrunners_spirit_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_cyoa_pda_equipment_light"
+    {
+      time 4.100000 4.666667
+      param "scout_taunt_showrunners_spirit_cyoa_pda_equipment_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_item_rubber_pickup"
+    {
+      time 0.166700 1.034818
+      param "scout_taunt_showrunners_spirit_item_rubber_pickup"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_bow_shoot_pull_short"
+    {
+      time 3.400000 3.822313
+      param "scout_taunt_showrunners_spirit_bow_shoot_pull_short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_projectile_swoosh5"
+    {
+      time 3.533300 4.086180
+      param "scout_taunt_showrunners_spirit_projectile_swoosh5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_foot_spin"
+    {
+      time 1.633300 2.358923
+      param "scout_taunt_showrunners_spirit_taunt_foot_spin"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_foot_stomp"
+    {
+      time 4.466700 4.666667
+      param "scout_taunt_showrunners_spirit_taunt_foot_stomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_foot_stomp_light"
+    {
+      time 4.566700 4.655226
+      param "scout_taunt_showrunners_spirit_taunt_foot_stomp_light"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_taunt_heel_click"
+    {
+      time 0.333300 0.784774
+      param "scout_taunt_showrunners_spirit_taunt_heel_click"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "scout_taunt_showrunners_spirit_scout_taunts17"
+    {
+      time 1.539967 3.786498
+      param "taunt_scout_showrunners_spirit_voice_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "ow"
+    {
+      time 3.678295 4.666667
+      param "player\scout\phonemes\phonemes_strong"
+      param2 "w"
+      event_ramp
+      {
+        0.1966 0.8824
+        0.5966 0.0235
+      }
+    }
+    event speak "taunt_scout_showrunners_spirit_voice_C"
+    {
+      time 3.813210 -1.000000
+      param "taunt_scout_showrunners_spirit_voice_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

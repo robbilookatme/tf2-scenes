@@ -1,0 +1,101 @@
+// Choreo version 1
+actor "Pyro"
+{
+  channel "Pyro"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 4.295370
+      param "taunt_sear_you_later"
+      fixedlength
+    }
+  }
+  channel "sounds"
+  {
+    event speak "Taunt.YetiStandeePyroClothesRustle"
+    {
+      time 0.108726 0.760291
+      param "Taunt.YetiStandeePyroClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Soldier03ClothesRustle"
+    {
+      time 0.944375 2.653581
+      param "Taunt.Soldier03ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "WeaponInspect.Movement4"
+    {
+      time 3.379559 4.219128
+      param "WeaponInspect.Movement4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "MeleeInspect.Movement3"
+    {
+      time 4.060115 4.295370
+      param "MeleeInspect.Movement3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Wrench.HitHand"
+    {
+      time 3.678170 3.832002
+      param "Weapon_Wrench.HitHand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_equipment_jingle2"
+    {
+      time 0.326241 0.665470
+      param "pyro_taunt_friendly_fire_taunt_equipment_jingle2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+    {
+      time 1.085106 1.531365
+      param "pyro_taunt_friendly_fire_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "Voicelines"
+  {
+    event speak "taunt_pyro_sear_ya_later_A"
+    {
+      time 1.031915 -1.000000
+      param "taunt_pyro_sear_ya_later_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_pyro_sear_ya_later_B"
+    {
+      time 3.425532 -1.000000
+      param "taunt_pyro_sear_ya_later_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

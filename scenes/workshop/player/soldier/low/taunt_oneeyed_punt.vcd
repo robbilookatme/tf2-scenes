@@ -1,0 +1,206 @@
+// Choreo version 1
+event stoppoint "end"
+{
+  time 5.097570 -1.000000
+  param "noaction"
+}
+actor "soldier"
+{
+  channel "soldier"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 5.100000
+      param "taunt_oneeyed_punt"
+      fixedlength
+    }
+  }
+  channel "sound"
+  {
+    event speak "pyro_taunt_the_grilled_gunman_body_medium_impact_soft4"
+    {
+      time 0.866700 1.380441
+      param "pyro_taunt_the_grilled_gunman_body_medium_impact_soft4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_body_medium_impact_hard6"
+    {
+      time 1.833300 2.814343
+      param "pyro_taunt_the_grilled_gunman_body_medium_impact_hard4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_bat_baseball_hit_flesh"
+    {
+      time 1.833300 2.647450
+      param "demo_taunt_forehead_slice_bat_baseball_hit_flesh"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_tauntcan_it_draw_melee"
+    {
+      time 0.033300 0.779241
+      param "soldier_tauntcan_it_draw_melee"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_cyoa_pda_swipe"
+    {
+      time 1.000000 1.405578
+      param "scout_taunt_the_killer_signature_cyoa_pda_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_arrow_impact_flesh3"
+    {
+      time 1.766700 2.742936
+      param "demo_taunt_forehead_slice_arrow_impact_flesh3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_cyoa_pda_clothes_rustle_long"
+    {
+      time 2.500000 3.658095
+      param "soldier_item_preview_cyoa_pda_clothes_rustle_long"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_cyoa_pda_swipe"
+    {
+      time 4.033300 4.438878
+      param "scout_taunt_the_homerunners_hobby_cyoa_pda_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_item_helmet_drop"
+    {
+      time 3.233300 4.359468
+      param "spy_taunt_tuefort_tango_item_helmet_drop"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_cyoa_pda_equipment"
+    {
+      time 2.500000 3.192018
+      param "soldier_item_preview_cyoa_pda_equipment"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "soldier_item_preview_taunt_tank_heel_click"
+    {
+      time 3.133300 3.584774
+      param "soldier_taunt_the_final_score_soldier_taunt_heel_click"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Default.StepRight"
+    {
+      time 1.226761 1.849800
+      param "Default.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Default.StepLeft"
+    {
+      time 2.463787 3.182880
+      param "Default.StepLeft"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Default.StepRight"
+    {
+      time 2.849310 3.472348
+      param "Default.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Default.StepRight"
+    {
+      time 4.789309 5.100000
+      param "Default.StepRight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "voice"
+  {
+    event speak "taunt_soldier_oneeyedpunt_start"
+    {
+      time 0.071157 -1.000000
+      param "taunt_soldier_oneeyedpunt_start"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_soldier_oneeyedpunt_end"
+    {
+      time 2.931891 -1.000000
+      param "taunt_soldier_oneeyedpunt_end"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "face"
+  {
+    event expression "player\soldier\emotion\emotion/happySmall"
+    {
+      time 2.836310 4.939643
+      param "player\soldier\emotion\emotion"
+      param2 "happySmall"
+      event_ramp
+      {
+        0.0444 0.9843
+        1.9800 0.9922
+      }
+    }
+    event expression "player\soldier\emotion\emotion/happyBig"
+    {
+      time 0.187500 1.056548
+      param "player\soldier\emotion\emotion"
+      param2 "happyBig"
+      event_ramp
+      {
+        0.0711 0.4627
+        0.8022 0.4471
+      }
+    }
+    event expression "player\soldier\emotion\emotion/mad"
+    {
+      time 1.369048 2.258929
+      param "player\soldier\emotion\emotion"
+      param2 "mad"
+      event_ramp
+      {
+        0.0267 0.9882
+        0.8156 0.9843
+      }
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

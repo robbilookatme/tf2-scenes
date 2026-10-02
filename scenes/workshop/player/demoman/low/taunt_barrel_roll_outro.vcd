@@ -1,0 +1,153 @@
+// Choreo version 1
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_barrel_roll"
+    {
+      time 0.000000 3.233333
+      param "taunt_barrel_roll_outro"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event speak "demo_taunt_barrel_roll_banana_slip"
+    {
+      time 0.105991 0.615674
+      param "demo_taunt_barrel_roll_banana_slip"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_wood_crate_break4"
+    {
+      time 0.605991 1.754812
+      param "demo_taunt_barrel_roll_wood_crate_break4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_equipment_jingle4"
+    {
+      time 1.539392 1.830367
+      param "demo_taunt_barrel_roll_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step4"
+    {
+      time 2.072691 2.777272
+      param "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step3"
+    {
+      time 2.805991 3.233333
+      param "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step2"
+    {
+      time 3.091591 3.233333
+      param "demo_taunt_barrel_roll_taunt_yeti_standee_demo_step2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_flip_land3"
+    {
+      time 1.539392 3.233333
+      param "demo_taunt_barrel_roll_taunt_flip_land3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event expression "dead"
+    {
+      time 0.000000 3.233333
+      param "player\demo\emotion\emotion"
+      param2 "dead"
+      event_ramp
+      {
+        0.0000 0.7098
+        0.1600 0.7098
+        0.3014 0.0000
+        0.5714 0.8863
+        0.7286 0.8745
+        0.8086 0.0000
+        3.0000 0.0000
+      }
+    }
+    event expression "silence"
+    {
+      time 0.000000 3.233333
+      param "player\demo\emotion\emotion"
+      param2 "silence"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.5514 0.0000
+        1.8314 0.9137
+        1.9229 0.9529
+        2.0543 0.9176
+        2.1782 0.7412
+        2.5542 0.7137
+        2.6063 0.7255
+        2.6118 0.7373
+        2.6229 0.9451
+        3.1375 0.9451
+      }
+    }
+    event expression "pain"
+    {
+      time 0.000000 3.233333
+      param "player\demo\emotion\emotion"
+      param2 "pain"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.6694 0.0000
+        0.9110 0.6588
+        1.7888 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 3.233333
+      param "player\demo\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.6000
+        0.5150 0.6000
+        1.3150 0.5176
+        1.9700 0.0000
+        3.0300 0.0000
+      }
+    }
+    event speak "taunt_demo_barrel_roll_C"
+    {
+      time 0.188034 -1.000000
+      param "taunt_demo_barrel_roll_C"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

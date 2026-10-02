@@ -1,0 +1,290 @@
+// Choreo version 1
+actor "medic"
+{
+  channel "medic"
+  {
+    event sequence "item_preview"
+    {
+      time 0.000000 5.800000
+      param "taunt_hippocratic_hypocrite"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event flexanimation "expressions"
+    {
+      time 0.006666 5.720000
+      param ""
+      flexanimations samples_use_time
+      {
+        "CloseLid" combo
+        {
+          1.1732 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.2042 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.2261 0.5373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.2712 0.9059 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.3163 0.9647 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.4006 0.9373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.4751 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.6222 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.9124 0.4941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0009 0.4353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0337 0.1843 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.1058 0.2549 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.6567 0.2745 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.8976 0.4863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.3304 0.5255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.5403 0.5451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.5599 0.5451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6304 0.9255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6976 0.5137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.7829 0.5255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.5379 0.5059 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.5634 0.5059 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.6222 0.9137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.6673 0.9451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.7536 0.4157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.8183 0.4667 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        {
+        }
+        "yellingUpper"
+        {
+          1.9746 0.0157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0004 0.0157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0935 0.6667 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.2401 0.2353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.3746 0.6745 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.4849 0.1373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.6470 0.4471 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.8280 0.0157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.4949 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.6377 0.1137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.7663 0.8863 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.8541 0.8549 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.0520 0.8549 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.2908 0.7647 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          5.5118 0.0667 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "happyBig"
+        {
+          0.3367 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.6127 0.8000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.7649 0.8941 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.0084 0.7059 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.1584 0.7137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.2627 0.7137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.5041 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "scared"
+        {
+        }
+        "silence"
+        {
+          3.7368 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.8572 0.8471 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.9246 0.9373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.0654 0.9451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.2879 0.9373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.4368 0.9255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.5613 0.8353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.7715 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "happySmall"
+        {
+          0.2136 0.7451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.3295 0.8353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          0.6545 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "defaultFace"
+        {
+        }
+        "evilSmile"
+        {
+          1.2610 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.5268 0.7255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          1.7268 0.9137 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.0146 0.9451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.2268 0.7451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.7244 0.7451 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          2.9171 0.9373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.1146 0.9569 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.3780 0.6000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6000 0.5255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.6220 0.5373 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          3.9098 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+        "happyBigUpper"
+        {
+          3.8308 0.0353 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.0154 0.6157 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.1872 0.7255 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.4612 0.6745 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.6073 0.4549 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+          4.6923 0.0000 curve_catmullrom_normalize_x_to_curve_catmullrom_normalize_x
+        }
+      }
+    }
+  }
+  channel "voice"
+  {
+    event speak "taunt_medic_medbottle_voice_A"
+    {
+      time 0.763809 -1.000000
+      param "taunt_medic_medbottle_voice_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_medic_medbottle_voice_B"
+    {
+      time 5.206667 -1.000000
+      param "taunt_medic_medbottle_voice_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Player.Puff"
+    {
+      time 4.086667 4.350976
+      param "Player.Puff"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_medic_medbottle_voice_oops"
+    {
+      time 4.561905 -1.000000
+      param "taunt_medic_medbottle_voice_oops"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+  channel "sounds"
+  {
+    event speak "PDA.MedicClothesRustleLong"
+    {
+      time 0.060000 1.218095
+      param "PDA.MedicClothesRustleLong"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Engineer01FootStomp"
+    {
+      time 0.566667 0.792336
+      param "Taunt.Engineer01FootStomp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.WorkOutPushUp"
+    {
+      time 1.213334 2.210159
+      param "Taunt.WorkOutPushUp"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.WorkOutFoot2"
+    {
+      time 1.706667 2.000318
+      param "Taunt.WorkOutFoot2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Engineer01FootStompLight"
+    {
+      time 1.300000 1.388526
+      param "Taunt.Engineer01FootStompLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Soldier01ClothesRustle"
+    {
+      time 3.000000 4.709207
+      param "Taunt.Soldier01ClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.SoldierClothesRustle"
+    {
+      time 5.166667 5.740998
+      param "Taunt.SoldierClothesRustle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Soldier03ClothesSwipe"
+    {
+      time 4.706667 5.007121
+      param "Taunt.Soldier03ClothesSwipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.WorkOutFoot1"
+    {
+      time 3.444397 3.705191
+      param "Taunt.WorkOutFoot1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Taunt.Engineer01FootStompLight"
+    {
+      time 3.780000 3.868526
+      param "Taunt.Engineer01FootStompLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "Weapon_Wrench.HitHand"
+    {
+      time 3.388085 3.541917
+      param "Weapon_Wrench.HitHand"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "PDA.MedicClothesRustleLight"
+    {
+      time 2.140351 2.791916
+      param "PDA.MedicClothesRustleLight"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+    {
+      time 1.971749 2.262724
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "medic_tauntthe_head_doctor_taunt_equipment_jingle3short"
+    {
+      time 2.380942 2.894412
+      param "medic_tauntthe_head_doctor_taunt_equipment_jingle3short"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off

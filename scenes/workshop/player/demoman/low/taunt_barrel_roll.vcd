@@ -1,0 +1,577 @@
+// Choreo version 1
+event loop "taunt_barrel_roll_loop"
+{
+  time 11.972307 -1.000000
+  param "4.070000"
+  loopcount "255"
+}
+actor "demo"
+{
+  channel "demo"
+  {
+    event sequence "taunt_barrel_roll"
+    {
+      time 0.000000 12.000000
+      param "taunt_barrel_roll"
+      fixedlength
+    }
+  }
+  channel "face"
+  {
+    event expression "dead"
+    {
+      time 0.000000 15.300000
+      param "player\demo\emotion\emotion"
+      param2 "dead"
+      event_ramp
+      {
+        0.0000 0.0000
+        3.0000 0.0000
+        3.9999 0.6863
+        4.8333 0.6863
+        5.2666 0.0000
+        7.5667 0.0000
+        7.8999 0.6863
+        8.9667 0.6863
+        9.3332 0.0000
+        10.0333 0.0000
+        10.6332 0.6863
+        12.0332 0.6863
+        12.0334 0.6863
+        12.0667 0.6863
+        12.1000 0.6863
+        12.4000 0.0000
+        12.7000 1.0000
+        12.8332 0.0000
+        15.3000 0.0000
+      }
+    }
+    event expression "drunkHappy"
+    {
+      time 0.000000 15.300000
+      param "player\demo\emotion\emotion"
+      param2 "drunkHappy"
+      event_ramp
+      {
+        0.0000 0.0000
+        1.2000 0.0000
+        1.6666 0.3255
+        2.5333 0.0000
+        15.3000 0.0000
+      }
+    }
+    event expression "scaredUpper"
+    {
+      time 0.000000 15.300000
+      param "player\demo\emotion\emotion"
+      param2 "scaredUpper"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3333 0.6353
+        2.9999 0.6000
+        5.3333 0.6000
+        5.8667 0.2863
+        6.2667 0.6745
+        7.1333 0.6000
+        7.5999 0.2000
+        7.9332 0.0000
+        8.2666 0.4196
+        8.9332 0.6000
+        9.3332 0.0000
+        10.1000 0.0000
+        10.4999 0.6000
+        12.0332 0.6000
+        12.0334 0.6000
+        12.0667 0.6000
+        12.1000 0.6000
+        13.3333 0.6157
+        13.8333 0.0000
+        15.3000 0.0000
+      }
+    }
+    event expression "pain"
+    {
+      time 0.000000 15.300000
+      param "player\demo\emotion\emotion"
+      param2 "pain"
+      event_ramp
+      {
+        0.0000 0.0000
+        0.3332 0.7686
+        1.6666 0.2353
+        2.5333 0.7686
+        2.9999 0.4196
+        3.9999 0.1294
+        4.8333 0.1294
+        5.2666 0.4196
+        7.5667 0.4196
+        7.8999 0.1294
+        8.9667 0.1294
+        9.3332 0.4196
+        10.0332 0.4196
+        10.6332 0.1294
+        12.0332 0.1294
+        12.0334 0.1294
+        12.0667 0.1294
+        12.1000 0.1294
+        12.4000 1.0000
+        12.6999 0.0000
+        12.8332 0.5059
+        13.0333 0.5059
+        13.8333 0.0000
+        15.3000 0.0000
+      }
+    }
+    event speak "demo_taunt_barrel_roll_taunt_equipment_jingle"
+    {
+      time 0.566700 1.012959
+      param "demo_taunt_barrel_roll_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_projectile_swoosh5"
+    {
+      time 0.000000 0.552880
+      param "demo_taunt_barrel_roll_projectile_swoosh5"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_wood_crate_impact_hard3"
+    {
+      time 0.400000 1.026893
+      param "demo_taunt_barrel_roll_wood_crate_impact_hard3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 2.100000 2.650884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 2.400000 3.012381
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 2.633300 3.212937
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 1.566700 2.225385
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 2.933300 3.484184
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 3.133300 3.791985
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 3.400000 4.012381
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 3.600000 4.179637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 3.933300 4.591985
+      param "taunt_demo_barrel_roll_A2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 4.100000 4.650884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 4.400000 5.058685
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 4.566700 5.179081
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 4.900000 5.479637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 5.100000 5.650884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 5.400000 6.058685
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 5.900000 6.450884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 6.066700 6.679081
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 6.400000 6.979637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 6.633300 7.184184
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 6.900000 7.558685
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 7.066700 7.679081
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 7.366700 7.946337
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 7.600000 8.258685
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 7.800000 8.350884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 8.000000 8.658685
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 8.133300 8.745681
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 8.266700 8.846337
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 8.466700 9.017584
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 8.599999 9.258684
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 8.900000 9.479637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 9.099999 9.712380
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 9.400000 9.950884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 9.633300 10.291985
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 9.900000 10.479637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 10.099999 10.650884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 10.366700 10.979081
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 10.599999 11.258684
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 10.900000 11.450884
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 11.099999 11.679637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel2"
+    {
+      time 11.400000 12.012381
+      param "demo_taunt_barrel_roll_woodpanel2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel1"
+    {
+      time 11.633300 12.184184
+      param "demo_taunt_barrel_roll_woodpanel1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel4"
+    {
+      time 11.933300 12.591985
+      param "demo_taunt_barrel_roll_woodpanel4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_woodpanel3"
+    {
+      time 5.600000 6.179637
+      param "demo_taunt_barrel_roll_woodpanel3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_cyoa_pda_spin"
+    {
+      time 7.633300 8.412529
+      param "demo_taunt_barrel_roll_cyoa_pda_spin"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_wood_crate_impact_hard4"
+    {
+      time 7.566700 8.130033
+      param "demo_taunt_barrel_roll_wood_crate_impact_hard4"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_clothes_swipe"
+    {
+      time 0.733300 1.033754
+      param "demo_taunt_barrel_roll_taunt_clothes_swipe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_clothes_swipe2"
+    {
+      time 1.400000 1.974331
+      param "demo_taunt_barrel_roll_taunt_clothes_swipe2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "demo_taunt_barrel_roll_taunt_equipment_jingle"
+    {
+      time 1.500000 1.946259
+      param "demo_taunt_barrel_roll_taunt_equipment_jingle"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_barrel_roll_A"
+    {
+      time 0.217949 -1.000000
+      param "taunt_demo_barrel_roll_A"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_barrel_roll_B"
+    {
+      time 7.653846 -1.000000
+      param "taunt_demo_barrel_roll_B"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_barrel_roll_A2"
+    {
+      time 3.923077 -1.000000
+      param "taunt_demo_barrel_roll_A2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "taunt_demo_barrel_roll_B2"
+    {
+      time 11.865383 -1.000000
+      param "taunt_demo_barrel_roll_B2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+scalesettings
+{
+  "CChoreoView" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+  "RampTool" "100"
+}
+fps 60
+snap off
